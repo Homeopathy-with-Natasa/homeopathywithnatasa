@@ -72,7 +72,7 @@ function Home() {
             <PortraitSlot label={t("images.homePortraitLabel")} className="rounded-2xl" />
           </FadeIn>
         </div>
-        <CurveDivider variant="soft" fill="background" />
+        <CurveDivider variant="soft" from="green-50" fill="background" />
       </section>
 
       <Section>
@@ -90,14 +90,14 @@ function Home() {
         </FadeIn>
       </Section>
 
-      <CurveDivider variant="deep" fill="muted" />
+      <CurveDivider variant="deep" from="background" fill="muted" />
       <Section tone="muted">
         <FadeIn>
           <SectionTitle>{t("home.recognitionTitle")}</SectionTitle>
         </FadeIn>
         <RecognitionList items={tAny<string[]>("home.recognitionItems")} />
       </Section>
-      <CurveDivider variant="deep" fill="background" />
+      <CurveDivider variant="deep" from="muted" fill="background" />
 
       <Section>
         <FadeIn>
@@ -117,14 +117,14 @@ function Home() {
         </FadeIn>
       </Section>
 
-      <CurveDivider variant="soft" fill="muted" />
+      <CurveDivider variant="soft" from="background" fill="muted" />
       <Section tone="muted">
         <FadeIn>
           <SectionTitle>{t("home.credentialsTitle")}</SectionTitle>
           <CredentialsList items={tAny<string[]>("home.credentials")} />
         </FadeIn>
       </Section>
-      <CurveDivider variant="soft" fill="background" />
+      <CurveDivider variant="soft" from="muted" fill="background" />
 
       <Section prose={false}>
         <FadeIn>

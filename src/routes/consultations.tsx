@@ -55,7 +55,7 @@ function Consultations() {
         <CardList items={tAny<Step[]>("consultations.offers")} />
       </Section>
 
-      <CurveDivider variant="soft" fill="muted" />
+      <CurveDivider variant="soft" from="background" fill="muted" />
       <Section tone="muted">
         <FadeIn>
           <SectionTitle>{t("consultations.formatTitle")}</SectionTitle>
@@ -64,7 +64,7 @@ function Consultations() {
           </Prose>
         </FadeIn>
       </Section>
-      <CurveDivider variant="soft" fill="background" />
+      <CurveDivider variant="soft" from="muted" fill="background" />
 
       <Section>
         <FadeIn>
@@ -88,19 +88,19 @@ function Consultations() {
         </FadeIn>
       </Section>
 
-      <CurveDivider variant="wave" fill="muted" />
+      <CurveDivider variant="wave" from="background" fill="muted" />
       <Section tone="muted">
         <FadeIn>
           <SectionTitle>{t("consultations.nextTitle")}</SectionTitle>
         </FadeIn>
-        <StepList steps={tAny<Step[]>("consultations.nextSteps")} />
+        <StepList steps={tAny<Step[]>("consultations.nextSteps")} roseNumbers />
 
         <FadeIn className="mt-14">
           <SectionTitle>{t("consultations.quotesTitle")}</SectionTitle>
           <QuoteRow quotes={tAny<QuoteItem[]>("consultations.quotes")} />
         </FadeIn>
       </Section>
-      <CurveDivider variant="wave" fill="background" />
+      <CurveDivider variant="wave" from="muted" fill="background" />
 
       <Section>
         <FadeIn>

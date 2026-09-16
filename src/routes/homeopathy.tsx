@@ -54,7 +54,7 @@ function Homeopathy() {
         </FadeIn>
       </Section>
 
-      <CurveDivider variant="soft" fill="muted" />
+      <CurveDivider variant="soft" from="background" fill="muted" />
       <Section tone="muted">
         <FadeIn>
           <SectionTitle>{t("homeopathy.notTitle")}</SectionTitle>
@@ -68,7 +68,7 @@ function Homeopathy() {
           </Prose>
         </FadeIn>
       </Section>
-      <CurveDivider variant="soft" fill="background" />
+      <CurveDivider variant="soft" from="muted" fill="background" />
 
       <Section>
         <FadeIn>
@@ -80,14 +80,14 @@ function Homeopathy() {
         </FadeIn>
       </Section>
 
-      <CurveDivider variant="wave" fill="muted" />
+      <CurveDivider variant="wave" from="background" fill="muted" />
       <Section tone="muted">
         <FadeIn>
           <SectionTitle>{t("homeopathy.consultationTitle")}</SectionTitle>
         </FadeIn>
-        <StepList steps={tAny<Step[]>("homeopathy.consultationSteps")} />
+        <StepList steps={tAny<Step[]>("homeopathy.consultationSteps")} roseNumbers />
       </Section>
-      <CurveDivider variant="wave" fill="background" />
+      <CurveDivider variant="wave" from="muted" fill="background" />
 
       <Section>
         <FadeIn>

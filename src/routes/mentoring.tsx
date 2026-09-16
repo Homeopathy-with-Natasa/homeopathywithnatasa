@@ -61,7 +61,7 @@ function Mentoring() {
       </Section>
 
 
-      <CurveDivider variant="soft" fill="muted" />
+      <CurveDivider variant="soft" from="background" fill="muted" />
       <Section tone="muted">
         <FadeIn>
           <SectionTitle>{t("mentoring.oneToOneTitle")}</SectionTitle>
@@ -76,7 +76,7 @@ function Mentoring() {
           </Prose>
         </FadeIn>
       </Section>
-      <CurveDivider variant="soft" fill="background" />
+      <CurveDivider variant="soft" from="muted" fill="background" />
 
       <Section>
         <FadeIn>

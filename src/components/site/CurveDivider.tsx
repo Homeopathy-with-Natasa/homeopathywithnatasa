@@ -15,11 +15,13 @@ const PATHS: Record<Variant, string> = {
 export function CurveDivider({
   variant = "soft",
   fill = "muted",
+  from = "background",
   flip = false,
   className,
 }: {
   variant?: Variant;
   fill?: "background" | "muted" | "green-100" | "green-800";
+  from?: "background" | "muted" | "green-50" | "green-100";
   flip?: boolean;
   className?: string;
 }) {
@@ -30,8 +32,18 @@ export function CurveDivider({
     "green-800": "fill-green-800",
   }[fill];
 
+  const backgroundClass = {
+    background: "bg-background",
+    muted: "bg-muted",
+    "green-50": "bg-green-50",
+    "green-100": "bg-green-100",
+  }[from];
+
   return (
-    <div className={cn("-mb-px w-full leading-none", className)} aria-hidden="true">
+    <div
+      className={cn("-mb-px w-full overflow-hidden leading-none", backgroundClass, className)}
+      aria-hidden="true"
+    >
       <svg
         viewBox="0 0 1440 120"
         preserveAspectRatio="none"

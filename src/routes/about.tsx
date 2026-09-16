@@ -65,14 +65,14 @@ function About() {
         </div>
       </Section>
 
-      <CurveDivider variant="soft" fill="muted" />
+      <CurveDivider variant="soft" from="background" fill="muted" />
       <Section tone="muted">
         <FadeIn>
           <SectionTitle>{t("about.credentialsTitle")}</SectionTitle>
           <CredentialsList items={tAny<string[]>("about.credentials")} />
         </FadeIn>
       </Section>
-      <CurveDivider variant="soft" fill="background" />
+      <CurveDivider variant="soft" from="muted" fill="background" />
 
       <Section prose={false}>
         <FadeIn>
