@@ -8,7 +8,7 @@ export function LegalPage({ base }: { base: "privacy" | "terms" | "ethics" }) {
   const sections = tAny<Step[]>(`legal.${base}.sections`);
 
   return (
-    <SiteLayout>
+    <SiteLayout footerFrom="background">
       <PageHeader title={t(`legal.${base}.title`)} standfirst={t(`legal.${base}.standfirst`)} />
       <Section>
         <p className="rounded-xl bg-green-100 px-5 py-4 text-sm text-green-800">

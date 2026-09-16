@@ -67,7 +67,7 @@ export function PageHeader({ title, standfirst }: { title: string; standfirst: s
           <p className="mt-6 text-lg text-green-700 md:text-xl">{standfirst}</p>
         </FadeIn>
       </div>
-      <CurveDivider variant="soft" fill="background" />
+      <CurveDivider variant="soft" from="green-50" fill="background" />
     </header>
   );
 }
@@ -97,7 +97,11 @@ export function Section({
 }
 
 export function SectionTitle({ children }: { children: ReactNode }) {
-  return <h2 className="text-3xl md:text-4xl">{children}</h2>;
+  return (
+    <h2 className="before:mb-4 before:block before:h-0.5 before:w-12 before:bg-rose-500 before:content-[''] text-3xl md:text-4xl">
+      {children}
+    </h2>
+  );
 }
 
 export function Prose({ children, className }: { children: ReactNode; className?: string }) {
@@ -110,7 +114,7 @@ export function RecognitionList({ items }: { items: string[] }) {
   return (
     <ul className="mt-10 space-y-6 md:space-y-7">
       {items.map((item, i) => (
-        <FadeIn as="li" key={i} delay={i * 70} className="border-l-2 border-green-200 pl-5">
+        <FadeIn as="li" key={i} delay={i * 70} className="border-l-2 border-rose-500 pl-5">
           <p className="text-lg text-green-900/90">{item}</p>
         </FadeIn>
       ))}
@@ -123,7 +127,7 @@ export function PlainList({ items }: { items: string[] }) {
     <ul className="mt-8 space-y-3">
       {items.map((item, i) => (
         <li key={i} className="flex gap-3 text-green-900/90">
-          <span aria-hidden="true" className="mt-3 h-1.5 w-1.5 shrink-0 rounded-full bg-green-400" />
+          <span aria-hidden="true" className="mt-3 h-1.5 w-1.5 shrink-0 rounded-full bg-rose-500" />
           <span>{item}</span>
         </li>
       ))}
@@ -138,7 +142,7 @@ export function StepList({ steps }: { steps: Step[] }) {
     <ol className="mt-10 space-y-8">
       {steps.map((step, i) => (
         <FadeIn as="li" key={i} delay={i * 60} className="flex gap-5">
-          <span className="font-display mt-0.5 w-7 shrink-0 text-lg text-green-400">
+          <span className="font-display mt-0.5 w-7 shrink-0 text-lg text-rose-600">
             {String(i + 1).padStart(2, "0")}
           </span>
           <div>
@@ -173,7 +177,7 @@ export function PriceTable({ rows, note }: { rows: PriceRow[]; note?: string }) 
         {rows.map((row, i) => (
           <div key={i} className="flex flex-wrap items-baseline justify-between gap-2 px-6 py-5">
             <dt className="text-green-900/90">{row.label}</dt>
-            <dd className="font-display text-lg text-green-700">{row.value}</dd>
+            <dd className="font-display text-lg text-rose-600">{row.value}</dd>
           </div>
         ))}
       </dl>
@@ -305,7 +309,7 @@ export function CtaBand({
 }) {
   return (
     <>
-      <CurveDivider variant="wave" fill="green-100" />
+      <CurveDivider variant="wave" from="background" fill="green-100" />
       <section className="section-y bg-green-100">
         <div className="container-prose text-center">
           <FadeIn>

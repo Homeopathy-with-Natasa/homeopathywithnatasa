@@ -11,13 +11,13 @@ const LEGAL = [
   { to: "/code-of-ethics", key: "footer.ethics" },
 ] as const;
 
-export function Footer() {
+export function Footer({ from = "green-100" }: { from?: "background" | "green-100" }) {
   const { t, lang } = useI18n();
   const year = new Date().getFullYear();
 
   return (
     <>
-      <CurveDivider variant="soft" fill="green-800" />
+      <CurveDivider variant="soft" from={from} fill="green-800" />
       <footer className="bg-green-800 text-green-100">
         <div className="container-site grid gap-10 py-14 md:grid-cols-4 md:py-16">
           <div className="md:col-span-2">
