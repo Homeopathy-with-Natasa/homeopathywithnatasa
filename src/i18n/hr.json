@@ -52,15 +52,15 @@
     "quotesTitle": "Njihovim riječima",
     "quotes": [
       {
-        "text": "Ne mogu dovoljno zahvaliti Natasi na strpljenju, podršci i vodstvu. Vrlo je profesionalna i posjeduje veliko znanje. Natasa je blaga osoba puna razumijevanja, istinski posvećena pomaganju ljudima, uvijek spremna ponuditi dodatnu podršku ili kontrolni razgovor kada je potreban. Svakako bih je preporučila drugima.",
+        "text": "Ne mogu dovoljno zahvaliti Nataši na strpljenju, podršci i vodstvu. Vrlo je profesionalna i posjeduje veliko znanje. Nataša je blaga osoba puna razumijevanja, istinski posvećena pomaganju ljudima, uvijek spremna ponuditi dodatnu podršku ili kontrolni razgovor kada je potreban. Svakako bih je preporučila drugima.",
         "author": "Klijentica, London"
       },
       {
-        "text": "Izuzetno me se dojmila Natasina pažnja, brižnost i suosjećanje prema različitim aspektima mojega života.",
+        "text": "Izuzetno su me se dojmile Natašina pažnja, brižnost i suosjećanje prema različitim aspektima mojega života.",
         "author": "Klijentica, London"
       },
       {
-        "text": "Natasa je iskrena, kreativna i suosjećajna. Pružala mi je podršku tijekom jednog od najtežih prijelaznih razdoblja u mom životu. Iznimno poštujem njezino znanje i osjećam se povlašteno što je moja homeopatkinja.",
+        "text": "Nataša je iskrena, kreativna i suosjećajna. Pružala mi je podršku tijekom jednog od najtežih prijelaznih razdoblja u mom životu. Iznimno poštujem njezino znanje i osjećam se povlašteno što je moja homeopatkinja.",
         "author": "Klijentica, London"
       }
     ],
@@ -70,7 +70,7 @@
   "about": {
     "seoTitle": "O Nataši Perić | Homeopatkinja u Londonu od 2009.",
     "seoDescription": "Nataša Perić, PhD iz prirodnih znanosti, homeopatkinja s privatnom praksom u Londonu od 2009. i supervizorica u Centre for Homeopathic Education.",
-    "title": "O Natasi",
+    "title": "O Nataši",
     "standfirst": "Homeopatkinja sam s privatnom praksom u Londonu. Prije toga bavila sam se znanstvenim istraživanjem. Oba iskustva oblikuju moj način rada.",
     "sections": [
       {
@@ -98,7 +98,7 @@
     "credentials": [
       "PhD iz prirodnih znanosti",
       "BSc (Hons)",
-      "LCHE, Licentiate of the Centre for Homeopathic Education",
+      "LCHE, licencija ustanove Centre for Homeopathic Education",
       "U privatnoj praksi u Londonu od 2009.",
       "Predavačica i supervizorica, Centre for Homeopathic Education, London",
       "Registrirana pri Complementary Therapist Association (udruženju komplementarnih terapeuta)"
@@ -260,7 +260,7 @@
     "quotesTitle": "Njihovim riječima",
     "quotes": [
       {
-        "text": "Iznimno sam zahvalna Natasi na temeljitosti i pažnji koju posvećuje pojedinostima moje zdravstvene slike. Hvala Vam, Natasa, na stručnosti i brižnosti. Stalno Vas preporučujem drugima.",
+        "text": "Iznimno sam zahvalna Nataši na temeljitosti i pažnji koju posvećuje pojedinostima moje zdravstvene slike. Hvala Vam, Nataša, na stručnosti i brižnosti. Stalno Vas preporučujem drugima.",
         "author": "Klijentica, London"
       }
     ],
@@ -342,7 +342,7 @@
     "body": "Nekoliko puta godišnje pišem o svom radu i onome što čitam. Bez učestalih poruka na koje se morate pripremati.",
     "placeholder": "Vaša adresa e-pošte",
     "button": "Prijavite se",
-    "note": "PLACEHOLDER: još nije povezano. Ništa se ne šalje niti pohranjuje.",
+    "note": "JOŠ NIJE POVEZANO: ništa se ne šalje niti pohranjuje.",
     "success": "Hvala Vam. Ovaj obrazac još nije povezan pa mi se zasad javite izravno."
   },
   "footer": {
