@@ -314,19 +314,15 @@
     "backgroundTitle": "Why me",
     "backgroundBody": "I teach and supervise at the Centre for Homeopathic Education in London, where I lead the Research Proposition module. I have been in practice since 2009 and I came to homeopathy from research science, so I am comfortable with methodology, with evidence, and with saying plainly when something is not known.",
     "pricingTitle": "Fees",
-    "pricingNote": "PLACEHOLDER: supervision fees to be confirmed.",
+    "pricingNote": "Small groups are two or three people, so that everyone gets to speak. Sessions usually run for an hour and a half, sometimes two. One-to-one sessions are charged by the hour, and a shorter follow-up is charged accordingly.",
     "priceRows": [
       {
-        "label": "One-to-one supervision, per session",
-        "value": "£PLACEHOLDER"
+        "label": "One-to-one supervision, per hour",
+        "value": "£50"
       },
       {
-        "label": "Small group supervision, per person per session",
-        "value": "£PLACEHOLDER"
-      },
-      {
-        "label": "Block of six sessions",
-        "value": "£PLACEHOLDER"
+        "label": "Small group supervision, 90 minutes, per person",
+        "value": "£30"
       }
     ],
     "quotes": [],
