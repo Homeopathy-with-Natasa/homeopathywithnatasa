@@ -28,6 +28,21 @@ export const MENTORING_BOOKING_URL: Record<Lang, string> = {
 /** TODO: PLACEHOLDER - this mailbox is not live yet. */
 export const CONTACT_EMAIL = "hello@homeopathywithnatasa.co.uk";
 
+/**
+ * Contact form endpoint (Formspree or equivalent), posted directly from the
+ * browser with no backend.
+ *
+ * TODO: PLACEHOLDER - create the form at formspree.io with the recipient set to
+ * natasapericconcha@gmail.com, then paste the real endpoint here. One edit is
+ * all that is needed. While the value below still contains PLACEHOLDER, the
+ * form is shown as not connected and the mailto fallback is used instead.
+ */
+export const CONTACT_FORM_ENDPOINT = "https://formspree.io/f/PLACEHOLDER";
+
+export function isContactFormConfigured(): boolean {
+  return !CONTACT_FORM_ENDPOINT.includes("PLACEHOLDER");
+}
+
 const MAIL_SUBJECT: Record<Lang, string> = {
   en: "Enquiry from the website",
   hr: "Upit s web stranice",
