@@ -440,7 +440,7 @@ export function ContactForm() {
           role="alert"
           className="mt-5 max-w-xl rounded-2xl bg-rose-300/25 px-5 py-4 text-rose-600"
         >
-          {configured ? t("contact.error") : t("contact.notConfigured")}
+          {t("contact.error")}
         </p>
       ) : null}
 
