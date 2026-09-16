@@ -49,10 +49,16 @@ function Mentoring() {
 
       <Section>
         <FadeIn>
+          <SectionTitle>{t("mentoring.recognitionTitle")}</SectionTitle>
+        </FadeIn>
+        <RecognitionList items={tAny<string[]>("mentoring.recognitionItems")} />
+
+        <FadeIn className="mt-14">
           <SectionTitle>{t("mentoring.forTitle")}</SectionTitle>
           <PlainList items={tAny<string[]>("mentoring.forItems")} />
         </FadeIn>
       </Section>
+
 
       <CurveDivider variant="soft" fill="muted" />
       <Section tone="muted">
