@@ -60,6 +60,13 @@ function Homeopathy() {
           <SectionTitle>{t("homeopathy.notTitle")}</SectionTitle>
         </FadeIn>
         <RecognitionList items={tAny<string[]>("homeopathy.notItems")} />
+
+        <FadeIn className="mt-14">
+          <SectionTitle>{t("homeopathy.promiseTitle")}</SectionTitle>
+          <Prose className="mt-6">
+            <p>{t("homeopathy.promiseBody")}</p>
+          </Prose>
+        </FadeIn>
       </Section>
       <CurveDivider variant="soft" fill="background" />
 

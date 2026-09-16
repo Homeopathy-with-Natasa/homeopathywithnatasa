@@ -4,14 +4,17 @@ import { FadeIn } from "@/components/site/FadeIn";
 import { CurveDivider } from "@/components/site/CurveDivider";
 import {
   CardList,
+  ContactForm,
   CtaBand,
   PageHeader,
   PriceTable,
   Prose,
+  QuoteRow,
   Section,
   SectionTitle,
   StepList,
   type PriceRow,
+  type QuoteItem,
   type Step,
 } from "@/components/site/blocks";
 import { useI18n } from "@/i18n/LanguageProvider";
@@ -74,10 +77,7 @@ function Consultations() {
 
         <FadeIn className="mt-14">
           <SectionTitle>{t("consultations.hoursTitle")}</SectionTitle>
-          <PriceTable
-            rows={tAny<PriceRow[]>("consultations.hoursRows")}
-            note={t("consultations.hoursNote")}
-          />
+          <PriceTable rows={tAny<PriceRow[]>("consultations.hoursRows")} />
         </FadeIn>
 
         <FadeIn className="mt-14">
@@ -94,6 +94,20 @@ function Consultations() {
           <SectionTitle>{t("consultations.nextTitle")}</SectionTitle>
         </FadeIn>
         <StepList steps={tAny<Step[]>("consultations.nextSteps")} />
+
+        <FadeIn className="mt-14">
+          <SectionTitle>{t("consultations.quotesTitle")}</SectionTitle>
+          <QuoteRow quotes={tAny<QuoteItem[]>("consultations.quotes")} />
+        </FadeIn>
+      </Section>
+      <CurveDivider variant="wave" fill="background" />
+
+      <Section>
+        <FadeIn>
+          <div id="contact" className="scroll-mt-24">
+            <ContactForm />
+          </div>
+        </FadeIn>
       </Section>
 
       <CtaBand title={t("consultations.closingTitle")} body={t("consultations.closingBody")} />

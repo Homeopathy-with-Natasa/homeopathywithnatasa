@@ -79,6 +79,11 @@ function Home() {
             <p>{t("home.introBody2")}</p>
           </Prose>
         </FadeIn>
+        <FadeIn delay={80}>
+          <p className="font-display mt-14 max-w-2xl text-xl leading-relaxed text-green-700 md:text-2xl">
+            {t("home.mission")}
+          </p>
+        </FadeIn>
       </Section>
 
       <CurveDivider variant="deep" fill="muted" />

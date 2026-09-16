@@ -1,6 +1,13 @@
 import { useState, type FormEvent, type ReactNode } from "react";
 import { useI18n } from "@/i18n/LanguageProvider";
-import { bookingLink, mailtoLink, mentoringLink } from "@/config/site";
+import {
+  bookingLink,
+  mailtoLink,
+  mentoringLink,
+  CONTACT_EMAIL,
+  CONTACT_FORM_ENDPOINT,
+  isContactFormConfigured,
+} from "@/config/site";
 import { cn } from "@/lib/utils";
 import natasaPortrait from "@/assets/natasa.jpg.asset.json";
 import { FadeIn } from "./FadeIn";
@@ -316,5 +323,131 @@ export function CtaBand({
         </div>
       </section>
     </>
+  );
+}
+
+/* ------------------------------------------------------------ contact form */
+
+/**
+ * Simple contact form. Posts straight from the browser to the endpoint in
+ * src/config/site.ts. No backend, nothing stored on the site.
+ * The mailto fallback below the form is always visible, on purpose.
+ */
+export function ContactForm() {
+  const { t, lang } = useI18n();
+  const [state, setState] = useState<"idle" | "sending" | "sent" | "error">("idle");
+  const configured = isContactFormConfigured();
+
+  const onSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if (!configured) {
+      setState("error");
+      return;
+    }
+    const form = e.currentTarget;
+    const data = new FormData(form);
+    setState("sending");
+    try {
+      const res = await fetch(CONTACT_FORM_ENDPOINT, {
+        method: "POST",
+        body: data,
+        headers: { Accept: "application/json" },
+      });
+      if (!res.ok) throw new Error("submit failed");
+      form.reset();
+      setState("sent");
+    } catch {
+      setState("error");
+    }
+  };
+
+  const field =
+    "w-full rounded-2xl border border-green-300 bg-card px-5 py-3 text-green-900 placeholder:text-muted-foreground focus:ring-2 focus:ring-green-400 focus:outline-none";
+
+  return (
+    <div>
+      <h2 className="text-3xl md:text-4xl">{t("contact.title")}</h2>
+      <p className="mt-5 max-w-xl text-green-900/90">{t("contact.body")}</p>
+
+      <form onSubmit={onSubmit} className="mt-8 max-w-xl space-y-4">
+        <div>
+          <label className="block text-sm text-green-800" htmlFor="contact-name">
+            {t("contact.name")}
+          </label>
+          <input
+            id="contact-name"
+            name="name"
+            type="text"
+            required
+            maxLength={100}
+            autoComplete="name"
+            className={cn(field, "mt-2")}
+          />
+        </div>
+        <div>
+          <label className="block text-sm text-green-800" htmlFor="contact-email">
+            {t("contact.email")}
+          </label>
+          <input
+            id="contact-email"
+            name="email"
+            type="email"
+            required
+            maxLength={255}
+            autoComplete="email"
+            className={cn(field, "mt-2")}
+          />
+        </div>
+        <div>
+          <label className="block text-sm text-green-800" htmlFor="contact-message">
+            {t("contact.message")}
+          </label>
+          <textarea
+            id="contact-message"
+            name="message"
+            required
+            rows={6}
+            maxLength={2000}
+            className={cn(field, "mt-2 resize-y")}
+          />
+        </div>
+
+        <button
+          type="submit"
+          disabled={state === "sending"}
+          className="rounded-full bg-primary px-6 py-3 text-primary-foreground transition-colors hover:bg-green-800 disabled:opacity-60"
+        >
+          {state === "sending" ? t("contact.sending") : t("contact.send")}
+        </button>
+      </form>
+
+      {state === "sent" ? (
+        <p
+          role="status"
+          className="mt-5 max-w-xl rounded-2xl bg-green-100 px-5 py-4 text-green-900"
+        >
+          {t("contact.success")}
+        </p>
+      ) : null}
+      {state === "error" ? (
+        <p
+          role="alert"
+          className="mt-5 max-w-xl rounded-2xl bg-rose-300/25 px-5 py-4 text-rose-600"
+        >
+          {configured ? t("contact.error") : t("contact.notConfigured")}
+        </p>
+      ) : null}
+
+      <p className="mt-6 text-green-900/90">
+        {t("contact.fallbackLead")}{" "}
+        <a
+          href={mailtoLink(lang)}
+          className="text-rose-500 underline underline-offset-4 hover:text-rose-600"
+        >
+          {CONTACT_EMAIL}
+        </a>
+      </p>
+      <p className="mt-3 max-w-xl text-sm text-muted-foreground">{t("contact.note")}</p>
+    </div>
   );
 }
