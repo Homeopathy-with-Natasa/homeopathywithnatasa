@@ -1,17 +1,13 @@
 import { useState, type FormEvent, type ReactNode } from "react";
+import { useServerFn } from "@tanstack/react-start";
 import { useI18n } from "@/i18n/LanguageProvider";
-import {
-  bookingLink,
-  mailtoLink,
-  mentoringLink,
-  CONTACT_EMAIL,
-  CONTACT_FORM_ENDPOINT,
-  isContactFormConfigured,
-} from "@/config/site";
+import { bookingLink, mailtoLink, mentoringLink, CONTACT_EMAIL } from "@/config/site";
+import { submitContact } from "@/lib/contact.functions";
 import { cn } from "@/lib/utils";
 import natasaPortrait from "@/assets/natasa.jpg.asset.json";
 import { FadeIn } from "./FadeIn";
 import { CurveDivider } from "./CurveDivider";
+
 
 /* ---------------------------------------------------------------- buttons */
 
@@ -329,37 +325,39 @@ export function CtaBand({
 /* ------------------------------------------------------------ contact form */
 
 /**
- * Simple contact form. Posts straight from the browser to the endpoint in
- * src/config/site.ts. No backend, nothing stored on the site.
+ * Simple contact form. Posts to a server function, which writes the enquiry to
+ * Natasa's client management system. Credentials stay on the server.
  * The mailto fallback below the form is always visible, on purpose.
  */
 export function ContactForm() {
   const { t, lang } = useI18n();
   const [state, setState] = useState<"idle" | "sending" | "sent" | "error">("idle");
-  const configured = isContactFormConfigured();
+  const send = useServerFn(submitContact);
 
   const onSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (!configured) {
-      setState("error");
-      return;
-    }
     const form = e.currentTarget;
     const data = new FormData(form);
     setState("sending");
     try {
-      const res = await fetch(CONTACT_FORM_ENDPOINT, {
-        method: "POST",
-        body: data,
-        headers: { Accept: "application/json" },
+      const result = await send({
+        data: {
+          name: String(data.get("name") ?? ""),
+          email: String(data.get("email") ?? ""),
+          message: String(data.get("message") ?? ""),
+          company: String(data.get("company") ?? ""),
+          lang,
+        },
       });
-      if (!res.ok) throw new Error("submit failed");
+      if (!result.ok) throw new Error(result.error);
       form.reset();
       setState("sent");
-    } catch {
+    } catch (error) {
+      console.error("contact form submission failed", error);
       setState("error");
     }
   };
+
 
   const field =
     "w-full rounded-2xl border border-green-300 bg-card px-5 py-3 text-green-900 placeholder:text-muted-foreground focus:ring-2 focus:ring-green-400 focus:outline-none";
@@ -412,6 +410,14 @@ export function ContactForm() {
           />
         </div>
 
+        {/* Honeypot: hidden from people, tempting to bots. Leave it empty. */}
+        <div aria-hidden="true" className="absolute left-[-9999px] h-0 w-0 overflow-hidden">
+          <label htmlFor="contact-company">Company</label>
+          <input id="contact-company" name="company" type="text" tabIndex={-1} autoComplete="off" />
+        </div>
+
+
+
         <button
           type="submit"
           disabled={state === "sending"}
@@ -434,7 +440,7 @@ export function ContactForm() {
           role="alert"
           className="mt-5 max-w-xl rounded-2xl bg-rose-300/25 px-5 py-4 text-rose-600"
         >
-          {configured ? t("contact.error") : t("contact.notConfigured")}
+          {t("contact.error")}
         </p>
       ) : null}
 

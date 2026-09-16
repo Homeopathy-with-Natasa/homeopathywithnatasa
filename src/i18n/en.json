@@ -188,23 +188,53 @@
     "pricingTitle": "Fees",
     "pricingNote": "All homeopathic medicines are included in the consultation fees, except for acute consultations and detox therapies.",
     "priceRows": [
-      { "label": "First consultation, 90 minutes", "value": "£95" },
-      { "label": "Follow-up consultation, 45 minutes", "value": "£75" },
-      { "label": "Parent and baby, up to 1 year, up to 2 hours", "value": "£180" },
+      {
+        "label": "First consultation, 90 minutes",
+        "value": "£95"
+      },
+      {
+        "label": "Follow-up consultation, 45 minutes",
+        "value": "£75"
+      },
+      {
+        "label": "Parent and baby, up to 1 year, up to 2 hours",
+        "value": "£180"
+      },
       {
         "label": "Family consultation, two family members who have seen me before, 75 minutes",
         "value": "£120"
       },
-      { "label": "Acute consultation, 20 minutes, plus remedies", "value": "£35" },
-      { "label": "Homeo-botanicals, organic herbs", "value": "£25" },
-      { "label": "Postage, depending on size and weight", "value": "From £3.50" }
+      {
+        "label": "Acute consultation, 20 minutes, plus remedies",
+        "value": "£35"
+      },
+      {
+        "label": "Homeo-botanicals, organic herbs",
+        "value": "£25"
+      },
+      {
+        "label": "Postage, depending on size and weight",
+        "value": "From £3.50"
+      }
     ],
     "hoursTitle": "Clinic hours",
     "hoursRows": [
-      { "label": "Tuesday", "value": "9am to 5pm" },
-      { "label": "Thursday", "value": "1pm to 6pm" },
-      { "label": "Friday", "value": "9am to 5pm" },
-      { "label": "Monday, Wednesday, Saturday, Sunday", "value": "Not available" }
+      {
+        "label": "Tuesday",
+        "value": "9am to 5pm"
+      },
+      {
+        "label": "Thursday",
+        "value": "1pm to 6pm"
+      },
+      {
+        "label": "Friday",
+        "value": "9am to 5pm"
+      },
+      {
+        "label": "Monday, Wednesday, Saturday, Sunday",
+        "value": "Not available"
+      }
     ],
     "cancellationTitle": "Cancellation policy",
     "cancellationBody": "Please give at least 24 hours' notice if you need to cancel or reschedule, or 48 hours if you have not seen me before. Late cancellations and missed appointments are charged in full. If something urgent happens, tell me. I would rather know.",
@@ -218,7 +248,10 @@
         "heading": "I send a short form",
         "body": "A few questions by email, so that we can use our time together well."
       },
-      { "heading": "We meet", "body": "By video, or in Telegraph Hill by arrangement, unhurried." },
+      {
+        "heading": "We meet",
+        "body": "By video, or in Telegraph Hill by arrangement, unhurried."
+      },
       {
         "heading": "Your remedy is posted",
         "body": "With written instructions, after I have studied your case."
@@ -244,15 +277,14 @@
     "sending": "Sending",
     "success": "Thank you. Your message has been sent and I will reply as soon as I can.",
     "error": "Your message did not go through. Please write to me directly at the address below and it will reach me.",
-    "notConfigured": "This form is not connected yet. Please use the email address below for now.",
     "fallbackLead": "Or write to me directly at",
-    "note": "What you send here is emailed to me. It is not stored on this website."
+    "note": "What you send here goes to me and is recorded in my secure client management system so that I can reply. It is not published anywhere."
   },
   "mentoring": {
     "seoTitle": "Supervision and mentoring for homeopaths | Nataša Perić",
     "seoDescription": "One-to-one and small group supervision for homeopathy students and newly qualified practitioners, with a lecturer at the Centre for Homeopathic Education.",
     "title": "Mentoring and supervision",
-    "standfirst": "For homeopathy students and newly qualified practitioners who would like a steady, practical second opinion.",
+    "standfirst": "You have a case in front of you and nobody to think it through with. This is where we do that together.",
     "forTitle": "Who this is for",
     "forItems": [
       "Students in clinical training who want to talk a case through properly",
@@ -284,13 +316,30 @@
     "pricingTitle": "Fees",
     "pricingNote": "PLACEHOLDER: supervision fees to be confirmed.",
     "priceRows": [
-      { "label": "One-to-one supervision, per session", "value": "£PLACEHOLDER" },
-      { "label": "Small group supervision, per person per session", "value": "£PLACEHOLDER" },
-      { "label": "Block of six sessions", "value": "£PLACEHOLDER" }
+      {
+        "label": "One-to-one supervision, per session",
+        "value": "£PLACEHOLDER"
+      },
+      {
+        "label": "Small group supervision, per person per session",
+        "value": "£PLACEHOLDER"
+      },
+      {
+        "label": "Block of six sessions",
+        "value": "£PLACEHOLDER"
+      }
     ],
     "quotes": [],
     "closingTitle": "Get in touch",
-    "closingBody": "Tell me where you are in your training and what you would like support with, and we will find a format that fits."
+    "closingBody": "Tell me where you are in your training and what you would like support with, and we will find a format that fits.",
+    "recognitionTitle": "You may recognise some of this",
+    "recognitionItems": [
+      "You are sitting with a case and you are not sure whether your reasoning holds, and there is nobody to check it against.",
+      "You need supervision hours to qualify, and you would like them to be genuinely useful rather than a box to tick.",
+      "You have finished your training and suddenly you are on your own, with real people in front of you.",
+      "You know the theory, and still you freeze when a live case looks like nothing in the books.",
+      "You are writing up a case or a research proposition and you do not know whether it is good enough."
+    ]
   },
   "newsletter": {
     "title": "Occasional letters",
@@ -348,7 +397,7 @@
         },
         {
           "heading": "This website",
-          "body": "This site stores two things in your own browser: your language preference and your cookie choice. There is no analytics and no tracking. The contact form posts your message to a form service, which emails it to me. What you send is not stored on this website."
+          "body": "This site stores two things in your own browser: your language preference and your cookie choice. There is no analytics and no tracking. What you send through the contact form goes to me and is recorded in my secure client management system so that I can reply. It is not published anywhere."
         },
         {
           "heading": "Your rights",
