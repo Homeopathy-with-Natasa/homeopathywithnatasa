@@ -1,478 +1,478 @@
 {
   "meta": {
-    "brand": "[HR] Homeopathy with Natasa",
-    "practitioner": "[HR] Nataša Perić, PhD, BSc (Hons), LCHE"
+    "brand": "Homeopathy with Natasa",
+    "practitioner": "Nataša Perić, PhD, BSc (Hons), LCHE"
   },
   "nav": {
-    "home": "[HR] Home",
-    "about": "[HR] About",
-    "homeopathy": "[HR] Homeopathy",
-    "consultations": "[HR] Consultations & Pricing",
-    "mentoring": "[HR] Mentoring",
-    "menu": "[HR] Menu",
-    "close": "[HR] Close"
+    "home": "Početna",
+    "about": "O meni",
+    "homeopathy": "Homeopatija",
+    "consultations": "Konzultacije i cijene",
+    "mentoring": "Mentorstvo",
+    "menu": "Izbornik",
+    "close": "Zatvori"
   },
   "cta": {
-    "book": "[HR] Book a first consultation",
-    "bookShort": "[HR] Book a consultation",
-    "bookMentoring": "[HR] Book a supervision session",
-    "email": "[HR] Send an email",
-    "readMore": "[HR] Read more about homeopathy",
-    "seePricing": "[HR] See consultations and pricing"
+    "book": "Rezervirajte prvu konzultaciju",
+    "bookShort": "Rezervirajte konzultaciju",
+    "bookMentoring": "Rezervirajte superviziju",
+    "email": "Pošaljite e-poruku",
+    "readMore": "Saznajte više o homeopatiji",
+    "seePricing": "Pogledajte konzultacije i cijene"
   },
   "home": {
-    "seoTitle": "[HR] Homeopathy with Natasa | Homeopath in London",
-    "seoDescription": "[HR] Nataša Perić, PhD, homeopath in private practice in London since 2009. Online consultations by video, and in person in Telegraph Hill by arrangement.",
-    "heroTitle": "[HR] Health that has been treated in pieces can be looked at as a whole",
-    "heroSubtitle": "[HR] I am Nataša Perić, a homeopath in London. I work with people whose symptoms have been handled one at a time, by different people, with nobody joining them up.",
-    "heroNote": "[HR] Online by video, wherever you are. In person in Telegraph Hill, London, by arrangement.",
-    "mission": "[HR] I help women and young people navigate the moments where they have lost themselves, using homeopathy, science, and honest conversation.",
-    "introTitle": "[HR] A scientist who chose homeopathy",
-    "introBody": "[HR] Before I became a homeopath I was a research scientist. I hold a PhD in Natural Sciences and I co-authored a biology textbook that has been on the compulsory reading list for undergraduate science courses in Croatia for over a decade. I came to homeopathy after a difficult post-partum period, when it helped me personally. I have been in private practice in London since 2009.",
-    "introBody2": "[HR] That training has stayed with me. I listen closely, I take careful notes, I look for patterns, and I am honest with you about what I can and cannot say.",
-    "recognitionTitle": "[HR] You may recognise some of this",
+    "seoTitle": "Homeopathy with Natasa | Homeopatkinja u Londonu",
+    "seoDescription": "Nataša Perić, PhD, homeopatkinja s privatnom praksom u Londonu od 2009. Online videokonzultacije i osobni dolasci u Telegraph Hill prema dogovoru.",
+    "heroTitle": "Zdravlje kojem se pristupalo u dijelovima može se sagledati kao cjelina",
+    "heroSubtitle": "Ja sam Nataša Perić, homeopatkinja u Londonu. Radim s ljudima čijim se simptomima pristupalo pojedinačno i kod različitih stručnjaka, a da ih nitko nije povezao u cjelinu.",
+    "heroNote": "Online putem videopoziva, gdje god se nalazili. Osobno u Telegraph Hillu u Londonu, prema dogovoru.",
+    "mission": "Pomažem ženama i mladima da se snađu u razdobljima u kojima su izgubili osjećaj sebe, uz homeopatiju, znanost i iskren razgovor.",
+    "introTitle": "Znanstvenica koja je odabrala homeopatiju",
+    "introBody": "Prije nego što sam postala homeopatkinja, bavila sam se znanstvenim istraživanjem. Doktorirala sam prirodne znanosti i suautorica sam udžbenika biologije koji je više od desetljeća bio obvezna literatura na preddiplomskim studijima prirodnih znanosti u Hrvatskoj. Homeopatiji sam se okrenula nakon teškog poslijeporođajnog razdoblja, kada mi je osobno pomogla. Privatnu praksu u Londonu vodim od 2009.",
+    "introBody2": "Taj je način rada ostao sa mnom. Pažljivo slušam i bilježim, tražim obrasce te Vam iskreno kažem što mogu, a što ne mogu tvrditi.",
+    "recognitionTitle": "Možda ćete se prepoznati u ovome",
     "recognitionItems": [
-      "[HR] Something has been going on for a long time and it has never quite resolved.",
-      "[HR] You have been told your results are normal, and you do not feel normal.",
-      "[HR] Each symptom has been looked at separately, by a different person.",
-      "[HR] You are not against conventional medicine. You have already been that route.",
-      "[HR] You would like one long conversation about your health, not another short one."
+      "Nešto traje već dugo i nikada se nije posve razriješilo.",
+      "Rečeno Vam je da su nalazi uredni, ali Vi se ne osjećate dobro.",
+      "Svaki je simptom promatran zasebno, kod drugog stručnjaka.",
+      "Nemate ništa protiv konvencionalne medicine. Tim ste putem već prošli.",
+      "Željeli biste jedan temeljit razgovor o svom zdravlju, a ne još jedan kratki."
     ],
-    "whatTitle": "[HR] What homeopathy is, in plain terms",
-    "whatBody": "[HR] Homeopathy is a type of medicine that treats the body as one unique integrated system, rather than isolating single organs that are studied separately and treated by different medical specialties. The purpose of that is to identify the root cause of symptoms rather than to quieten each one in turn.",
-    "whatBody2": "[HR] In practice it means a long conversation, careful observation, and a remedy chosen for you as an individual. The body is gently stimulated to heal itself. Small changes make a big difference.",
-    "credentialsTitle": "[HR] Background",
+    "whatTitle": "Što je homeopatija, jednostavno rečeno",
+    "whatBody": "Homeopatija je vrsta medicine koja tijelo promatra kao jedinstven, integriran sustav, umjesto da izdvaja pojedine organe koje različite medicinske specijalnosti proučavaju i obrađuju odvojeno. Cilj je prepoznati temeljni uzrok simptoma, a ne utišavati jedan po jedan.",
+    "whatBody2": "U praksi to znači dug razgovor, pažljivo promatranje i pripravak odabran za Vas kao pojedinca. Tijelo se nježno potiče na vlastiti proces oporavka. Male promjene mogu donijeti veliku razliku.",
+    "credentialsTitle": "Iskustvo i obrazovanje",
     "credentials": [
-      "[HR] PhD in Natural Sciences, former research scientist",
-      "[HR] In private practice in London since 2009",
-      "[HR] Teaches and supervises at the Centre for Homeopathic Education, London, where she leads the Research Proposition module",
-      "[HR] Co-author of a university biology textbook used in Croatia for over a decade",
-      "[HR] Registered with the Complementary Therapist Association"
+      "PhD iz prirodnih znanosti, bivša znanstvena istraživačica",
+      "U privatnoj praksi u Londonu od 2009.",
+      "Predaje i vodi superviziju u Centre for Homeopathic Education u Londonu, gdje vodi modul Research Proposition",
+      "Suautorica sveučilišnog udžbenika biologije koji se u Hrvatskoj koristio više od desetljeća",
+      "Registrirana pri Complementary Therapist Association (udruženju komplementarnih terapeuta)"
     ],
-    "quotesTitle": "[HR] In their words",
+    "quotesTitle": "Njihovim riječima",
     "quotes": [
       {
-        "text": "[HR] I can't thank Natasa enough for her patience, support and guidance. She is very professional and has a wealth of knowledge. Natasa is a kind and understanding person, truly dedicated to helping people, always offering extra or follow-ups when needed. I would absolutely recommend her to others.",
-        "author": "[HR] Patient, London"
+        "text": "Ne mogu dovoljno zahvaliti Natasi na strpljenju, podršci i vodstvu. Vrlo je profesionalna i posjeduje veliko znanje. Natasa je blaga osoba puna razumijevanja, istinski posvećena pomaganju ljudima, uvijek spremna ponuditi dodatnu podršku ili kontrolni razgovor kada je potreban. Svakako bih je preporučila drugima.",
+        "author": "Klijentica, London"
       },
       {
-        "text": "[HR] I have been so extremely impressed with Natasa's attention to care and compassion towards the many different aspects of my life.",
-        "author": "[HR] Patient, London"
+        "text": "Izuzetno me se dojmila Natasina pažnja, brižnost i suosjećanje prema različitim aspektima mojega života.",
+        "author": "Klijentica, London"
       },
       {
-        "text": "[HR] Natasa is genuine, creative and compassionate. She has supported me through one of the most difficult transitions in my life. I have tremendous respect for her knowledge and feel privileged to have her as my homeopath.",
-        "author": "[HR] Patient, London"
+        "text": "Natasa je iskrena, kreativna i suosjećajna. Pružala mi je podršku tijekom jednog od najtežih prijelaznih razdoblja u mom životu. Iznimno poštujem njezino znanje i osjećam se povlašteno što je moja homeopatkinja.",
+        "author": "Klijentica, London"
       }
     ],
-    "closingTitle": "[HR] If this sounds like the kind of care you are looking for",
-    "closingBody": "[HR] The first consultation is a long conversation. You can book it directly, or write to me first if you would rather ask something before you commit."
+    "closingTitle": "Ako ovakav pristup odgovara onome što tražite",
+    "closingBody": "Prva konzultacija opsežan je razgovor. Možete je odmah rezervirati ili mi se najprije javiti ako prije odluke želite nešto pitati."
   },
   "about": {
-    "seoTitle": "[HR] About Nataša Perić | Homeopath in London since 2009",
-    "seoDescription": "[HR] Nataša Perić, PhD in Natural Sciences, homeopath in private practice in London since 2009 and supervisor at the Centre for Homeopathic Education.",
-    "title": "[HR] About Natasa",
-    "standfirst": "[HR] I am a homeopath in private practice in London. Before that I was a research scientist. Both of those things shape how I work.",
+    "seoTitle": "O Nataši Perić | Homeopatkinja u Londonu od 2009.",
+    "seoDescription": "Nataša Perić, PhD iz prirodnih znanosti, homeopatkinja s privatnom praksom u Londonu od 2009. i supervizorica u Centre for Homeopathic Education.",
+    "title": "O Natasi",
+    "standfirst": "Homeopatkinja sam s privatnom praksom u Londonu. Prije toga bavila sam se znanstvenim istraživanjem. Oba iskustva oblikuju moj način rada.",
     "sections": [
       {
-        "heading": "[HR] How I came to this work",
-        "body": "[HR] I trained and worked as a research scientist and I did not expect to end up here. I came to homeopathy after a difficult post-partum period, when it helped me personally, at a point when I was not looking for it. I wanted to understand why. That question turned into a training, and then into a practice, and I have been seeing clients in London since 2009."
+        "heading": "Kako sam došla do ovog poziva",
+        "body": "Obrazovala sam se i radila kao znanstvena istraživačica te nisam očekivala da ću završiti ovdje. Homeopatiji sam se okrenula nakon teškog poslijeporođajnog razdoblja, kada mi je osobno pomogla, iako je tada nisam tražila. Željela sam razumjeti zašto. To me pitanje odvelo na edukaciju, a zatim u praksu. S klijentima u Londonu radim od 2009."
       },
       {
-        "heading": "[HR] Where the science shows up",
-        "body": "[HR] My PhD is in Natural Sciences and I co-authored a biology textbook that has been on the compulsory reading list for undergraduate science courses in Croatia for over a decade. What I carry from that is method. I listen closely, I record carefully, I look for the pattern that connects things rather than the loudest single symptom, and I am careful with language. If something is uncertain, I will say so."
+        "heading": "Gdje se vidi znanstveni pristup",
+        "body": "Doktorirala sam prirodne znanosti i suautorica sam udžbenika biologije koji je više od desetljeća bio obvezna literatura na preddiplomskim studijima prirodnih znanosti u Hrvatskoj. Iz tog sam rada zadržala metodu. Pažljivo slušam i bilježim, tražim obrazac koji povezuje pojave umjesto da se usredotočim samo na najizraženiji simptom te precizno biram riječi. Ako nešto nije sigurno, to ću i reći."
       },
       {
-        "heading": "[HR] How I work with you",
-        "body": "[HR] I work with you and for you. This is a partnership between us, built on mutual trust and respect, on honesty and openness. Your treatment is tailored to you as an individual, and it moves at the pace your health actually moves at. I am not the authority in the room. You know things about your own body that I need you to tell me."
+        "heading": "Kako radim s Vama",
+        "body": "Radim s Vama i za Vas. To je partnerski odnos izgrađen na uzajamnom povjerenju i poštovanju, iskrenosti i otvorenosti. Pristup je prilagođen Vama kao pojedincu i prati ritam kojim se Vaše zdravlje doista mijenja. Nisam jedini autoritet u prostoriji. Vi o vlastitom tijelu znate ono što mi trebate ispričati."
       },
       {
-        "heading": "[HR] Who I work best with",
-        "body": "[HR] The people I work best with are people who work on themselves. Many have done some form of therapy, they are committed to their wellbeing, and they are tuned in. That matters for a practical reason rather than a lofty one. I ask probing questions, such as why you feel shame and where it lives in you, and people who already know themselves a little can answer them. That is where the real material is. What I am doing in a consultation is trying to understand your emotional landscape, as much as a human being as a homeopath. This way of working is not for everyone. If you would like a quick fix, or you have tried everything and are not committed to anything, you will probably not get much from it, and I would rather say so than take your money."
+        "heading": "S kim najbolje radim",
+        "body": "Najbolje radim s ljudima koji rade na sebi. Mnogi su prošli neki oblik terapije, predani su svojoj dobrobiti i dobro osjećaju što se u njima događa. To je važno iz praktičnih, a ne uzvišenih razloga. Postavljam pitanja koja zadiru dublje, primjerice zašto osjećate sram i gdje ga u sebi osjećate, a ljudi koji se već donekle poznaju mogu na njih odgovoriti. Upravo se ondje nalazi ono bitno. Tijekom konzultacije nastojim razumjeti Vaš emocionalni svijet, i kao ljudsko biće i kao homeopatkinja. Ovakav način rada nije za svakoga. Ako želite brzo rješenje ili ste pokušali sve, ali se ničemu ne želite posvetiti, vjerojatno od njega nećete dobiti mnogo. Radije ću Vam to iskreno reći nego uzeti Vaš novac."
       },
       {
-        "heading": "[HR] Teaching and supervision",
-        "body": "[HR] I teach and supervise at the Centre for Homeopathic Education in London, where I lead the Research Proposition module. Supervision keeps me in contact with how the next generation of practitioners is being trained, and it keeps my own thinking honest."
+        "heading": "Podučavanje i supervizija",
+        "body": "Predajem i vodim superviziju u Centre for Homeopathic Education u Londonu, gdje vodim modul Research Proposition. Supervizija me drži u dodiru s načinom na koji se obrazuje nova generacija praktičara i pomaže mi da vlastito razmišljanje ostane iskreno i temeljito."
       }
     ],
-    "credentialsTitle": "[HR] Credentials",
+    "credentialsTitle": "Kvalifikacije",
     "credentials": [
-      "[HR] PhD in Natural Sciences",
-      "[HR] BSc (Hons)",
-      "[HR] LCHE, Licentiate of the Centre for Homeopathic Education",
-      "[HR] In private practice in London since 2009",
-      "[HR] Lecturer and supervisor, Centre for Homeopathic Education, London",
-      "[HR] Registered with the Complementary Therapist Association"
+      "PhD iz prirodnih znanosti",
+      "BSc (Hons)",
+      "LCHE, Licentiate of the Centre for Homeopathic Education",
+      "U privatnoj praksi u Londonu od 2009.",
+      "Predavačica i supervizorica, Centre for Homeopathic Education, London",
+      "Registrirana pri Complementary Therapist Association (udruženju komplementarnih terapeuta)"
     ],
-    "closingTitle": "[HR] Shall we talk",
-    "closingBody": "[HR] The first consultation is long and unhurried. It is the best way to find out whether this way of working suits you."
+    "closingTitle": "Razgovarajmo",
+    "closingBody": "Prva je konzultacija duga i odvija se bez žurbe. To je najbolji način da utvrdite odgovara li Vam ovakav način rada."
   },
   "homeopathy": {
-    "seoTitle": "[HR] What homeopathy is | Homeopathy with Natasa, London",
-    "seoDescription": "[HR] Homeopathy treats the body as one integrated system rather than isolated organs. What a consultation is like, what it may support, and how remedies are sent.",
-    "title": "[HR] Homeopathy",
-    "standfirst": "[HR] A type of medicine that treats the body as one unique integrated system, in order to identify the root cause of symptoms.",
-    "whatTitle": "[HR] What it is",
-    "whatBody": "[HR] Conventional medicine has become very good at studying organs separately. The heart, the gut, the skin, the hormones: each one is studied on its own and treated by a different specialty. That division is useful, and it is also why a person with several connected symptoms can end up with several separate explanations and no single one.",
-    "whatBody2": "[HR] Homeopathy starts from the other end. It treats the body as one unique integrated system, and it reads symptoms as expressions of that whole system rather than as separate faults. The aim is to identify the root cause rather than to quieten each symptom in turn. The remedy is chosen for you as an individual, and the body is gently stimulated to heal itself.",
-    "notTitle": "[HR] What it is not",
+    "seoTitle": "Što je homeopatija | Homeopathy with Natasa, London",
+    "seoDescription": "Homeopatija promatra tijelo kao cjelovit sustav, a ne kao skup odvojenih organa. Saznajte kako izgleda konzultacija, u čemu može pružiti podršku i kako se pripravci dostavljaju.",
+    "title": "Homeopatija",
+    "standfirst": "Vrsta medicine koja tijelo promatra kao jedinstven, integriran sustav kako bi prepoznala temeljni uzrok simptoma.",
+    "whatTitle": "Što jest",
+    "whatBody": "Konvencionalna medicina vrlo je uspješna u zasebnom proučavanju organa. Srce, crijeva, koža i hormoni promatraju se odvojeno, a svakim se područjem bavi druga specijalnost. Takva je podjela korisna, ali zbog nje osoba s više povezanih simptoma može dobiti nekoliko odvojenih objašnjenja, bez jednoga koje ih povezuje.",
+    "whatBody2": "Homeopatija polazi s druge strane. Tijelo promatra kao jedinstven, integriran sustav, a simptome kao izraze toga sustava u cjelini, umjesto kao odvojene poremećaje. Cilj je prepoznati temeljni uzrok, a ne redom utišavati pojedine simptome. Pripravak se odabire za Vas kao pojedinca, a tijelo se nježno potiče na vlastiti proces oporavka.",
+    "notTitle": "Što nije",
     "notItems": [
-      "[HR] It is not a replacement for your doctor. Please keep your medical care, and please tell me about it.",
-      "[HR] It is not mystical. I am a former research scientist and I speak plainly about what is known and what is not.",
-      "[HR] It is not fast. Longstanding patterns rarely shift quickly, and I will not pretend otherwise.",
-      "[HR] It is not passive. You are an active part of this, and what you notice between sessions matters."
+      "Nije zamjena za liječnika. Nastavite s medicinskom skrbi i obavijestite me o njoj.",
+      "Nije mistična. Nekada sam se bavila znanstvenim istraživanjem i jasno govorim o tome što je poznato, a što nije.",
+      "Nije brza. Dugotrajni obrasci rijetko se mijenjaju brzo i neću tvrditi suprotno.",
+      "Nije pasivna. Vi u tome aktivno sudjelujete i važno je što primjećujete između susreta."
     ],
-    "promiseTitle": "[HR] What I can and cannot promise",
-    "promiseBody": "[HR] I do not give promises. I give you my full expertise and knowledge, and what happens next also depends on you: what you do with it, your own vital force, your lifestyle, and everything else that affects healing. What I offer instead of a promise is an educational dialogue. I explain how homeopathy works, and I give you an honest indication of what is realistic, given what you are living with and how long it has been there.",
-    "supportTitle": "[HR] What people come to me with",
-    "supportIntro": "[HR] People come to me at many different points. Most often they are living with something that has continued for a long time and has been looked at in pieces. Homeopathy may support the person as a whole while that is going on. I do not make claims about outcomes for named conditions.",
+    "promiseTitle": "Što mogu, a što ne mogu obećati",
+    "promiseBody": "Ne dajem obećanja. Dajem Vam svoje cjelokupno stručno znanje, a ono što slijedi ovisi i o Vama: o tome što ćete s tim učiniti, o Vašoj vlastitoj vitalnoj snazi, načinu života i svemu ostalom što utječe na oporavak. Umjesto obećanja nudim razgovor u kojem objašnjavam i poučavam. Objasnit ću Vam kako homeopatija djeluje i iskreno reći što je realno očekivati, uzimajući u obzir ono s čime živite i koliko dugo to traje.",
+    "supportTitle": "Zbog čega mi se ljudi obraćaju",
+    "supportIntro": "Ljudi mi se obraćaju u različitim razdobljima života. Najčešće dugo žive s nečim što se promatralo samo u dijelovima. Homeopatija pritom može pružiti podršku osobi kao cjelini. Ne iznosim tvrdnje o ishodima kod pojedinih zdravstvenih stanja.",
     "supportItems": [
-      "[HR] Hormonal changes across different stages of life",
-      "[HR] Low energy and exhaustion that has no clear explanation",
-      "[HR] Recurrent complaints that keep returning in the same pattern",
-      "[HR] Digestive discomfort",
-      "[HR] Skin that flares and settles",
-      "[HR] Sleep, tension and states of mind that sit alongside physical symptoms",
-      "[HR] Wanting support during a demanding period rather than treatment for one thing"
+      "Hormonalne promjene u različitim životnim razdobljima",
+      "Manjak energije i iscrpljenost bez jasnog objašnjenja",
+      "Tegobe koje se ponavljaju po istom obrascu",
+      "Probavne tegobe",
+      "Kožne smetnje koje se pogoršavaju pa smiruju",
+      "San, napetost i emocionalna stanja koja prate tjelesne simptome",
+      "Potreba za podrškom tijekom zahtjevnog razdoblja, a ne pristupom usmjerenim na samo jednu tegobu"
     ],
-    "consultationTitle": "[HR] What a consultation is like",
+    "consultationTitle": "Kako izgleda konzultacija",
     "consultationSteps": [
       {
-        "heading": "[HR] Before we meet",
-        "body": "[HR] You book a time and I send you a short form. Nothing complicated. It helps me arrive prepared."
+        "heading": "Prije susreta",
+        "body": "Rezervirate termin, a ja Vam šaljem kratak obrazac. Ništa složeno. Pomaže mi da se pripremim za naš susret."
       },
       {
-        "heading": "[HR] The first consultation",
-        "body": "[HR] We talk for around ninety minutes, by video. I will ask about your health history, but also about sleep, appetite, temperature, energy, mood, what makes things better and what makes them worse. Some questions will feel unrelated. They are how the pattern becomes visible."
+        "heading": "Prva konzultacija",
+        "body": "Razgovaramo putem videopoziva oko devedeset minuta. Pitat ću Vas o Vašoj zdravstvenoj povijesti, ali i o snu, apetitu, osjećaju topline i hladnoće, energiji, raspoloženju te o tome što Vam pomaže, a što pogoršava tegobe. Neka će pitanja možda djelovati nepovezano. Upravo ona pomažu da obrazac postane vidljiv."
       },
       {
-        "heading": "[HR] After we talk",
-        "body": "[HR] I take time to study your case properly before choosing anything. This is the part of the work you do not see, and it is where the research training earns its place."
+        "heading": "Nakon razgovora",
+        "body": "Nakon razgovora odvojim vrijeme da temeljito proučim Vaš slučaj prije nego što išta odaberem. Taj dio rada ne vidite, a upravo u njemu moje istraživačko obrazovanje dolazi do izražaja."
       },
       {
-        "heading": "[HR] Your remedy",
-        "body": "[HR] I select a remedy for you as an individual, post it to you, and explain how and when to take it, in writing, so you are not relying on memory."
+        "heading": "Vaš pripravak",
+        "body": "Odabirem pripravak za Vas kao pojedinca, šaljem Vam ga poštom te Vam u pisanom obliku objašnjavam kako i kada ga uzimati, kako se ne biste morali oslanjati na pamćenje."
       },
       {
-        "heading": "[HR] Follow-up",
-        "body": "[HR] We usually meet again after four to six weeks. We look at what has changed, including small things, and adjust. Small changes make a big difference."
+        "heading": "Kontrolna konzultacija",
+        "body": "Obično se ponovno susretnemo nakon četiri do šest tjedana. Razmotrimo što se promijenilo, uključujući i sitnice, te prema tome prilagodimo daljnji pristup. Male promjene mogu donijeti veliku razliku."
       }
     ],
-    "remediesTitle": "[HR] How remedies reach you",
-    "remediesBody": "[HR] Consultations are currently held online by video, and your remedies are posted to you. They are prepared by an established homeopathic pharmacy and sent to your address in the UK, usually arriving within a few days. If you are outside the UK we will agree the arrangement together before your consultation. Homeopathic medicines are included in the consultation fee, except for acute consultations and detox therapies. Postage is charged separately.",
-    "remediesBody2": "[HR] You will always receive written instructions. If anything is unclear afterwards, write to me. I would rather answer a short question than have you guessing.",
-    "askTitle": "[HR] What I ask of you",
-    "askBody": "[HR] Honesty and openness, including about the things that feel small or awkward. Patience, because this is gradual. And that you stay in touch between sessions if something changes. In return you have my full attention, my time, and a straight answer whenever I have one."
+    "remediesTitle": "Kako pripravci dolaze do Vas",
+    "remediesBody": "Konzultacije se trenutačno održavaju online putem videopoziva, a pripravci Vam se šalju poštom. Priprema ih etablirana homeopatska ljekarna i šalje na Vašu adresu u Ujedinjenom Kraljevstvu, obično s dostavom u roku od nekoliko dana. Ako ste izvan Ujedinjenog Kraljevstva, prije konzultacije zajedno ćemo dogovoriti način dostave. Homeopatski pripravci uključeni su u cijenu konzultacije, osim kod akutnih konzultacija i detoksikacijskih terapija. Poštarina se naplaćuje zasebno.",
+    "remediesBody2": "Uvijek ćete dobiti pisane upute. Ako Vam poslije nešto nije jasno, javite mi se. Radije ću odgovoriti na kratko pitanje nego da morate nagađati.",
+    "askTitle": "Što tražim od Vas",
+    "askBody": "Iskrenost i otvorenost, uključujući i teme koje Vam se čine nevažnima ili neugodnima. Strpljenje, jer je ovo postupan proces. I da mi se javite između susreta ako se nešto promijeni. Zauzvrat imate moju punu pažnju, moje vrijeme i izravan odgovor kad god ga mogu dati."
   },
   "consultations": {
-    "seoTitle": "[HR] Consultations and pricing | Homeopathy with Natasa, London",
-    "seoDescription": "[HR] First consultations, follow-ups and acute appointments, online by video or in person in Telegraph Hill, London, by arrangement. Fees, clinic hours and cancellation policy.",
-    "title": "[HR] Consultations & pricing",
-    "standfirst": "[HR] Online by video, wherever you are, with remedies posted to you. In person in Telegraph Hill, London, by arrangement.",
-    "offerTitle": "[HR] What I offer",
+    "seoTitle": "Homeopatske konzultacije i cijene | Homeopathy with Natasa",
+    "seoDescription": "Prve, kontrolne i akutne homeopatske konzultacije putem videopoziva ili osobno u Telegraph Hillu u Londonu prema dogovoru. Cijene, radno vrijeme i uvjeti otkazivanja.",
+    "title": "Konzultacije i cijene",
+    "standfirst": "Online putem videopoziva, gdje god se nalazili, uz dostavu pripravaka poštom. Osobno u Telegraph Hillu u Londonu, prema dogovoru.",
+    "offerTitle": "Što nudim",
     "offers": [
       {
-        "heading": "[HR] First consultation",
-        "body": "[HR] Ninety minutes. A full conversation about your health, your history and how you are living now. Case study and remedy selection happen afterwards, in my own time, and are included."
+        "heading": "Prva konzultacija",
+        "body": "Devedeset minuta. Temeljit razgovor o Vašem zdravlju, zdravstvenoj povijesti i životu danas. Analizu slučaja i odabir pripravka obavljam poslije, u svoje vrijeme, a uključeni su u cijenu."
       },
       {
-        "heading": "[HR] Follow-up consultation",
-        "body": "[HR] Forty-five minutes, usually four to six weeks later. We look at what has shifted and adjust from there."
+        "heading": "Kontrolna konzultacija",
+        "body": "Četrdeset pet minuta, obično četiri do šest tjedana poslije. Razmotrimo što se promijenilo i tome prilagodimo daljnji pristup."
       },
       {
-        "heading": "[HR] Acute consultation",
-        "body": "[HR] A twenty minute appointment for something sudden and recent, for people I already see. Remedies are charged separately. Good to have in case something comes up."
+        "heading": "Akutna konzultacija",
+        "body": "Dvadesetominutni termin za iznenadnu i nedavnu tegobu, namijenjen osobama koje su već moji klijenti. Pripravci se naplaćuju zasebno. Korisno je znati da je ta mogućnost dostupna ako se nešto pojavi."
       }
     ],
-    "formatTitle": "[HR] How we meet",
-    "formatBody": "[HR] Consultations are currently held online by video, and your remedies are posted to you. This works well, because most of this work is a conversation. In person appointments in Telegraph Hill, south east London, are available by arrangement. Choose whichever lets you be somewhere quiet and uninterrupted.",
-    "pricingTitle": "[HR] Fees",
-    "pricingNote": "[HR] All homeopathic medicines are included in the consultation fees, except for acute consultations and detox therapies.",
+    "formatTitle": "Kako se susrećemo",
+    "formatBody": "Konzultacije se trenutačno održavaju online putem videopoziva, a pripravci Vam se šalju poštom. To dobro funkcionira jer se najveći dio ovoga rada odvija kroz razgovor. Osobni termini u Telegraph Hillu u jugoistočnom Londonu dostupni su prema dogovoru. Odaberite mogućnost koja Vam omogućuje da budete na mirnom mjestu bez ometanja.",
+    "pricingTitle": "Cijene",
+    "pricingNote": "Svi homeopatski pripravci uključeni su u cijenu konzultacije, osim kod akutnih konzultacija i detoksikacijskih terapija.",
     "priceRows": [
       {
-        "label": "[HR] First consultation, 90 minutes",
-        "value": "[HR] £95"
+        "label": "Prva konzultacija, 90 minuta",
+        "value": "£95"
       },
       {
-        "label": "[HR] Follow-up consultation, 45 minutes",
-        "value": "[HR] £75"
+        "label": "Kontrolna konzultacija, 45 minuta",
+        "value": "£75"
       },
       {
-        "label": "[HR] Parent and baby, up to 1 year, up to 2 hours",
-        "value": "[HR] £180"
+        "label": "Roditelj i beba do godinu dana, do 2 sata",
+        "value": "£180"
       },
       {
-        "label": "[HR] Family consultation, two family members who have seen me before, 75 minutes",
-        "value": "[HR] £120"
+        "label": "Obiteljska konzultacija, dva člana obitelji koji su već bili kod mene, 75 minuta",
+        "value": "£120"
       },
       {
-        "label": "[HR] Acute consultation, 20 minutes, plus remedies",
-        "value": "[HR] £35"
+        "label": "Akutna konzultacija, 20 minuta, pripravci se dodatno naplaćuju",
+        "value": "£35"
       },
       {
-        "label": "[HR] Homeo-botanicals, organic herbs",
-        "value": "[HR] £25"
+        "label": "Homeobotanički pripravci, organsko bilje",
+        "value": "£25"
       },
       {
-        "label": "[HR] Postage, depending on size and weight",
-        "value": "[HR] From £3.50"
+        "label": "Poštarina, ovisno o veličini i težini",
+        "value": "Od £3.50"
       }
     ],
-    "hoursTitle": "[HR] Clinic hours",
+    "hoursTitle": "Radno vrijeme",
     "hoursRows": [
       {
-        "label": "[HR] Tuesday",
-        "value": "[HR] 9am to 5pm"
+        "label": "Utorak",
+        "value": "9:00 do 17:00"
       },
       {
-        "label": "[HR] Thursday",
-        "value": "[HR] 1pm to 6pm"
+        "label": "Četvrtak",
+        "value": "13:00 do 18:00"
       },
       {
-        "label": "[HR] Friday",
-        "value": "[HR] 9am to 5pm"
+        "label": "Petak",
+        "value": "9:00 do 17:00"
       },
       {
-        "label": "[HR] Monday, Wednesday, Saturday, Sunday",
-        "value": "[HR] Not available"
+        "label": "Ponedjeljak, srijeda, subota i nedjelja",
+        "value": "Nema termina"
       }
     ],
-    "cancellationTitle": "[HR] Cancellation policy",
-    "cancellationBody": "[HR] Please give at least 24 hours' notice if you need to cancel or reschedule, or 48 hours if you have not seen me before. Late cancellations and missed appointments are charged in full. If something urgent happens, tell me. I would rather know.",
-    "nextTitle": "[HR] What happens after you book",
+    "cancellationTitle": "Uvjeti otkazivanja",
+    "cancellationBody": "Ako trebate otkazati ili promijeniti termin, molim Vas da me obavijestite najmanje 24 sata unaprijed, odnosno 48 sati unaprijed ako još niste bili kod mene. Kasno otkazani i propušteni termini naplaćuju se u cijelosti. Ako se dogodi nešto hitno, javite mi. Važno mi je da znam.",
+    "nextTitle": "Što slijedi nakon rezervacije",
     "nextSteps": [
       {
-        "heading": "[HR] You choose a time",
-        "body": "[HR] Booking opens in a new tab and you pick a slot that suits you."
+        "heading": "Odaberete termin",
+        "body": "Stranica za rezervaciju otvara se u novoj kartici, gdje odaberete termin koji Vam odgovara."
       },
       {
-        "heading": "[HR] I send a short form",
-        "body": "[HR] A few questions by email, so that we can use our time together well."
+        "heading": "Šaljem Vam kratak obrazac",
+        "body": "Nekoliko pitanja e-poštom kako bismo dobro iskoristili vrijeme koje imamo."
       },
       {
-        "heading": "[HR] We meet",
-        "body": "[HR] By video, or in Telegraph Hill by arrangement, unhurried."
+        "heading": "Susrećemo se",
+        "body": "Putem videopoziva ili prema dogovoru u Telegraph Hillu, bez žurbe."
       },
       {
-        "heading": "[HR] Your remedy is posted",
-        "body": "[HR] With written instructions, after I have studied your case."
+        "heading": "Pripravak stiže poštom",
+        "body": "S pisanim uputama, nakon što proučim Vaš slučaj."
       }
     ],
-    "quotesTitle": "[HR] In their words",
+    "quotesTitle": "Njihovim riječima",
     "quotes": [
       {
-        "text": "[HR] I am so grateful for Natasa's thoroughness and attention to the details of my medical profile. Thank you Natasa for your expertise and care. I keep recommending you.",
-        "author": "[HR] Patient, London"
+        "text": "Iznimno sam zahvalna Natasi na temeljitosti i pažnji koju posvećuje pojedinostima moje zdravstvene slike. Hvala Vam, Natasa, na stručnosti i brižnosti. Stalno Vas preporučujem drugima.",
+        "author": "Klijentica, London"
       }
     ],
-    "closingTitle": "[HR] Ready when you are",
-    "closingBody": "[HR] If you have a question first, write to me. I read every email myself."
+    "closingTitle": "Kad budete spremni",
+    "closingBody": "Ako najprije želite nešto pitati, javite mi se. Svaku e-poruku čitam osobno."
   },
   "contact": {
-    "title": "[HR] Contact",
-    "body": "[HR] If you would like to ask something before you book, send me a note. I read every message myself and I reply as soon as I can.",
-    "name": "[HR] Your name",
-    "email": "[HR] Your email address",
-    "message": "[HR] Your message",
-    "send": "[HR] Send message",
-    "sending": "[HR] Sending",
-    "success": "[HR] Thank you. Your message has been sent and I will reply as soon as I can.",
-    "error": "[HR] Your message did not go through. Please write to me directly at the address below and it will reach me.",
-    "fallbackLead": "[HR] Or write to me directly at",
-    "note": "[HR] What you send here goes to me and is recorded in my secure client management system so that I can reply. It is not published anywhere."
+    "title": "Kontakt",
+    "body": "Ako prije rezervacije želite nešto pitati, pošaljite mi poruku. Svaku poruku čitam osobno i odgovaram čim mogu.",
+    "name": "Vaše ime",
+    "email": "Vaša adresa e-pošte",
+    "message": "Vaša poruka",
+    "send": "Pošaljite poruku",
+    "sending": "Šalje se",
+    "success": "Hvala Vam. Vaša je poruka poslana i odgovorit ću čim mogu.",
+    "error": "Vaša poruka nije poslana. Molim Vas, javite mi se izravno na adresu u nastavku kako bi poruka sigurno stigla do mene.",
+    "fallbackLead": "Ili mi pišite izravno na",
+    "note": "Ono što ovdje pošaljete dolazi meni i bilježi se u mojem sigurnom sustavu za upravljanje podacima klijenata kako bih Vam mogla odgovoriti. Ne objavljuje se nigdje."
   },
   "mentoring": {
-    "seoTitle": "[HR] Supervision and mentoring for homeopaths | Nataša Perić",
-    "seoDescription": "[HR] One-to-one and small group supervision for homeopathy students and newly qualified practitioners, with a lecturer at the Centre for Homeopathic Education.",
-    "title": "[HR] Mentoring and supervision",
-    "standfirst": "[HR] You have a case in front of you and nobody to think it through with. This is where we do that together.",
-    "forTitle": "[HR] Who this is for",
+    "seoTitle": "Supervizija i mentorstvo za homeopate | Nataša Perić",
+    "seoDescription": "Individualna supervizija i supervizija u malim grupama za studente homeopatije i nedavno kvalificirane praktičare, uz predavačicu iz Centre for Homeopathic Education.",
+    "title": "Mentorstvo i supervizija",
+    "standfirst": "Pred Vama je slučaj, a nemate s kim provjeriti svoje razmišljanje. Ovdje ga možemo zajedno razmotriti.",
+    "forTitle": "Kome je namijenjeno",
     "forItems": [
-      "[HR] Students in clinical training who want to talk a case through properly",
-      "[HR] Newly qualified practitioners setting up their first practice",
-      "[HR] Practitioners returning after a break",
-      "[HR] Anyone working on a research proposition or written case work"
+      "Studentima na kliničkoj edukaciji koji žele temeljito razmotriti slučaj",
+      "Nedavno kvalificiranim praktičarima koji pokreću svoju prvu praksu",
+      "Praktičarima koji se vraćaju nakon stanke",
+      "Svima koji rade na istraživačkom prijedlogu ili pisanom prikazu slučaja"
     ],
-    "oneToOneTitle": "[HR] One-to-one supervision",
-    "oneToOneBody": "[HR] A session for your cases and your questions. We look at what you gathered, what you may have missed, and how you reached your decision. The aim is not to hand you an answer. It is to make your own reasoning clearer and more repeatable.",
-    "groupTitle": "[HR] Small group supervision",
-    "groupBody": "[HR] Small groups, so that everyone speaks. One or two cases per session, presented by members of the group, discussed openly. Practitioners often learn as much from a case that is not theirs.",
-    "howTitle": "[HR] How sessions run",
+    "oneToOneTitle": "Individualna supervizija",
+    "oneToOneBody": "Susret posvećen Vašim slučajevima i pitanjima. Razmatramo što ste prikupili, što ste možda previdjeli i kako ste došli do odluke. Cilj nije dati Vam gotov odgovor, nego pomoći da Vaše vlastito zaključivanje postane jasnije i dosljednije.",
+    "groupTitle": "Supervizija u maloj grupi",
+    "groupBody": "Grupe su male kako bi svi imali priliku govoriti. Na svakom se susretu otvoreno raspravlja o jednom ili dva slučaja koja predstavljaju članovi grupe. Praktičari često jednako mnogo nauče i iz slučaja koji nije njihov.",
+    "howTitle": "Kako susreti izgledaju",
     "howSteps": [
       {
-        "heading": "[HR] You send the case in advance",
-        "body": "[HR] So that I arrive having read it, and our time goes on the thinking rather than the summary."
+        "heading": "Slučaj šaljete unaprijed",
+        "body": "Tako ga mogu pročitati prije susreta, a zajedničko vrijeme posvetiti razmišljanju umjesto prepričavanju."
       },
       {
-        "heading": "[HR] We work through it together",
-        "body": "[HR] Case taking, analysis, remedy reasoning, and what you would do differently next time."
+        "heading": "Zajedno ga razmatramo",
+        "body": "Uzimanje slučaja, analiza, obrazloženje odabira pripravka i ono što biste sljedeći put učinili drukčije."
       },
       {
-        "heading": "[HR] You leave with notes",
-        "body": "[HR] A short written summary of what we agreed, for your records and your training log."
+        "heading": "Odlazite s bilješkama",
+        "body": "Kratak pisani sažetak dogovorenoga, za Vašu evidenciju i dnevnik edukacije."
       }
     ],
-    "backgroundTitle": "[HR] Why me",
-    "backgroundBody": "[HR] I teach and supervise at the Centre for Homeopathic Education in London, where I lead the Research Proposition module. I have been in practice since 2009 and I came to homeopathy from research science, so I am comfortable with methodology, with evidence, and with saying plainly when something is not known.",
-    "pricingTitle": "[HR] Fees",
-    "pricingNote": "[HR] Small groups are two or three people, so that everyone gets to speak. Sessions usually run for an hour and a half, sometimes two. One-to-one sessions are charged by the hour, and a shorter follow-up is charged accordingly.",
+    "backgroundTitle": "Zašto raditi sa mnom",
+    "backgroundBody": "Predajem i vodim superviziju u Centre for Homeopathic Education u Londonu, gdje vodim modul Research Proposition. U praksi sam od 2009., a u homeopatiju sam došla iz znanstvenog istraživanja. Metodologija i dokazi prirodan su dio mojeg rada, kao i otvoreno priznanje kada nešto nije poznato.",
+    "pricingTitle": "Cijene",
+    "pricingNote": "Male grupe čine dvije ili tri osobe kako bi svi imali priliku govoriti. Susreti obično traju sat i pol, ponekad dva sata. Individualna supervizija naplaćuje se po satu, a kraći kontrolni susret razmjerno trajanju.",
     "priceRows": [
       {
-        "label": "[HR] One-to-one supervision, per hour",
+        "label": "Individualna supervizija, po satu",
         "value": "£50"
       },
       {
-        "label": "[HR] Small group supervision, 90 minutes, per person",
+        "label": "Supervizija u maloj grupi, 90 minuta, po osobi",
         "value": "£30"
       }
     ],
     "quotes": [],
-    "closingTitle": "[HR] Get in touch",
-    "closingBody": "[HR] Tell me where you are in your training and what you would like support with, and we will find a format that fits.",
-    "recognitionTitle": "[HR] You may recognise some of this",
+    "closingTitle": "Javite mi se",
+    "closingBody": "Recite mi gdje ste u svojoj edukaciji i u čemu biste željeli podršku pa ćemo pronaći oblik rada koji Vam odgovara.",
+    "recognitionTitle": "Možda ćete se prepoznati u ovome",
     "recognitionItems": [
-      "[HR] You are sitting with a case and you are not sure whether your reasoning holds, and there is nobody to check it against.",
-      "[HR] You need supervision hours to qualify, and you would like them to be genuinely useful rather than a box to tick.",
-      "[HR] You have finished your training and suddenly you are on your own, with real people in front of you.",
-      "[HR] You know the theory, and still you freeze when a live case looks like nothing in the books.",
-      "[HR] You are writing up a case or a research proposition and you do not know whether it is good enough."
+      "Pred Vama je slučaj, niste sigurni je li Vaše zaključivanje utemeljeno, a nemate ga s kim provjeriti.",
+      "Za stjecanje kvalifikacije trebate sate supervizije, ali želite da Vam doista koriste, a ne da budu samo ispunjena obveza.",
+      "Završili ste edukaciju i odjednom ste sami, sa stvarnim ljudima pred sobom.",
+      "Poznajete teoriju, ali ipak zastanete kada stvarni slučaj ne nalikuje ničemu iz knjiga.",
+      "Pišete prikaz slučaja ili istraživački prijedlog i niste sigurni je li dovoljno dobar."
     ]
   },
   "newsletter": {
-    "title": "[HR] Occasional letters",
-    "body": "[HR] A few times a year I write about how I work and what I am reading. No frequency you need to brace for.",
-    "placeholder": "[HR] Your email address",
-    "button": "[HR] Sign up",
-    "note": "[HR] PLACEHOLDER: not connected yet. Nothing is sent or stored.",
-    "success": "[HR] Thank you. This form is not connected yet, so please write to me directly for now."
+    "title": "Povremena pisma",
+    "body": "Nekoliko puta godišnje pišem o svom radu i onome što čitam. Bez učestalih poruka na koje se morate pripremati.",
+    "placeholder": "Vaša adresa e-pošte",
+    "button": "Prijavite se",
+    "note": "PLACEHOLDER: još nije povezano. Ništa se ne šalje niti pohranjuje.",
+    "success": "Hvala Vam. Ovaj obrazac još nije povezan pa mi se zasad javite izravno."
   },
   "footer": {
-    "tagline": "[HR] Homeopathy online by video, and in Telegraph Hill, London, by arrangement.",
-    "registered": "[HR] Registered with the Complementary Therapist Association.",
-    "legalTitle": "[HR] Legal",
-    "privacy": "[HR] Privacy Policy",
-    "terms": "[HR] Terms and Conditions",
-    "ethics": "[HR] Code of Ethics",
-    "navTitle": "[HR] Pages",
-    "contactTitle": "[HR] Contact",
-    "rights": "[HR] All rights reserved.",
-    "disclaimer": "[HR] Homeopathy is a complementary therapy. It does not replace medical advice or treatment. Please continue to see your doctor."
+    "tagline": "Homeopatija online putem videopoziva i osobno u Telegraph Hillu u Londonu, prema dogovoru.",
+    "registered": "Registrirana pri Complementary Therapist Association (udruženju komplementarnih terapeuta).",
+    "legalTitle": "Pravne informacije",
+    "privacy": "Pravila privatnosti",
+    "terms": "Uvjeti poslovanja",
+    "ethics": "Etički kodeks",
+    "navTitle": "Stranice",
+    "contactTitle": "Kontakt",
+    "rights": "Sva prava pridržana.",
+    "disclaimer": "Homeopatija je komplementarna terapija. Ne zamjenjuje liječnički savjet ni medicinsku skrb. Nastavite odlaziti svom liječniku."
   },
   "cookies": {
-    "text": "[HR] This site uses only what it needs to remember your language choice. You can refuse and everything still works.",
-    "accept": "[HR] Accept",
-    "refuse": "[HR] Refuse",
-    "more": "[HR] Privacy Policy"
+    "text": "Ova stranica upotrebljava samo ono što je potrebno da zapamti Vaš odabir jezika. Možete odbiti i sve će i dalje raditi.",
+    "accept": "Prihvati",
+    "refuse": "Odbij",
+    "more": "Pravila privatnosti"
   },
   "legal": {
-    "placeholderNotice": "[HR] These texts are drafts, pending review before the site goes live.",
+    "placeholderNotice": "Ovi su tekstovi nacrti i čekaju pregled prije objave stranice.",
     "privacy": {
-      "seoTitle": "[HR] Privacy Policy | Homeopathy with Natasa",
-      "seoDescription": "[HR] How Nataša Perić collects, uses and protects your personal information.",
-      "title": "[HR] Privacy Policy",
-      "standfirst": "[HR] How your information is handled.",
+      "seoTitle": "Pravila privatnosti | Homeopathy with Natasa",
+      "seoDescription": "Kako Nataša Perić prikuplja, upotrebljava i štiti Vaše osobne podatke.",
+      "title": "Pravila privatnosti",
+      "standfirst": "Kako postupam s Vašim podacima.",
       "sections": [
         {
-          "heading": "[HR] Who I am",
-          "body": "[HR] I am Nataša Perić, a homeopath in private practice, working online by video and in person in Telegraph Hill, south east London, by arrangement. I decide how the information described here is used. My email address is in the footer of every page, and it is the best way to reach me about anything on this page."
+          "heading": "Tko sam",
+          "body": "Ja sam Nataša Perić, homeopatkinja u privatnoj praksi. Radim online putem videopoziva i osobno u Telegraph Hillu u jugoistočnom Londonu, prema dogovoru. Odlučujem kako se upotrebljavaju ovdje opisani podaci. Moja adresa e-pošte nalazi se u podnožju svake stranice i najbolji je način da mi se obratite u vezi s ovim tekstom."
         },
         {
-          "heading": "[HR] What I collect",
-          "body": "[HR] Your name, email address and anything you choose to tell me when you write to me, use the contact form or book an appointment. If you become a client, I also hold the health information you share with me during consultations, together with my case notes, the remedies selected and the postal address remedies are sent to."
+          "heading": "Koje podatke prikupljam",
+          "body": "Vaše ime, adresu e-pošte i sve što mi odlučite reći kada mi pišete, upotrijebite obrazac za kontakt ili rezervirate termin. Ako postanete moj klijent, čuvam i zdravstvene podatke koje sa mnom podijelite tijekom konzultacija, svoje bilješke o slučaju, podatke o odabranim pripravcima i poštansku adresu na koju se šalju."
         },
         {
-          "heading": "[HR] Why I hold it",
-          "body": "[HR] To reply to you, to arrange appointments, to provide your care, to send your remedies, and to keep the case records a practitioner is expected to keep. Where the information concerns your health, I hold it on the basis that it is necessary for providing health care to you, and because you have chosen to share it with me for that purpose."
+          "heading": "Zašto ih čuvam",
+          "body": "Kako bih Vam odgovorila, dogovorila termine, pružila podršku, poslala pripravke i vodila evidenciju slučaja koju je praktičar dužan čuvati. Zdravstvene podatke čuvam jer su potrebni za pružanje skrbi i zato što ste ih odlučili podijeliti sa mnom u tu svrhu."
         },
         {
-          "heading": "[HR] How long I keep it",
-          "body": "[HR] Consultation records are held for the period a practitioner is required to keep them. TODO: confirm the exact retention period before the site goes live. Enquiries that do not lead to an appointment are deleted once they are no longer needed."
+          "heading": "Koliko ih dugo čuvam",
+          "body": "Evidencija konzultacija čuva se onoliko dugo koliko je praktičar dužan čuvati takvu dokumentaciju. TODO: confirm the exact retention period before the site goes live. Upiti koji ne dovedu do termina brišu se kada više nisu potrebni."
         },
         {
-          "heading": "[HR] Who else sees it",
-          "body": "[HR] An established homeopathic pharmacy prepares and posts your remedies, and receives only the information needed to do that, such as your name, address and the remedy. My email provider handles the messages we exchange. Nothing is sold, and nothing is shared for marketing."
+          "heading": "Tko još ima pristup",
+          "body": "Etablirana homeopatska ljekarna priprema i šalje Vaše pripravke te prima samo podatke potrebne za to, primjerice Vaše ime, adresu i podatak o pripravku. Moj pružatelj usluge e-pošte obrađuje poruke koje razmjenjujemo. Ništa se ne prodaje niti dijeli u marketinške svrhe."
         },
         {
-          "heading": "[HR] This website",
-          "body": "[HR] This site stores two things in your own browser: your language preference and your cookie choice. There is no analytics and no tracking. What you send through the contact form goes to me and is recorded in my secure client management system so that I can reply. It is not published anywhere."
+          "heading": "Ova internetska stranica",
+          "body": "Ova stranica u Vašem pregledniku pohranjuje samo dvije stavke: odabir jezika i odabir kolačića. Nema analitike ni praćenja. Ono što pošaljete putem obrasca za kontakt dolazi meni i bilježi se u mojem sigurnom sustavu za upravljanje podacima klijenata kako bih Vam mogla odgovoriti. Ne objavljuje se nigdje."
         },
         {
-          "heading": "[HR] Your rights",
-          "body": "[HR] You may ask to see the information I hold about you, to have it corrected, or to have it deleted where I am not required to keep it. Write to me and I will respond within one month. If you are not satisfied with how I have handled something, you may complain to the Information Commissioner's Office."
+          "heading": "Vaša prava",
+          "body": "Možete zatražiti uvid u podatke koje čuvam o Vama, njihov ispravak ili brisanje kada ih nisam dužna čuvati. Pišite mi i odgovorit ću u roku od mjesec dana. Ako niste zadovoljni načinom na koji sam postupila, možete podnijeti pritužbu britanskom tijelu Information Commissioner's Office."
         }
       ]
     },
     "terms": {
-      "seoTitle": "[HR] Terms and Conditions | Homeopathy with Natasa",
-      "seoDescription": "[HR] Terms for consultations, fees, cancellations and the use of this website.",
-      "title": "[HR] Terms and Conditions",
-      "standfirst": "[HR] The terms on which consultations are provided.",
+      "seoTitle": "Uvjeti poslovanja | Homeopathy with Natasa",
+      "seoDescription": "Uvjeti konzultacija, plaćanja, otkazivanja i korištenja ove internetske stranice.",
+      "title": "Uvjeti poslovanja",
+      "standfirst": "Uvjeti pod kojima se pružaju konzultacije.",
       "sections": [
         {
-          "heading": "[HR] Consultations",
-          "body": "[HR] Consultations are provided by Nataša Perić, homeopath, currently online by video, with in person appointments in Telegraph Hill, south east London, available by arrangement. Homeopathy is a complementary therapy. Booking an appointment means you accept these terms."
+          "heading": "Konzultacije",
+          "body": "Konzultacije pruža Nataša Perić, homeopatkinja, trenutačno online putem videopoziva. Osobni termini u Telegraph Hillu u jugoistočnom Londonu dostupni su prema dogovoru. Homeopatija je komplementarna terapija. Rezervacijom termina prihvaćate ove uvjete."
         },
         {
-          "heading": "[HR] Fees and payment",
-          "body": "[HR] Current fees are listed on the Consultations and Pricing page. Payment is due at the time of the appointment unless we have agreed otherwise. Homeopathic medicines are included in the consultation fees, except for acute consultations and detox therapies. Postage is charged separately, from £3.50, depending on size and weight."
+          "heading": "Cijene i plaćanje",
+          "body": "Važeće cijene navedene su na stranici Konzultacije i cijene. Plaćanje dospijeva u vrijeme termina, osim ako se drukčije dogovorimo. Homeopatski pripravci uključeni su u cijenu konzultacije, osim kod akutnih konzultacija i detoksikacijskih terapija. Poštarina se naplaćuje zasebno, od £3.50, ovisno o veličini i težini."
         },
         {
-          "heading": "[HR] Cancellations",
-          "body": "[HR] Please give at least 24 hours' notice if you need to cancel or reschedule, or 48 hours if you have not seen me before. Late cancellations and missed appointments are charged in full. If something urgent happens, tell me. I would rather know."
+          "heading": "Otkazivanje",
+          "body": "Ako trebate otkazati ili promijeniti termin, molim Vas da me obavijestite najmanje 24 sata unaprijed, odnosno 48 sati unaprijed ako još niste bili kod mene. Kasno otkazani i propušteni termini naplaćuju se u cijelosti. Ako se dogodi nešto hitno, javite mi. Važno mi je da znam."
         },
         {
-          "heading": "[HR] Remedies",
-          "body": "[HR] Remedies are prepared by an established homeopathic pharmacy and posted to the address you give me, usually arriving within a few days. Written instructions are always included. If you are outside the UK we will agree the arrangement before your consultation."
+          "heading": "Pripravci",
+          "body": "Pripravke priprema etablirana homeopatska ljekarna i šalje ih na adresu koju mi navedete. Obično stižu u roku od nekoliko dana. Pisane upute uvijek su priložene. Ako ste izvan Ujedinjenog Kraljevstva, način dostave dogovorit ćemo prije konzultacije."
         },
         {
-          "heading": "[HR] Medical care",
-          "body": "[HR] Homeopathy does not replace medical advice or treatment. I do not diagnose, and I will never advise you to stop medication prescribed by your doctor. Please continue with your medical care and tell me about any medication you take. If something needs medical attention, I will say so."
+          "heading": "Medicinska skrb",
+          "body": "Homeopatija ne zamjenjuje liječnički savjet ni medicinsku skrb. Ne postavljam dijagnoze i nikada Vam neću savjetovati da prestanete uzimati lijek koji Vam je propisao liječnik. Nastavite s medicinskom skrbi i recite mi koje lijekove uzimate. Ako je za nešto potrebna liječnička procjena, to ću Vam jasno reći."
         },
         {
-          "heading": "[HR] Use of this website",
-          "body": "[HR] The content of this site is for general information and is not personal health advice. Links to other sites are provided for convenience and I am not responsible for their content. I may update these terms, and the version published here is the one that applies."
+          "heading": "Korištenje ove stranice",
+          "body": "Sadržaj ove stranice služi općem informiranju i nije osobni zdravstveni savjet. Poveznice na druge stranice navedene su radi praktičnosti i ne odgovaram za njihov sadržaj. Ove uvjete mogu ažurirati, a primjenjuje se verzija objavljena ovdje."
         }
       ]
     },
     "ethics": {
-      "seoTitle": "[HR] Code of Ethics | Homeopathy with Natasa",
-      "seoDescription": "[HR] The professional standards Nataša Perić practises to, as a member of the Complementary Therapist Association.",
-      "title": "[HR] Code of Ethics",
-      "standfirst": "[HR] The standards I hold myself to.",
+      "seoTitle": "Etički kodeks | Homeopathy with Natasa",
+      "seoDescription": "Profesionalna načela kojih se Nataša Perić pridržava kao članica Complementary Therapist Association.",
+      "title": "Etički kodeks",
+      "standfirst": "Načela kojih se pridržavam.",
       "sections": [
         {
-          "heading": "[HR] Professional registration",
-          "body": "[HR] I am registered with the Complementary Therapist Association and I practise in line with its code of conduct. I hold professional insurance and I keep my registration current."
+          "heading": "Strukovna registracija",
+          "body": "Registrirana sam pri Complementary Therapist Association (udruženju komplementarnih terapeuta) i radim u skladu s njegovim kodeksom ponašanja. Imam osiguranje od profesionalne odgovornosti i redovito obnavljam registraciju."
         },
         {
-          "heading": "[HR] Confidentiality",
-          "body": "[HR] What you tell me stays between us. Case notes are kept securely, and your details are shared only where they are needed to send your remedy, or where the law requires me to share them. If I ever want to use an anonymised case for teaching or supervision, I will ask you first."
+          "heading": "Povjerljivost",
+          "body": "Ono što mi kažete ostaje između nas. Bilješke o slučaju čuvaju se na siguran način, a Vaši se podaci dijele samo kada su potrebni za slanje pripravka ili kada to zahtijeva zakon. Ako ikada budem željela upotrijebiti anonimizirani slučaj za podučavanje ili superviziju, najprije ću zatražiti Vaš pristanak."
         },
         {
-          "heading": "[HR] Consent",
-          "body": "[HR] You decide what happens. I explain what I am suggesting and why, in plain language, so you can make your own choice, and you may pause or stop at any point without needing to justify it."
+          "heading": "Pristanak",
+          "body": "Vi odlučujete što će se dogoditi. Jednostavno ću Vam objasniti što predlažem i zašto kako biste sami mogli odlučiti. U svakom trenutku možete napraviti stanku ili prestati, bez potrebe da svoju odluku obrazlažete."
         },
         {
-          "heading": "[HR] Scope of practice",
-          "body": "[HR] I work as a homeopath and not as a doctor. I do not diagnose, and I never advise you to stop or change medication prescribed for you. I do not make claims about outcomes for named conditions, and I will not offer treatment that is outside what I am trained to do."
+          "heading": "Područje rada",
+          "body": "Radim kao homeopatkinja, a ne kao liječnica. Ne postavljam dijagnoze i nikada Vam ne savjetujem da prestanete uzimati ili promijenite propisane lijekove. Ne iznosim tvrdnje o ishodima kod pojedinih zdravstvenih stanja i ne nudim postupke za koje nisam osposobljena."
         },
         {
-          "heading": "[HR] Honesty and uncertainty",
-          "body": "[HR] I do not give promises. I tell you what is realistic, and I tell you when something is uncertain or unknown. If this way of working does not seem right for you, I would rather say so early."
+          "heading": "Iskrenost i neizvjesnost",
+          "body": "Ne dajem obećanja. Kažem Vam što je realno i otvoreno govorim kada je nešto neizvjesno ili nepoznato. Ako procijenim da Vam ovakav način rada ne odgovara, radije ću to reći na početku."
         },
         {
-          "heading": "[HR] Referral",
-          "body": "[HR] If something you describe needs medical attention, or another practitioner would serve you better, I will say so and encourage you to go. Your safety comes before continuing with me."
+          "heading": "Upućivanje drugom stručnjaku",
+          "body": "Ako je za nešto što opisujete potrebna medicinska pomoć ili bi Vam drugi stručnjak mogao bolje pomoći, to ću Vam reći i potaknuti Vas da mu se obratite. Vaša je sigurnost važnija od nastavka rada sa mnom."
         },
         {
-          "heading": "[HR] Continuing development",
-          "body": "[HR] I keep learning. I teach and supervise at the Centre for Homeopathic Education in London, I take supervision myself, and I complete continuing professional development every year."
+          "heading": "Kontinuirano stručno usavršavanje",
+          "body": "Nastavljam učiti. Predajem i vodim superviziju u Centre for Homeopathic Education u Londonu, i sama redovito odlazim na superviziju te svake godine sudjelujem u kontinuiranom stručnom usavršavanju."
         }
       ]
     }
   },
   "images": {
-    "homePortraitLabel": "[HR] Nataša Perić, homeopath, London",
-    "aboutPortraitLabel": "[HR] Nataša Perić, homeopath, London",
-    "logoAlt": "[HR] Dandelion logo, Homeopathy with Natasa"
+    "homePortraitLabel": "Nataša Perić, homeopatkinja, London",
+    "aboutPortraitLabel": "Nataša Perić, homeopatkinja, London",
+    "logoAlt": "Logotip maslačka, Homeopathy with Natasa"
   }
 }
