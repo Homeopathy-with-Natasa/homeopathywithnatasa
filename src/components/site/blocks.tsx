@@ -410,6 +410,14 @@ export function ContactForm() {
           />
         </div>
 
+        {/* Honeypot: hidden from people, tempting to bots. Leave it empty. */}
+        <div aria-hidden="true" className="absolute left-[-9999px] h-0 w-0 overflow-hidden">
+          <label htmlFor="contact-company">Company</label>
+          <input id="contact-company" name="company" type="text" tabIndex={-1} autoComplete="off" />
+        </div>
+
+
+
         <button
           type="submit"
           disabled={state === "sending"}
