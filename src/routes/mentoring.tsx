@@ -8,6 +8,7 @@ import {
   PlainList,
   PriceTable,
   Prose,
+  RecognitionList,
   QuoteRow,
   Section,
   SectionTitle,
