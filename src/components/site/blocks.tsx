@@ -2,6 +2,7 @@ import { useState, type FormEvent, type ReactNode } from "react";
 import { useI18n } from "@/i18n/LanguageProvider";
 import { bookingLink, mailtoLink, mentoringLink } from "@/config/site";
 import { cn } from "@/lib/utils";
+import natasaPortrait from "@/assets/natasa.jpg.asset.json";
 import { FadeIn } from "./FadeIn";
 import { CurveDivider } from "./CurveDivider";
 
