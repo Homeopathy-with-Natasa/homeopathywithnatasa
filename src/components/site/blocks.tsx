@@ -137,12 +137,17 @@ export function PlainList({ items }: { items: string[] }) {
 
 export type Step = { heading: string; body: string };
 
-export function StepList({ steps }: { steps: Step[] }) {
+export function StepList({ steps, roseNumbers = false }: { steps: Step[]; roseNumbers?: boolean }) {
   return (
     <ol className="mt-10 space-y-8">
       {steps.map((step, i) => (
         <FadeIn as="li" key={i} delay={i * 60} className="flex gap-5">
-          <span className="font-display mt-0.5 w-7 shrink-0 text-lg text-rose-600">
+          <span
+            className={cn(
+              "font-display mt-0.5 w-7 shrink-0 text-lg",
+              roseNumbers ? "text-rose-600" : "text-green-400",
+            )}
+          >
             {String(i + 1).padStart(2, "0")}
           </span>
           <div>

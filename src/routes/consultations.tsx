@@ -93,7 +93,7 @@ function Consultations() {
         <FadeIn>
           <SectionTitle>{t("consultations.nextTitle")}</SectionTitle>
         </FadeIn>
-        <StepList steps={tAny<Step[]>("consultations.nextSteps")} />
+        <StepList steps={tAny<Step[]>("consultations.nextSteps")} roseNumbers />
 
         <FadeIn className="mt-14">
           <SectionTitle>{t("consultations.quotesTitle")}</SectionTitle>

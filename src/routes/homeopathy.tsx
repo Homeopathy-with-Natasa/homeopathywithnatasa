@@ -85,7 +85,7 @@ function Homeopathy() {
         <FadeIn>
           <SectionTitle>{t("homeopathy.consultationTitle")}</SectionTitle>
         </FadeIn>
-        <StepList steps={tAny<Step[]>("homeopathy.consultationSteps")} />
+        <StepList steps={tAny<Step[]>("homeopathy.consultationSteps")} roseNumbers />
       </Section>
       <CurveDivider variant="wave" from="muted" fill="background" />
 
