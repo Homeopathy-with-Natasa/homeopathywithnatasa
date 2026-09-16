@@ -77,10 +77,7 @@ function Consultations() {
 
         <FadeIn className="mt-14">
           <SectionTitle>{t("consultations.hoursTitle")}</SectionTitle>
-          <PriceTable
-            rows={tAny<PriceRow[]>("consultations.hoursRows")}
-            note={t("consultations.hoursNote")}
-          />
+          <PriceTable rows={tAny<PriceRow[]>("consultations.hoursRows")} />
         </FadeIn>
 
         <FadeIn className="mt-14">
