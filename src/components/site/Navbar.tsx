@@ -21,7 +21,7 @@ export function Navbar() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-green-100 bg-background/90 backdrop-blur">
-      <div className="container-site flex h-[4.5rem] items-center justify-between gap-4">
+      <div className="container-site flex h-[4.75rem] items-center justify-between gap-4 md:h-[5.75rem]">
         <Link to="/" className="text-green-700" onClick={() => setOpen(false)}>
           <Wordmark text={t("meta.brand")} />
         </Link>
