@@ -329,37 +329,39 @@ export function CtaBand({
 /* ------------------------------------------------------------ contact form */
 
 /**
- * Simple contact form. Posts straight from the browser to the endpoint in
- * src/config/site.ts. No backend, nothing stored on the site.
+ * Simple contact form. Posts to a server function, which writes the enquiry to
+ * Natasa's client management system. Credentials stay on the server.
  * The mailto fallback below the form is always visible, on purpose.
  */
 export function ContactForm() {
   const { t, lang } = useI18n();
   const [state, setState] = useState<"idle" | "sending" | "sent" | "error">("idle");
-  const configured = isContactFormConfigured();
+  const send = useServerFn(submitContact);
 
   const onSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (!configured) {
-      setState("error");
-      return;
-    }
     const form = e.currentTarget;
     const data = new FormData(form);
     setState("sending");
     try {
-      const res = await fetch(CONTACT_FORM_ENDPOINT, {
-        method: "POST",
-        body: data,
-        headers: { Accept: "application/json" },
+      const result = await send({
+        data: {
+          name: String(data.get("name") ?? ""),
+          email: String(data.get("email") ?? ""),
+          message: String(data.get("message") ?? ""),
+          company: String(data.get("company") ?? ""),
+          lang,
+        },
       });
-      if (!res.ok) throw new Error("submit failed");
+      if (!result.ok) throw new Error(result.error);
       form.reset();
       setState("sent");
-    } catch {
+    } catch (error) {
+      console.error("contact form submission failed", error);
       setState("error");
     }
   };
+
 
   const field =
     "w-full rounded-2xl border border-green-300 bg-card px-5 py-3 text-green-900 placeholder:text-muted-foreground focus:ring-2 focus:ring-green-400 focus:outline-none";
