@@ -20,7 +20,15 @@ export function LanguageSwitcher({ className }: { className?: string }) {
             lang === l.code ? "opacity-100 ring-1 ring-green-300" : "opacity-45 hover:opacity-80",
           )}
         >
-          <span aria-hidden="true">{l.flag}</span>
+          <span
+            aria-hidden="true"
+            style={{
+              fontFamily:
+                '"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji","Twemoji Mozilla",sans-serif',
+            }}
+          >
+            {l.flag}
+          </span>
         </button>
       ))}
     </div>
