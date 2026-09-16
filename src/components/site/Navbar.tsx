@@ -26,7 +26,7 @@ export function Navbar() {
           <Wordmark text={t("meta.brand")} />
         </Link>
 
-        <nav className="hidden items-center gap-7 lg:flex">
+        <nav className="hidden items-center gap-5 lg:flex">
           {NAV_ITEMS.map((item) => (
             <Link
               key={item.to}
