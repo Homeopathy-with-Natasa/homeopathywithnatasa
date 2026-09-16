@@ -22,10 +22,11 @@
   },
   "home": {
     "seoTitle": "Homeopathy with Natasa | Homeopath in London",
-    "seoDescription": "Nataša Perić, PhD, homeopath in private practice in London since 2009. Consultations in person in Telegraph Hill and online.",
+    "seoDescription": "Nataša Perić, PhD, homeopath in private practice in London since 2009. Online consultations by video, and in person in Telegraph Hill by arrangement.",
     "heroTitle": "Health that has been treated in pieces can be looked at as a whole",
     "heroSubtitle": "I am Nataša Perić, a homeopath in London. I work with people whose symptoms have been handled one at a time, by different people, with nobody joining them up.",
-    "heroNote": "In person in Telegraph Hill, London, and online.",
+    "heroNote": "Online by video, wherever you are. In person in Telegraph Hill, London, by arrangement.",
+    "mission": "I help women and young people navigate the moments where they have lost themselves, using homeopathy, science, and honest conversation.",
     "introTitle": "A scientist who chose homeopathy",
     "introBody": "Before I became a homeopath I was a research scientist. I hold a PhD in Natural Sciences and I co-authored a biology textbook that has been on the compulsory reading list for undergraduate science courses in Croatia for over a decade. I came to homeopathy after a difficult post-partum period, when it helped me personally. I have been in private practice in London since 2009.",
     "introBody2": "That training has stayed with me. I listen closely, I take careful notes, I look for patterns, and I am honest with you about what I can and cannot say.",
@@ -51,16 +52,16 @@
     "quotesTitle": "In their words",
     "quotes": [
       {
-        "text": "It was the first time anyone had asked about all of it in one conversation, rather than one piece at a time.",
-        "author": "A. M., London"
+        "text": "I can't thank Natasa enough for her patience, support and guidance. She is very professional and has a wealth of knowledge. Natasa is a kind and understanding person, truly dedicated to helping people, always offering extra or follow-ups when needed. I would absolutely recommend her to others.",
+        "author": "Patient, London"
       },
       {
-        "text": "Natasa is calm and very precise. I never felt rushed and I never felt judged.",
-        "author": "R. K., online consultation"
+        "text": "I have been so extremely impressed with Natasa's attention to care and compassion towards the many different aspects of my life.",
+        "author": "Patient, London"
       },
       {
-        "text": "She was honest with me about what she could and could not say. That is why I trusted her.",
-        "author": "S. T., London"
+        "text": "Natasa is genuine, creative and compassionate. She has supported me through one of the most difficult transitions in my life. I have tremendous respect for her knowledge and feel privileged to have her as my homeopath.",
+        "author": "Patient, London"
       }
     ],
     "closingTitle": "If this sounds like the kind of care you are looking for",
@@ -86,7 +87,7 @@
       },
       {
         "heading": "Who I work best with",
-        "body": "The people I work best with are people who work on themselves. Many have done some form of therapy. They are committed to their wellbeing and they are tuned in to what is going on in their bodies. This is a considered, gradual way of working, and it asks something of you. If you are looking for something immediate, I am probably not the right person, and I would rather say that early."
+        "body": "The people I work best with are people who work on themselves. Many have done some form of therapy, they are committed to their wellbeing, and they are tuned in. That matters for a practical reason rather than a lofty one. I ask probing questions, such as why you feel shame and where it lives in you, and people who already know themselves a little can answer them. That is where the real material is. What I am doing in a consultation is trying to understand your emotional landscape, as much as a human being as a homeopath. This way of working is not for everyone. If you would like a quick fix, or you have tried everything and are not committed to anything, you will probably not get much from it, and I would rather say so than take your money."
       },
       {
         "heading": "Teaching and supervision",
@@ -120,6 +121,8 @@
       "It is not fast. Longstanding patterns rarely shift quickly, and I will not pretend otherwise.",
       "It is not passive. You are an active part of this, and what you notice between sessions matters."
     ],
+    "promiseTitle": "What I can and cannot promise",
+    "promiseBody": "I do not give promises. I give you my full expertise and knowledge, and what happens next also depends on you: what you do with it, your own vital force, your lifestyle, and everything else that affects healing. What I offer instead of a promise is an educational dialogue. I explain how homeopathy works, and I give you an honest indication of what is realistic, given what you are living with and how long it has been there.",
     "supportTitle": "What people come to me with",
     "supportIntro": "People come to me at many different points. Most often they are living with something that has continued for a long time and has been looked at in pieces. Homeopathy may support the person as a whole while that is going on. I do not make claims about outcomes for named conditions.",
     "supportItems": [
@@ -139,7 +142,7 @@
       },
       {
         "heading": "The first consultation",
-        "body": "We talk for around ninety minutes. I will ask about your health history, but also about sleep, appetite, temperature, energy, mood, what makes things better and what makes them worse. Some questions will feel unrelated. They are how the pattern becomes visible."
+        "body": "We talk for around ninety minutes, by video. I will ask about your health history, but also about sleep, appetite, temperature, energy, mood, what makes things better and what makes them worse. Some questions will feel unrelated. They are how the pattern becomes visible."
       },
       {
         "heading": "After we talk",
@@ -147,7 +150,7 @@
       },
       {
         "heading": "Your remedy",
-        "body": "I select a remedy for you as an individual and explain how and when to take it, in writing, so you are not relying on memory."
+        "body": "I select a remedy for you as an individual, post it to you, and explain how and when to take it, in writing, so you are not relying on memory."
       },
       {
         "heading": "Follow-up",
@@ -155,59 +158,95 @@
       }
     ],
     "remediesTitle": "How remedies reach you",
-    "remediesBody": "Remedies are prepared by an established homeopathic pharmacy and posted to your address in the UK, usually arriving within a few days. If you are outside the UK we will agree the arrangement together before your consultation. Remedy costs are separate from the consultation fee and are modest.",
+    "remediesBody": "Consultations are currently held online by video, and your remedies are posted to you. They are prepared by an established homeopathic pharmacy and sent to your address in the UK, usually arriving within a few days. If you are outside the UK we will agree the arrangement together before your consultation. Homeopathic medicines are included in the consultation fee, except for acute consultations and detox therapies. Postage is charged separately.",
     "remediesBody2": "You will always receive written instructions. If anything is unclear afterwards, write to me. I would rather answer a short question than have you guessing.",
     "askTitle": "What I ask of you",
     "askBody": "Honesty and openness, including about the things that feel small or awkward. Patience, because this is gradual. And that you stay in touch between sessions if something changes. In return you have my full attention, my time, and a straight answer whenever I have one."
   },
   "consultations": {
     "seoTitle": "Consultations and pricing | Homeopathy with Natasa, London",
-    "seoDescription": "First consultations, follow-ups and acute support, in person in Telegraph Hill, London, or online. Fees, clinic hours and cancellation policy.",
+    "seoDescription": "First consultations, follow-ups and acute appointments, online by video or in person in Telegraph Hill, London, by arrangement. Fees, clinic hours and cancellation policy.",
     "title": "Consultations & pricing",
-    "standfirst": "In person in Telegraph Hill, London, or online, wherever you are. The same care either way.",
+    "standfirst": "Online by video, wherever you are, with remedies posted to you. In person in Telegraph Hill, London, by arrangement.",
     "offerTitle": "What I offer",
     "offers": [
       {
         "heading": "First consultation",
-        "body": "Around ninety minutes. A full conversation about your health, your history and how you are living now. Case study and remedy selection happen afterwards, in my own time, and are included."
+        "body": "Ninety minutes. A full conversation about your health, your history and how you are living now. Case study and remedy selection happen afterwards, in my own time, and are included."
       },
       {
         "heading": "Follow-up consultation",
-        "body": "Around forty-five minutes, usually four to six weeks later. We look at what has shifted and adjust from there."
+        "body": "Forty-five minutes, usually four to six weeks later. We look at what has shifted and adjust from there."
       },
       {
-        "heading": "Acute support",
-        "body": "A short appointment for something sudden and recent, for people I already see. Good to have in case something comes up."
+        "heading": "Acute consultation",
+        "body": "A twenty minute appointment for something sudden and recent, for people I already see. Remedies are charged separately. Good to have in case something comes up."
       }
     ],
-    "formatTitle": "In person or online",
-    "formatBody": "In person consultations take place in Telegraph Hill, south east London. Online consultations are by video and work well: most of this conversation is a conversation. Choose whichever means you can be somewhere quiet and uninterrupted.",
+    "formatTitle": "How we meet",
+    "formatBody": "Consultations are currently held online by video, and your remedies are posted to you. This works well, because most of this work is a conversation. In person appointments in Telegraph Hill, south east London, are available by arrangement. Choose whichever lets you be somewhere quiet and uninterrupted.",
     "pricingTitle": "Fees",
-    "pricingNote": "PLACEHOLDER: fees to be confirmed before the site goes live. Remedy and postage costs are separate and modest.",
+    "pricingNote": "All homeopathic medicines are included in the consultation fees, except for acute consultations and detox therapies.",
     "priceRows": [
-      { "label": "First consultation, around 90 minutes", "value": "£PLACEHOLDER" },
-      { "label": "Follow-up consultation, around 45 minutes", "value": "£PLACEHOLDER" },
-      { "label": "Acute support, short appointment", "value": "£PLACEHOLDER" },
-      { "label": "Remedies and postage", "value": "Charged separately, PLACEHOLDER" }
+      { "label": "First consultation, 90 minutes", "value": "£95" },
+      { "label": "Follow-up consultation, 45 minutes", "value": "£75" },
+      { "label": "Parent and baby, up to 1 year, up to 2 hours", "value": "£180" },
+      {
+        "label": "Family consultation, two family members who have seen me before, 75 minutes",
+        "value": "£120"
+      },
+      { "label": "Acute consultation, 20 minutes, plus remedies", "value": "£35" },
+      { "label": "Homeo-botanicals, organic herbs", "value": "£25" },
+      { "label": "Postage, depending on size and weight", "value": "From £3.50" }
     ],
     "hoursTitle": "Clinic hours",
-    "hoursNote": "PLACEHOLDER: clinic hours to be confirmed.",
     "hoursRows": [
-      { "label": "Monday to Thursday", "value": "PLACEHOLDER" },
-      { "label": "Friday", "value": "PLACEHOLDER" },
-      { "label": "Saturday and Sunday", "value": "PLACEHOLDER" }
+      { "label": "Tuesday", "value": "9am to 5pm" },
+      { "label": "Thursday", "value": "1pm to 6pm" },
+      { "label": "Friday", "value": "9am to 5pm" },
+      { "label": "Monday, Wednesday, Saturday, Sunday", "value": "Not available" }
     ],
     "cancellationTitle": "Cancellation policy",
-    "cancellationBody": "PLACEHOLDER: cancellation terms to be confirmed. The intention is simple and fair on both sides. Please give as much notice as you can if you need to move an appointment, and I will do the same for you.",
+    "cancellationBody": "Please give at least 24 hours' notice if you need to cancel or reschedule, or 48 hours if you have not seen me before. Late cancellations and missed appointments are charged in full. If something urgent happens, tell me. I would rather know.",
     "nextTitle": "What happens after you book",
     "nextSteps": [
-      { "heading": "You choose a time", "body": "Booking opens in a new tab and you pick a slot that suits you." },
-      { "heading": "I send a short form", "body": "A few questions by email, so that we can use our time together well." },
-      { "heading": "We meet", "body": "In Telegraph Hill or by video, unhurried." },
-      { "heading": "Your remedy is posted", "body": "With written instructions, after I have studied your case." }
+      {
+        "heading": "You choose a time",
+        "body": "Booking opens in a new tab and you pick a slot that suits you."
+      },
+      {
+        "heading": "I send a short form",
+        "body": "A few questions by email, so that we can use our time together well."
+      },
+      { "heading": "We meet", "body": "By video, or in Telegraph Hill by arrangement, unhurried." },
+      {
+        "heading": "Your remedy is posted",
+        "body": "With written instructions, after I have studied your case."
+      }
+    ],
+    "quotesTitle": "In their words",
+    "quotes": [
+      {
+        "text": "I am so grateful for Natasa's thoroughness and attention to the details of my medical profile. Thank you Natasa for your expertise and care. I keep recommending you.",
+        "author": "Patient, London"
+      }
     ],
     "closingTitle": "Ready when you are",
     "closingBody": "If you have a question first, write to me. I read every email myself."
+  },
+  "contact": {
+    "title": "Contact",
+    "body": "If you would like to ask something before you book, send me a note. I read every message myself and I reply as soon as I can.",
+    "name": "Your name",
+    "email": "Your email address",
+    "message": "Your message",
+    "send": "Send message",
+    "sending": "Sending",
+    "success": "Thank you. Your message has been sent and I will reply as soon as I can.",
+    "error": "Your message did not go through. Please write to me directly at the address below and it will reach me.",
+    "notConfigured": "This form is not connected yet. Please use the email address below for now.",
+    "fallbackLead": "Or write to me directly at",
+    "note": "What you send here is emailed to me. It is not stored on this website."
   },
   "mentoring": {
     "seoTitle": "Supervision and mentoring for homeopaths | Nataša Perić",
@@ -227,9 +266,18 @@
     "groupBody": "Small groups, so that everyone speaks. One or two cases per session, presented by members of the group, discussed openly. Practitioners often learn as much from a case that is not theirs.",
     "howTitle": "How sessions run",
     "howSteps": [
-      { "heading": "You send the case in advance", "body": "So that I arrive having read it, and our time goes on the thinking rather than the summary." },
-      { "heading": "We work through it together", "body": "Case taking, analysis, remedy reasoning, and what you would do differently next time." },
-      { "heading": "You leave with notes", "body": "A short written summary of what we agreed, for your records and your training log." }
+      {
+        "heading": "You send the case in advance",
+        "body": "So that I arrive having read it, and our time goes on the thinking rather than the summary."
+      },
+      {
+        "heading": "We work through it together",
+        "body": "Case taking, analysis, remedy reasoning, and what you would do differently next time."
+      },
+      {
+        "heading": "You leave with notes",
+        "body": "A short written summary of what we agreed, for your records and your training log."
+      }
     ],
     "backgroundTitle": "Why me",
     "backgroundBody": "I teach and supervise at the Centre for Homeopathic Education in London, where I lead the Research Proposition module. I have been in practice since 2009 and I came to homeopathy from research science, so I am comfortable with methodology, with evidence, and with saying plainly when something is not known.",
@@ -240,12 +288,7 @@
       { "label": "Small group supervision, per person per session", "value": "£PLACEHOLDER" },
       { "label": "Block of six sessions", "value": "£PLACEHOLDER" }
     ],
-    "quotes": [
-      {
-        "text": "Natasa asks the question you were avoiding, but kindly. I left with a much clearer method.",
-        "author": "Student practitioner, CHE"
-      }
-    ],
+    "quotes": [],
     "closingTitle": "Get in touch",
     "closingBody": "Tell me where you are in your training and what you would like support with, and we will find a format that fits."
   },
@@ -258,7 +301,7 @@
     "success": "Thank you. This form is not connected yet, so please write to me directly for now."
   },
   "footer": {
-    "tagline": "Homeopathy in Telegraph Hill, London, and online.",
+    "tagline": "Homeopathy online by video, and in Telegraph Hill, London, by arrangement.",
     "registered": "Registered with the Complementary Therapist Association.",
     "legalTitle": "Legal",
     "privacy": "Privacy Policy",
@@ -276,20 +319,41 @@
     "more": "Privacy Policy"
   },
   "legal": {
-    "placeholderNotice": "PLACEHOLDER: this text is a structural draft and must be reviewed and completed before the site goes live.",
+    "placeholderNotice": "These texts are drafts, pending review before the site goes live.",
     "privacy": {
       "seoTitle": "Privacy Policy | Homeopathy with Natasa",
       "seoDescription": "How Nataša Perić collects, uses and protects your personal information.",
       "title": "Privacy Policy",
       "standfirst": "How your information is handled.",
       "sections": [
-        { "heading": "Who I am", "body": "PLACEHOLDER. Nataša Perić, homeopath, practising in Telegraph Hill, London. Contact details are in the footer of every page." },
-        { "heading": "What I collect", "body": "PLACEHOLDER. Information you give me when you book or write to me, and the health information you share during consultations." },
-        { "heading": "Why I hold it", "body": "PLACEHOLDER. To provide your care and to keep the case records a practitioner is required to keep." },
-        { "heading": "How long I keep it", "body": "PLACEHOLDER. Retention period to be confirmed." },
-        { "heading": "Who else sees it", "body": "PLACEHOLDER. The homeopathic pharmacy receives only what is needed to send your remedy. Nothing is sold or shared for marketing." },
-        { "heading": "This website", "body": "PLACEHOLDER. This site stores your language preference and your cookie choice in your browser. There is no contact form and no analytics." },
-        { "heading": "Your rights", "body": "PLACEHOLDER. You may ask to see, correct or delete the information I hold about you." }
+        {
+          "heading": "Who I am",
+          "body": "I am Nataša Perić, a homeopath in private practice, working online by video and in person in Telegraph Hill, south east London, by arrangement. I decide how the information described here is used. My email address is in the footer of every page, and it is the best way to reach me about anything on this page."
+        },
+        {
+          "heading": "What I collect",
+          "body": "Your name, email address and anything you choose to tell me when you write to me, use the contact form or book an appointment. If you become a client, I also hold the health information you share with me during consultations, together with my case notes, the remedies selected and the postal address remedies are sent to."
+        },
+        {
+          "heading": "Why I hold it",
+          "body": "To reply to you, to arrange appointments, to provide your care, to send your remedies, and to keep the case records a practitioner is expected to keep. Where the information concerns your health, I hold it on the basis that it is necessary for providing health care to you, and because you have chosen to share it with me for that purpose."
+        },
+        {
+          "heading": "How long I keep it",
+          "body": "Consultation records are held for the period a practitioner is required to keep them. TODO: confirm the exact retention period before the site goes live. Enquiries that do not lead to an appointment are deleted once they are no longer needed."
+        },
+        {
+          "heading": "Who else sees it",
+          "body": "An established homeopathic pharmacy prepares and posts your remedies, and receives only the information needed to do that, such as your name, address and the remedy. My email provider handles the messages we exchange. Nothing is sold, and nothing is shared for marketing."
+        },
+        {
+          "heading": "This website",
+          "body": "This site stores two things in your own browser: your language preference and your cookie choice. There is no analytics and no tracking. The contact form posts your message to a form service, which emails it to me. What you send is not stored on this website."
+        },
+        {
+          "heading": "Your rights",
+          "body": "You may ask to see the information I hold about you, to have it corrected, or to have it deleted where I am not required to keep it. Write to me and I will respond within one month. If you are not satisfied with how I have handled something, you may complain to the Information Commissioner's Office."
+        }
       ]
     },
     "terms": {
@@ -298,12 +362,30 @@
       "title": "Terms and Conditions",
       "standfirst": "The terms on which consultations are provided.",
       "sections": [
-        { "heading": "Consultations", "body": "PLACEHOLDER. Scope of consultations, in person and online." },
-        { "heading": "Fees and payment", "body": "PLACEHOLDER. Fees, when payment is due, and how it is made." },
-        { "heading": "Cancellations", "body": "PLACEHOLDER. Notice period and any charge." },
-        { "heading": "Remedies", "body": "PLACEHOLDER. Remedy and postage costs, and delivery arrangements." },
-        { "heading": "Medical care", "body": "PLACEHOLDER. Homeopathy does not replace medical advice or treatment. Please continue to see your doctor and tell me about any medication you take." },
-        { "heading": "Use of this website", "body": "PLACEHOLDER. Content is for information only." }
+        {
+          "heading": "Consultations",
+          "body": "Consultations are provided by Nataša Perić, homeopath, currently online by video, with in person appointments in Telegraph Hill, south east London, available by arrangement. Homeopathy is a complementary therapy. Booking an appointment means you accept these terms."
+        },
+        {
+          "heading": "Fees and payment",
+          "body": "Current fees are listed on the Consultations and Pricing page. Payment is due at the time of the appointment unless we have agreed otherwise. Homeopathic medicines are included in the consultation fees, except for acute consultations and detox therapies. Postage is charged separately, from £3.50, depending on size and weight."
+        },
+        {
+          "heading": "Cancellations",
+          "body": "Please give at least 24 hours' notice if you need to cancel or reschedule, or 48 hours if you have not seen me before. Late cancellations and missed appointments are charged in full. If something urgent happens, tell me. I would rather know."
+        },
+        {
+          "heading": "Remedies",
+          "body": "Remedies are prepared by an established homeopathic pharmacy and posted to the address you give me, usually arriving within a few days. Written instructions are always included. If you are outside the UK we will agree the arrangement before your consultation."
+        },
+        {
+          "heading": "Medical care",
+          "body": "Homeopathy does not replace medical advice or treatment. I do not diagnose, and I will never advise you to stop medication prescribed by your doctor. Please continue with your medical care and tell me about any medication you take. If something needs medical attention, I will say so."
+        },
+        {
+          "heading": "Use of this website",
+          "body": "The content of this site is for general information and is not personal health advice. Links to other sites are provided for convenience and I am not responsible for their content. I may update these terms, and the version published here is the one that applies."
+        }
       ]
     },
     "ethics": {
@@ -312,18 +394,40 @@
       "title": "Code of Ethics",
       "standfirst": "The standards I hold myself to.",
       "sections": [
-        { "heading": "Professional registration", "body": "PLACEHOLDER. I am registered with the Complementary Therapist Association and practise in line with its code." },
-        { "heading": "Confidentiality", "body": "PLACEHOLDER. What you tell me stays between us, other than where the law requires otherwise." },
-        { "heading": "Consent", "body": "PLACEHOLDER. You decide what happens, and you may stop at any point." },
-        { "heading": "Scope of practice", "body": "PLACEHOLDER. I do not diagnose and I do not advise you to stop medication prescribed by your doctor." },
-        { "heading": "Honesty", "body": "PLACEHOLDER. I will tell you when something is uncertain, and I will refer you on when that is the right thing to do." },
-        { "heading": "Continuing development", "body": "PLACEHOLDER. I keep learning, teach, and take supervision myself." }
+        {
+          "heading": "Professional registration",
+          "body": "I am registered with the Complementary Therapist Association and I practise in line with its code of conduct. I hold professional insurance and I keep my registration current."
+        },
+        {
+          "heading": "Confidentiality",
+          "body": "What you tell me stays between us. Case notes are kept securely, and your details are shared only where they are needed to send your remedy, or where the law requires me to share them. If I ever want to use an anonymised case for teaching or supervision, I will ask you first."
+        },
+        {
+          "heading": "Consent",
+          "body": "You decide what happens. I explain what I am suggesting and why, in plain language, so you can make your own choice, and you may pause or stop at any point without needing to justify it."
+        },
+        {
+          "heading": "Scope of practice",
+          "body": "I work as a homeopath and not as a doctor. I do not diagnose, and I never advise you to stop or change medication prescribed for you. I do not make claims about outcomes for named conditions, and I will not offer treatment that is outside what I am trained to do."
+        },
+        {
+          "heading": "Honesty and uncertainty",
+          "body": "I do not give promises. I tell you what is realistic, and I tell you when something is uncertain or unknown. If this way of working does not seem right for you, I would rather say so early."
+        },
+        {
+          "heading": "Referral",
+          "body": "If something you describe needs medical attention, or another practitioner would serve you better, I will say so and encourage you to go. Your safety comes before continuing with me."
+        },
+        {
+          "heading": "Continuing development",
+          "body": "I keep learning. I teach and supervise at the Centre for Homeopathic Education in London, I take supervision myself, and I complete continuing professional development every year."
+        }
       ]
     }
   },
   "images": {
-    "homePortraitLabel": "PLACEHOLDER: natasa-home.jpg, portrait, 300 x 360",
-    "aboutPortraitLabel": "PLACEHOLDER: natasa-about.jpg, portrait, 420 x 520",
+    "homePortraitLabel": "Nataša Perić, homeopath, London",
+    "aboutPortraitLabel": "Nataša Perić, homeopath, London",
     "logoAlt": "Dandelion logo, Homeopathy with Natasa"
   }
 }
