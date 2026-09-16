@@ -10,33 +10,79 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AboutRouteImport } from './routes/about'
+import { Route as ConsultationsRouteImport } from './routes/consultations'
+import { Route as HomeopathyRouteImport } from './routes/homeopathy'
+import { Route as MentoringRouteImport } from './routes/mentoring'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AboutRoute = AboutRouteImport.update({
+  id: '/about',
+  path: '/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ConsultationsRoute = ConsultationsRouteImport.update({
+  id: '/consultations',
+  path: '/consultations',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HomeopathyRoute = HomeopathyRouteImport.update({
+  id: '/homeopathy',
+  path: '/homeopathy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MentoringRoute = MentoringRouteImport.update({
+  id: '/mentoring',
+  path: '/mentoring',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
+  '/consultations': typeof ConsultationsRoute
+  '/homeopathy': typeof HomeopathyRoute
+  '/mentoring': typeof MentoringRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
+  '/consultations': typeof ConsultationsRoute
+  '/homeopathy': typeof HomeopathyRoute
+  '/mentoring': typeof MentoringRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
+  '/consultations': typeof ConsultationsRoute
+  '/homeopathy': typeof HomeopathyRoute
+  '/mentoring': typeof MentoringRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths: '/' | '/about' | '/consultations' | '/homeopathy' | '/mentoring'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to: '/' | '/about' | '/consultations' | '/homeopathy' | '/mentoring'
+  id:
+    | '__root__'
+    | '/'
+    | '/about'
+    | '/consultations'
+    | '/homeopathy'
+    | '/mentoring'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AboutRoute: typeof AboutRoute
+  ConsultationsRoute: typeof ConsultationsRoute
+  HomeopathyRoute: typeof HomeopathyRoute
+  MentoringRoute: typeof MentoringRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +94,43 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/about': {
+      id: '/about'
+      path: '/about'
+      fullPath: '/about'
+      preLoaderRoute: typeof AboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/consultations': {
+      id: '/consultations'
+      path: '/consultations'
+      fullPath: '/consultations'
+      preLoaderRoute: typeof ConsultationsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/homeopathy': {
+      id: '/homeopathy'
+      path: '/homeopathy'
+      fullPath: '/homeopathy'
+      preLoaderRoute: typeof HomeopathyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/mentoring': {
+      id: '/mentoring'
+      path: '/mentoring'
+      fullPath: '/mentoring'
+      preLoaderRoute: typeof MentoringRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AboutRoute: AboutRoute,
+  ConsultationsRoute: ConsultationsRoute,
+  HomeopathyRoute: HomeopathyRoute,
+  MentoringRoute: MentoringRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
