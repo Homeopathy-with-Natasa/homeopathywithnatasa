@@ -4,7 +4,7 @@ import logoWhite from "@/assets/logo-white.png.asset.json";
 
 /**
  * Dandelion logo, drawn for Natasa in 2019.
- *   - navbar: green version, approx 40px high
+ *   - navbar: green version, approx 80px high on desktop
  *   - footer: white version, on green-800
  */
 export function LogoMark({
@@ -19,7 +19,7 @@ export function LogoMark({
       src={variant === "white" ? logoWhite.url : logoGreen.url}
       alt=""
       aria-hidden="true"
-      className={cn("h-10 w-auto", className)}
+      className={cn("h-16 w-auto md:h-20", className)}
     />
   );
 }
@@ -36,9 +36,11 @@ export function Wordmark({
   variant?: "green" | "white";
 }) {
   return (
-    <span className={cn("flex items-center gap-2.5", className)}>
+    <span className={cn("flex items-center gap-3", className)}>
       <LogoMark className={markClassName} variant={variant} />
-      <span className="font-display text-[1.05rem] leading-tight tracking-tight">{text}</span>
+      <span className="font-display text-[1.15rem] leading-tight tracking-tight md:text-[1.35rem]">
+        {text}
+      </span>
     </span>
   );
 }

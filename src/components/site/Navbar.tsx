@@ -21,17 +21,17 @@ export function Navbar() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-green-100 bg-background/90 backdrop-blur">
-      <div className="container-site flex h-[4.5rem] items-center justify-between gap-4">
+      <div className="container-site flex h-[4.75rem] items-center justify-between gap-4 md:h-[5.75rem]">
         <Link to="/" className="text-green-700" onClick={() => setOpen(false)}>
           <Wordmark text={t("meta.brand")} />
         </Link>
 
-        <nav className="hidden items-center gap-7 lg:flex">
+        <nav className="hidden items-center gap-5 lg:flex">
           {NAV_ITEMS.map((item) => (
             <Link
               key={item.to}
               to={item.to}
-              className="text-[0.95rem] text-green-800 transition-colors hover:text-green-600"
+              className="whitespace-nowrap text-[0.95rem] text-green-800 transition-colors hover:text-green-600"
               activeProps={{ className: "text-green-600" }}
               activeOptions={{ exact: item.to === "/" }}
             >
