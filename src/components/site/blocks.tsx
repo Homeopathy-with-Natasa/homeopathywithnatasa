@@ -2,6 +2,7 @@ import { useState, type FormEvent, type ReactNode } from "react";
 import { useI18n } from "@/i18n/LanguageProvider";
 import { bookingLink, mailtoLink, mentoringLink } from "@/config/site";
 import { cn } from "@/lib/utils";
+import natasaPortrait from "@/assets/natasa.jpg.asset.json";
 import { FadeIn } from "./FadeIn";
 import { CurveDivider } from "./CurveDivider";
 
@@ -218,20 +219,31 @@ export function PortraitSlot({
   label,
   className,
   ratio = "aspect-[5/6]",
+  src = natasaPortrait.url,
 }: {
   label: string;
   className?: string;
   ratio?: string;
+  src?: string | null;
 }) {
   return (
     <div
       className={cn(
-        "flex items-center justify-center overflow-hidden rounded-2xl bg-green-100 p-6 text-center ring-1 ring-green-200",
+        "flex items-center justify-center overflow-hidden rounded-2xl bg-green-100 text-center ring-1 ring-green-200",
         ratio,
         className,
       )}
     >
-      <span className="text-sm text-green-700">{label}</span>
+      {src ? (
+        <img
+          src={src}
+          alt={label}
+          loading="lazy"
+          className="h-full w-full object-cover object-center"
+        />
+      ) : (
+        <span className="p-6 text-sm text-green-700">{label}</span>
+      )}
     </div>
   );
 }
