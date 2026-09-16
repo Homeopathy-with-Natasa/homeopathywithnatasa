@@ -31,7 +31,7 @@ export function Navbar() {
             <Link
               key={item.to}
               to={item.to}
-              className="text-[0.95rem] text-green-800 transition-colors hover:text-green-600"
+              className="whitespace-nowrap text-[0.95rem] text-green-800 transition-colors hover:text-green-600"
               activeProps={{ className: "text-green-600" }}
               activeOptions={{ exact: item.to === "/" }}
             >
