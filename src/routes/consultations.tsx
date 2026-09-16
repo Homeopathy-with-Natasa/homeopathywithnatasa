@@ -94,6 +94,20 @@ function Consultations() {
           <SectionTitle>{t("consultations.nextTitle")}</SectionTitle>
         </FadeIn>
         <StepList steps={tAny<Step[]>("consultations.nextSteps")} />
+
+        <FadeIn className="mt-14">
+          <SectionTitle>{t("consultations.quotesTitle")}</SectionTitle>
+          <QuoteRow quotes={tAny<QuoteItem[]>("consultations.quotes")} />
+        </FadeIn>
+      </Section>
+      <CurveDivider variant="wave" fill="background" />
+
+      <Section>
+        <FadeIn>
+          <div id="contact" className="scroll-mt-24">
+            <ContactForm />
+          </div>
+        </FadeIn>
       </Section>
 
       <CtaBand title={t("consultations.closingTitle")} body={t("consultations.closingBody")} />
