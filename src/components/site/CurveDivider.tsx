@@ -41,7 +41,7 @@ export function CurveDivider({
 
   return (
     <div
-      className={cn("-mb-px w-full overflow-hidden leading-none", backgroundClass, className)}
+      className={cn("-mb-1 w-full overflow-hidden leading-none", backgroundClass, className)}
       aria-hidden="true"
     >
       <svg
