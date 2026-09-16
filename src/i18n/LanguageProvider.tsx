@@ -5,6 +5,7 @@ import {
   useEffect,
   useMemo,
   useState,
+  type Context,
   type ReactNode,
 } from "react";
 import en from "./en.json";
@@ -21,7 +22,16 @@ type Ctx = {
   tAny: <T>(path: string) => T;
 };
 
-const LanguageContext = createContext<Ctx | null>(null);
+type LanguageGlobal = typeof globalThis & {
+  __HWN_LANGUAGE_CONTEXT__?: Context<Ctx | null>;
+};
+
+// Keep one context across route chunks and Vite hot updates. Without this,
+// two copies of this module can briefly create different context instances.
+const languageGlobal = globalThis as LanguageGlobal;
+const LanguageContext =
+  languageGlobal.__HWN_LANGUAGE_CONTEXT__ ?? createContext<Ctx | null>(null);
+languageGlobal.__HWN_LANGUAGE_CONTEXT__ = LanguageContext;
 
 function lookup(dict: unknown, path: string): unknown {
   return path.split(".").reduce<unknown>((acc, key) => {
