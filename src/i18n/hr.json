@@ -1,0 +1,437 @@
+{
+  "meta": {
+    "brand": "[HR] Homeopathy with Natasa",
+    "practitioner": "[HR] Nataša Perić, PhD, BSc (Hons), LCHE"
+  },
+  "nav": {
+    "home": "[HR] Home",
+    "about": "[HR] About",
+    "homeopathy": "[HR] Homeopathy",
+    "consultations": "[HR] Consultations & Pricing",
+    "mentoring": "[HR] Mentoring",
+    "menu": "[HR] Menu",
+    "close": "[HR] Close"
+  },
+  "cta": {
+    "book": "[HR] Book a first consultation",
+    "bookShort": "[HR] Book a consultation",
+    "bookMentoring": "[HR] Book a supervision session",
+    "email": "[HR] Send an email",
+    "readMore": "[HR] Read more about homeopathy",
+    "seePricing": "[HR] See consultations and pricing"
+  },
+  "home": {
+    "seoTitle": "[HR] Homeopathy with Natasa | Homeopath in London",
+    "seoDescription": "[HR] Nataša Perić, PhD, homeopath in private practice in London since 2009. Consultations in person in Telegraph Hill and online.",
+    "heroTitle": "[HR] Health that has been treated in pieces can be looked at as a whole",
+    "heroSubtitle": "[HR] I am Nataša Perić, a homeopath in London. I work with people whose symptoms have been handled one at a time, by different people, with nobody joining them up.",
+    "heroNote": "[HR] In person in Telegraph Hill, London, and online.",
+    "introTitle": "[HR] A scientist who chose homeopathy",
+    "introBody": "[HR] Before I became a homeopath I was a research scientist. I hold a PhD in Natural Sciences and I co-authored a biology textbook that has been on the compulsory reading list for undergraduate science courses in Croatia for over a decade. I came to homeopathy after a difficult post-partum period, when it helped me personally. I have been in private practice in London since 2009.",
+    "introBody2": "[HR] That training has stayed with me. I listen closely, I take careful notes, I look for patterns, and I am honest with you about what I can and cannot say.",
+    "recognitionTitle": "[HR] You may recognise some of this",
+    "recognitionItems": [
+      "[HR] Something has been going on for a long time and it has never quite resolved.",
+      "[HR] You have been told your results are normal, and you do not feel normal.",
+      "[HR] Each symptom has been looked at separately, by a different person.",
+      "[HR] You are not against conventional medicine. You have already been that route.",
+      "[HR] You would like one long conversation about your health, not another short one."
+    ],
+    "whatTitle": "[HR] What homeopathy is, in plain terms",
+    "whatBody": "[HR] Homeopathy is a type of medicine that treats the body as one unique integrated system, rather than isolating single organs that are studied separately and treated by different medical specialties. The purpose of that is to identify the root cause of symptoms rather than to quieten each one in turn.",
+    "whatBody2": "[HR] In practice it means a long conversation, careful observation, and a remedy chosen for you as an individual. The body is gently stimulated to heal itself. Small changes make a big difference.",
+    "credentialsTitle": "[HR] Background",
+    "credentials": [
+      "[HR] PhD in Natural Sciences, former research scientist",
+      "[HR] In private practice in London since 2009",
+      "[HR] Teaches and supervises at the Centre for Homeopathic Education, London, where she leads the Research Proposition module",
+      "[HR] Co-author of a university biology textbook used in Croatia for over a decade",
+      "[HR] Registered with the Complementary Therapist Association"
+    ],
+    "quotesTitle": "[HR] In their words",
+    "quotes": [
+      {
+        "text": "[HR] It was the first time anyone had asked about all of it in one conversation, rather than one piece at a time.",
+        "author": "[HR] A. M., London"
+      },
+      {
+        "text": "[HR] Natasa is calm and very precise. I never felt rushed and I never felt judged.",
+        "author": "[HR] R. K., online consultation"
+      },
+      {
+        "text": "[HR] She was honest with me about what she could and could not say. That is why I trusted her.",
+        "author": "[HR] S. T., London"
+      }
+    ],
+    "closingTitle": "[HR] If this sounds like the kind of care you are looking for",
+    "closingBody": "[HR] The first consultation is a long conversation. You can book it directly, or write to me first if you would rather ask something before you commit."
+  },
+  "about": {
+    "seoTitle": "[HR] About Nataša Perić | Homeopath in London since 2009",
+    "seoDescription": "[HR] Nataša Perić, PhD in Natural Sciences, homeopath in private practice in London since 2009 and supervisor at the Centre for Homeopathic Education.",
+    "title": "[HR] About Natasa",
+    "standfirst": "[HR] I am a homeopath in private practice in London. Before that I was a research scientist. Both of those things shape how I work.",
+    "sections": [
+      {
+        "heading": "[HR] How I came to this work",
+        "body": "[HR] I trained and worked as a research scientist and I did not expect to end up here. I came to homeopathy after a difficult post-partum period, when it helped me personally, at a point when I was not looking for it. I wanted to understand why. That question turned into a training, and then into a practice, and I have been seeing clients in London since 2009."
+      },
+      {
+        "heading": "[HR] Where the science shows up",
+        "body": "[HR] My PhD is in Natural Sciences and I co-authored a biology textbook that has been on the compulsory reading list for undergraduate science courses in Croatia for over a decade. What I carry from that is method. I listen closely, I record carefully, I look for the pattern that connects things rather than the loudest single symptom, and I am careful with language. If something is uncertain, I will say so."
+      },
+      {
+        "heading": "[HR] How I work with you",
+        "body": "[HR] I work with you and for you. This is a partnership between us, built on mutual trust and respect, on honesty and openness. Your treatment is tailored to you as an individual, and it moves at the pace your health actually moves at. I am not the authority in the room. You know things about your own body that I need you to tell me."
+      },
+      {
+        "heading": "[HR] Who I work best with",
+        "body": "[HR] The people I work best with are people who work on themselves. Many have done some form of therapy. They are committed to their wellbeing and they are tuned in to what is going on in their bodies. This is a considered, gradual way of working, and it asks something of you. If you are looking for something immediate, I am probably not the right person, and I would rather say that early."
+      },
+      {
+        "heading": "[HR] Teaching and supervision",
+        "body": "[HR] I teach and supervise at the Centre for Homeopathic Education in London, where I lead the Research Proposition module. Supervision keeps me in contact with how the next generation of practitioners is being trained, and it keeps my own thinking honest."
+      }
+    ],
+    "credentialsTitle": "[HR] Credentials",
+    "credentials": [
+      "[HR] PhD in Natural Sciences",
+      "[HR] BSc (Hons)",
+      "[HR] LCHE, Licentiate of the Centre for Homeopathic Education",
+      "[HR] In private practice in London since 2009",
+      "[HR] Lecturer and supervisor, Centre for Homeopathic Education, London",
+      "[HR] Registered with the Complementary Therapist Association"
+    ],
+    "closingTitle": "[HR] Shall we talk",
+    "closingBody": "[HR] The first consultation is long and unhurried. It is the best way to find out whether this way of working suits you."
+  },
+  "homeopathy": {
+    "seoTitle": "[HR] What homeopathy is | Homeopathy with Natasa, London",
+    "seoDescription": "[HR] Homeopathy treats the body as one integrated system rather than isolated organs. What a consultation is like, what it may support, and how remedies are sent.",
+    "title": "[HR] Homeopathy",
+    "standfirst": "[HR] A type of medicine that treats the body as one unique integrated system, in order to identify the root cause of symptoms.",
+    "whatTitle": "[HR] What it is",
+    "whatBody": "[HR] Conventional medicine has become very good at studying organs separately. The heart, the gut, the skin, the hormones: each one is studied on its own and treated by a different specialty. That division is useful, and it is also why a person with several connected symptoms can end up with several separate explanations and no single one.",
+    "whatBody2": "[HR] Homeopathy starts from the other end. It treats the body as one unique integrated system, and it reads symptoms as expressions of that whole system rather than as separate faults. The aim is to identify the root cause rather than to quieten each symptom in turn. The remedy is chosen for you as an individual, and the body is gently stimulated to heal itself.",
+    "notTitle": "[HR] What it is not",
+    "notItems": [
+      "[HR] It is not a replacement for your doctor. Please keep your medical care, and please tell me about it.",
+      "[HR] It is not mystical. I am a former research scientist and I speak plainly about what is known and what is not.",
+      "[HR] It is not fast. Longstanding patterns rarely shift quickly, and I will not pretend otherwise.",
+      "[HR] It is not passive. You are an active part of this, and what you notice between sessions matters."
+    ],
+    "supportTitle": "[HR] What people come to me with",
+    "supportIntro": "[HR] People come to me at many different points. Most often they are living with something that has continued for a long time and has been looked at in pieces. Homeopathy may support the person as a whole while that is going on. I do not make claims about outcomes for named conditions.",
+    "supportItems": [
+      "[HR] Hormonal changes across different stages of life",
+      "[HR] Low energy and exhaustion that has no clear explanation",
+      "[HR] Recurrent complaints that keep returning in the same pattern",
+      "[HR] Digestive discomfort",
+      "[HR] Skin that flares and settles",
+      "[HR] Sleep, tension and states of mind that sit alongside physical symptoms",
+      "[HR] Wanting support during a demanding period rather than treatment for one thing"
+    ],
+    "consultationTitle": "[HR] What a consultation is like",
+    "consultationSteps": [
+      {
+        "heading": "[HR] Before we meet",
+        "body": "[HR] You book a time and I send you a short form. Nothing complicated. It helps me arrive prepared."
+      },
+      {
+        "heading": "[HR] The first consultation",
+        "body": "[HR] We talk for around ninety minutes. I will ask about your health history, but also about sleep, appetite, temperature, energy, mood, what makes things better and what makes them worse. Some questions will feel unrelated. They are how the pattern becomes visible."
+      },
+      {
+        "heading": "[HR] After we talk",
+        "body": "[HR] I take time to study your case properly before choosing anything. This is the part of the work you do not see, and it is where the research training earns its place."
+      },
+      {
+        "heading": "[HR] Your remedy",
+        "body": "[HR] I select a remedy for you as an individual and explain how and when to take it, in writing, so you are not relying on memory."
+      },
+      {
+        "heading": "[HR] Follow-up",
+        "body": "[HR] We usually meet again after four to six weeks. We look at what has changed, including small things, and adjust. Small changes make a big difference."
+      }
+    ],
+    "remediesTitle": "[HR] How remedies reach you",
+    "remediesBody": "[HR] Remedies are prepared by an established homeopathic pharmacy and posted to your address in the UK, usually arriving within a few days. If you are outside the UK we will agree the arrangement together before your consultation. Remedy costs are separate from the consultation fee and are modest.",
+    "remediesBody2": "[HR] You will always receive written instructions. If anything is unclear afterwards, write to me. I would rather answer a short question than have you guessing.",
+    "askTitle": "[HR] What I ask of you",
+    "askBody": "[HR] Honesty and openness, including about the things that feel small or awkward. Patience, because this is gradual. And that you stay in touch between sessions if something changes. In return you have my full attention, my time, and a straight answer whenever I have one."
+  },
+  "consultations": {
+    "seoTitle": "[HR] Consultations and pricing | Homeopathy with Natasa, London",
+    "seoDescription": "[HR] First consultations, follow-ups and acute support, in person in Telegraph Hill, London, or online. Fees, clinic hours and cancellation policy.",
+    "title": "[HR] Consultations & pricing",
+    "standfirst": "[HR] In person in Telegraph Hill, London, or online, wherever you are. The same care either way.",
+    "offerTitle": "[HR] What I offer",
+    "offers": [
+      {
+        "heading": "[HR] First consultation",
+        "body": "[HR] Around ninety minutes. A full conversation about your health, your history and how you are living now. Case study and remedy selection happen afterwards, in my own time, and are included."
+      },
+      {
+        "heading": "[HR] Follow-up consultation",
+        "body": "[HR] Around forty-five minutes, usually four to six weeks later. We look at what has shifted and adjust from there."
+      },
+      {
+        "heading": "[HR] Acute support",
+        "body": "[HR] A short appointment for something sudden and recent, for people I already see. Good to have in case something comes up."
+      }
+    ],
+    "formatTitle": "[HR] In person or online",
+    "formatBody": "[HR] In person consultations take place in Telegraph Hill, south east London. Online consultations are by video and work well: most of this conversation is a conversation. Choose whichever means you can be somewhere quiet and uninterrupted.",
+    "pricingTitle": "[HR] Fees",
+    "pricingNote": "[HR] PLACEHOLDER: fees to be confirmed before the site goes live. Remedy and postage costs are separate and modest.",
+    "priceRows": [
+      {
+        "label": "[HR] First consultation, around 90 minutes",
+        "value": "[HR] £PLACEHOLDER"
+      },
+      {
+        "label": "[HR] Follow-up consultation, around 45 minutes",
+        "value": "[HR] £PLACEHOLDER"
+      },
+      {
+        "label": "[HR] Acute support, short appointment",
+        "value": "[HR] £PLACEHOLDER"
+      },
+      {
+        "label": "[HR] Remedies and postage",
+        "value": "[HR] Charged separately, PLACEHOLDER"
+      }
+    ],
+    "hoursTitle": "[HR] Clinic hours",
+    "hoursNote": "[HR] PLACEHOLDER: clinic hours to be confirmed.",
+    "hoursRows": [
+      {
+        "label": "[HR] Monday to Thursday",
+        "value": "[HR] PLACEHOLDER"
+      },
+      {
+        "label": "[HR] Friday",
+        "value": "[HR] PLACEHOLDER"
+      },
+      {
+        "label": "[HR] Saturday and Sunday",
+        "value": "[HR] PLACEHOLDER"
+      }
+    ],
+    "cancellationTitle": "[HR] Cancellation policy",
+    "cancellationBody": "[HR] PLACEHOLDER: cancellation terms to be confirmed. The intention is simple and fair on both sides. Please give as much notice as you can if you need to move an appointment, and I will do the same for you.",
+    "nextTitle": "[HR] What happens after you book",
+    "nextSteps": [
+      {
+        "heading": "[HR] You choose a time",
+        "body": "[HR] Booking opens in a new tab and you pick a slot that suits you."
+      },
+      {
+        "heading": "[HR] I send a short form",
+        "body": "[HR] A few questions by email, so that we can use our time together well."
+      },
+      {
+        "heading": "[HR] We meet",
+        "body": "[HR] In Telegraph Hill or by video, unhurried."
+      },
+      {
+        "heading": "[HR] Your remedy is posted",
+        "body": "[HR] With written instructions, after I have studied your case."
+      }
+    ],
+    "closingTitle": "[HR] Ready when you are",
+    "closingBody": "[HR] If you have a question first, write to me. I read every email myself."
+  },
+  "mentoring": {
+    "seoTitle": "[HR] Supervision and mentoring for homeopaths | Nataša Perić",
+    "seoDescription": "[HR] One-to-one and small group supervision for homeopathy students and newly qualified practitioners, with a lecturer at the Centre for Homeopathic Education.",
+    "title": "[HR] Mentoring and supervision",
+    "standfirst": "[HR] For homeopathy students and newly qualified practitioners who would like a steady, practical second opinion.",
+    "forTitle": "[HR] Who this is for",
+    "forItems": [
+      "[HR] Students in clinical training who want to talk a case through properly",
+      "[HR] Newly qualified practitioners setting up their first practice",
+      "[HR] Practitioners returning after a break",
+      "[HR] Anyone working on a research proposition or written case work"
+    ],
+    "oneToOneTitle": "[HR] One-to-one supervision",
+    "oneToOneBody": "[HR] A session for your cases and your questions. We look at what you gathered, what you may have missed, and how you reached your decision. The aim is not to hand you an answer. It is to make your own reasoning clearer and more repeatable.",
+    "groupTitle": "[HR] Small group supervision",
+    "groupBody": "[HR] Small groups, so that everyone speaks. One or two cases per session, presented by members of the group, discussed openly. Practitioners often learn as much from a case that is not theirs.",
+    "howTitle": "[HR] How sessions run",
+    "howSteps": [
+      {
+        "heading": "[HR] You send the case in advance",
+        "body": "[HR] So that I arrive having read it, and our time goes on the thinking rather than the summary."
+      },
+      {
+        "heading": "[HR] We work through it together",
+        "body": "[HR] Case taking, analysis, remedy reasoning, and what you would do differently next time."
+      },
+      {
+        "heading": "[HR] You leave with notes",
+        "body": "[HR] A short written summary of what we agreed, for your records and your training log."
+      }
+    ],
+    "backgroundTitle": "[HR] Why me",
+    "backgroundBody": "[HR] I teach and supervise at the Centre for Homeopathic Education in London, where I lead the Research Proposition module. I have been in practice since 2009 and I came to homeopathy from research science, so I am comfortable with methodology, with evidence, and with saying plainly when something is not known.",
+    "pricingTitle": "[HR] Fees",
+    "pricingNote": "[HR] PLACEHOLDER: supervision fees to be confirmed.",
+    "priceRows": [
+      {
+        "label": "[HR] One-to-one supervision, per session",
+        "value": "[HR] £PLACEHOLDER"
+      },
+      {
+        "label": "[HR] Small group supervision, per person per session",
+        "value": "[HR] £PLACEHOLDER"
+      },
+      {
+        "label": "[HR] Block of six sessions",
+        "value": "[HR] £PLACEHOLDER"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "[HR] Natasa asks the question you were avoiding, but kindly. I left with a much clearer method.",
+        "author": "[HR] Student practitioner, CHE"
+      }
+    ],
+    "closingTitle": "[HR] Get in touch",
+    "closingBody": "[HR] Tell me where you are in your training and what you would like support with, and we will find a format that fits."
+  },
+  "newsletter": {
+    "title": "[HR] Occasional letters",
+    "body": "[HR] A few times a year I write about how I work and what I am reading. No frequency you need to brace for.",
+    "placeholder": "[HR] Your email address",
+    "button": "[HR] Sign up",
+    "note": "[HR] PLACEHOLDER: not connected yet. Nothing is sent or stored.",
+    "success": "[HR] Thank you. This form is not connected yet, so please write to me directly for now."
+  },
+  "footer": {
+    "tagline": "[HR] Homeopathy in Telegraph Hill, London, and online.",
+    "registered": "[HR] Registered with the Complementary Therapist Association.",
+    "legalTitle": "[HR] Legal",
+    "privacy": "[HR] Privacy Policy",
+    "terms": "[HR] Terms and Conditions",
+    "ethics": "[HR] Code of Ethics",
+    "navTitle": "[HR] Pages",
+    "contactTitle": "[HR] Contact",
+    "rights": "[HR] All rights reserved.",
+    "disclaimer": "[HR] Homeopathy is a complementary therapy. It does not replace medical advice or treatment. Please continue to see your doctor."
+  },
+  "cookies": {
+    "text": "[HR] This site uses only what it needs to remember your language choice. You can refuse and everything still works.",
+    "accept": "[HR] Accept",
+    "refuse": "[HR] Refuse",
+    "more": "[HR] Privacy Policy"
+  },
+  "legal": {
+    "placeholderNotice": "[HR] PLACEHOLDER: this text is a structural draft and must be reviewed and completed before the site goes live.",
+    "privacy": {
+      "seoTitle": "[HR] Privacy Policy | Homeopathy with Natasa",
+      "seoDescription": "[HR] How Nataša Perić collects, uses and protects your personal information.",
+      "title": "[HR] Privacy Policy",
+      "standfirst": "[HR] How your information is handled.",
+      "sections": [
+        {
+          "heading": "[HR] Who I am",
+          "body": "[HR] PLACEHOLDER. Nataša Perić, homeopath, practising in Telegraph Hill, London. Contact details are in the footer of every page."
+        },
+        {
+          "heading": "[HR] What I collect",
+          "body": "[HR] PLACEHOLDER. Information you give me when you book or write to me, and the health information you share during consultations."
+        },
+        {
+          "heading": "[HR] Why I hold it",
+          "body": "[HR] PLACEHOLDER. To provide your care and to keep the case records a practitioner is required to keep."
+        },
+        {
+          "heading": "[HR] How long I keep it",
+          "body": "[HR] PLACEHOLDER. Retention period to be confirmed."
+        },
+        {
+          "heading": "[HR] Who else sees it",
+          "body": "[HR] PLACEHOLDER. The homeopathic pharmacy receives only what is needed to send your remedy. Nothing is sold or shared for marketing."
+        },
+        {
+          "heading": "[HR] This website",
+          "body": "[HR] PLACEHOLDER. This site stores your language preference and your cookie choice in your browser. There is no contact form and no analytics."
+        },
+        {
+          "heading": "[HR] Your rights",
+          "body": "[HR] PLACEHOLDER. You may ask to see, correct or delete the information I hold about you."
+        }
+      ]
+    },
+    "terms": {
+      "seoTitle": "[HR] Terms and Conditions | Homeopathy with Natasa",
+      "seoDescription": "[HR] Terms for consultations, fees, cancellations and the use of this website.",
+      "title": "[HR] Terms and Conditions",
+      "standfirst": "[HR] The terms on which consultations are provided.",
+      "sections": [
+        {
+          "heading": "[HR] Consultations",
+          "body": "[HR] PLACEHOLDER. Scope of consultations, in person and online."
+        },
+        {
+          "heading": "[HR] Fees and payment",
+          "body": "[HR] PLACEHOLDER. Fees, when payment is due, and how it is made."
+        },
+        {
+          "heading": "[HR] Cancellations",
+          "body": "[HR] PLACEHOLDER. Notice period and any charge."
+        },
+        {
+          "heading": "[HR] Remedies",
+          "body": "[HR] PLACEHOLDER. Remedy and postage costs, and delivery arrangements."
+        },
+        {
+          "heading": "[HR] Medical care",
+          "body": "[HR] PLACEHOLDER. Homeopathy does not replace medical advice or treatment. Please continue to see your doctor and tell me about any medication you take."
+        },
+        {
+          "heading": "[HR] Use of this website",
+          "body": "[HR] PLACEHOLDER. Content is for information only."
+        }
+      ]
+    },
+    "ethics": {
+      "seoTitle": "[HR] Code of Ethics | Homeopathy with Natasa",
+      "seoDescription": "[HR] The professional standards Nataša Perić practises to, as a member of the Complementary Therapist Association.",
+      "title": "[HR] Code of Ethics",
+      "standfirst": "[HR] The standards I hold myself to.",
+      "sections": [
+        {
+          "heading": "[HR] Professional registration",
+          "body": "[HR] PLACEHOLDER. I am registered with the Complementary Therapist Association and practise in line with its code."
+        },
+        {
+          "heading": "[HR] Confidentiality",
+          "body": "[HR] PLACEHOLDER. What you tell me stays between us, other than where the law requires otherwise."
+        },
+        {
+          "heading": "[HR] Consent",
+          "body": "[HR] PLACEHOLDER. You decide what happens, and you may stop at any point."
+        },
+        {
+          "heading": "[HR] Scope of practice",
+          "body": "[HR] PLACEHOLDER. I do not diagnose and I do not advise you to stop medication prescribed by your doctor."
+        },
+        {
+          "heading": "[HR] Honesty",
+          "body": "[HR] PLACEHOLDER. I will tell you when something is uncertain, and I will refer you on when that is the right thing to do."
+        },
+        {
+          "heading": "[HR] Continuing development",
+          "body": "[HR] PLACEHOLDER. I keep learning, teach, and take supervision myself."
+        }
+      ]
+    }
+  },
+  "images": {
+    "homePortraitLabel": "[HR] PLACEHOLDER: natasa-home.jpg, portrait, 300 x 360",
+    "aboutPortraitLabel": "[HR] PLACEHOLDER: natasa-about.jpg, portrait, 420 x 520",
+    "logoAlt": "[HR] Dandelion logo, Homeopathy with Natasa"
+  }
+}

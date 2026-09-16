@@ -1,0 +1,85 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { SiteLayout } from "@/components/site/SiteLayout";
+import { FadeIn } from "@/components/site/FadeIn";
+import { CurveDivider } from "@/components/site/CurveDivider";
+import {
+  CredentialsList,
+  CtaBand,
+  NewsletterBlock,
+  PageHeader,
+  PortraitSlot,
+  Prose,
+  Section,
+  SectionTitle,
+  type Step,
+} from "@/components/site/blocks";
+import { useI18n } from "@/i18n/LanguageProvider";
+
+export const Route = createFileRoute("/about")({
+  head: () => ({
+    meta: [
+      { title: "About Nataša Perić | Homeopath in London since 2009" },
+      {
+        name: "description",
+        content:
+          "Nataša Perić, PhD in Natural Sciences, homeopath in private practice in London since 2009 and supervisor at the Centre for Homeopathic Education.",
+      },
+      { property: "og:title", content: "About Nataša Perić | Homeopath in London" },
+      {
+        property: "og:description",
+        content:
+          "A research scientist who became a homeopath. Her story, her method and her credentials.",
+      },
+      { property: "og:type", content: "profile" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
+  component: About,
+});
+
+function About() {
+  const { t, tAny } = useI18n();
+  const sections = tAny<Step[]>("about.sections");
+
+  return (
+    <SiteLayout>
+      <PageHeader title={t("about.title")} standfirst={t("about.standfirst")} />
+
+      <Section prose={false}>
+        <div className="grid gap-12 md:grid-cols-[1fr_1.6fr] md:gap-16">
+          <FadeIn className="mx-auto w-full max-w-[380px]">
+            {/* IMAGE PLACEHOLDER: natasa-about.jpg, portrait */}
+            <PortraitSlot label={t("images.aboutPortraitLabel")} />
+          </FadeIn>
+          <div className="space-y-12">
+            {sections.map((section, i) => (
+              <FadeIn key={i} delay={i * 50}>
+                <SectionTitle>{section.heading}</SectionTitle>
+                <Prose className="mt-5">
+                  <p>{section.body}</p>
+                </Prose>
+              </FadeIn>
+            ))}
+          </div>
+        </div>
+      </Section>
+
+      <CurveDivider variant="soft" fill="muted" />
+      <Section tone="muted">
+        <FadeIn>
+          <SectionTitle>{t("about.credentialsTitle")}</SectionTitle>
+          <CredentialsList items={tAny<string[]>("about.credentials")} />
+        </FadeIn>
+      </Section>
+      <CurveDivider variant="soft" fill="background" />
+
+      <Section prose={false}>
+        <FadeIn>
+          <NewsletterBlock />
+        </FadeIn>
+      </Section>
+
+      <CtaBand title={t("about.closingTitle")} body={t("about.closingBody")} />
+    </SiteLayout>
+  );
+}
