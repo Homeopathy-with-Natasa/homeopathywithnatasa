@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils";
  * Until then this draws a simple dandelion-style placeholder in currentColor,
  * so nothing looks broken.
  */
-export function LogoMark({ className }: { className?: string }) {
+export function LogoMark({ className }: { className?: string | undefined }) {
   const seeds = Array.from({ length: 10 }, (_, i) => {
     const angle = (i / 10) * Math.PI * 2;
     return { x: 20 + Math.cos(angle) * 9, y: 22 + Math.sin(angle) * 9 };
