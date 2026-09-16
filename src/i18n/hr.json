@@ -277,15 +277,14 @@
     "sending": "[HR] Sending",
     "success": "[HR] Thank you. Your message has been sent and I will reply as soon as I can.",
     "error": "[HR] Your message did not go through. Please write to me directly at the address below and it will reach me.",
-    "notConfigured": "[HR] This form is not connected yet. Please use the email address below for now.",
     "fallbackLead": "[HR] Or write to me directly at",
-    "note": "[HR] What you send here is emailed to me. It is not stored on this website."
+    "note": "[HR] What you send here goes to me and is recorded in my secure client management system so that I can reply. It is not published anywhere."
   },
   "mentoring": {
     "seoTitle": "[HR] Supervision and mentoring for homeopaths | Nataša Perić",
     "seoDescription": "[HR] One-to-one and small group supervision for homeopathy students and newly qualified practitioners, with a lecturer at the Centre for Homeopathic Education.",
     "title": "[HR] Mentoring and supervision",
-    "standfirst": "[HR] For homeopathy students and newly qualified practitioners who would like a steady, practical second opinion.",
+    "standfirst": "[HR] You have a case in front of you and nobody to think it through with. This is where we do that together.",
     "forTitle": "[HR] Who this is for",
     "forItems": [
       "[HR] Students in clinical training who want to talk a case through properly",
@@ -332,7 +331,15 @@
     ],
     "quotes": [],
     "closingTitle": "[HR] Get in touch",
-    "closingBody": "[HR] Tell me where you are in your training and what you would like support with, and we will find a format that fits."
+    "closingBody": "[HR] Tell me where you are in your training and what you would like support with, and we will find a format that fits.",
+    "recognitionTitle": "[HR] You may recognise some of this",
+    "recognitionItems": [
+      "[HR] You are sitting with a case and you are not sure whether your reasoning holds, and there is nobody to check it against.",
+      "[HR] You need supervision hours to qualify, and you would like them to be genuinely useful rather than a box to tick.",
+      "[HR] You have finished your training and suddenly you are on your own, with real people in front of you.",
+      "[HR] You know the theory, and still you freeze when a live case looks like nothing in the books.",
+      "[HR] You are writing up a case or a research proposition and you do not know whether it is good enough."
+    ]
   },
   "newsletter": {
     "title": "[HR] Occasional letters",
@@ -390,7 +397,7 @@
         },
         {
           "heading": "[HR] This website",
-          "body": "[HR] This site stores two things in your own browser: your language preference and your cookie choice. There is no analytics and no tracking. The contact form posts your message to a form service, which emails it to me. What you send is not stored on this website."
+          "body": "[HR] This site stores two things in your own browser: your language preference and your cookie choice. There is no analytics and no tracking. What you send through the contact form goes to me and is recorded in my secure client management system so that I can reply. It is not published anywhere."
         },
         {
           "heading": "[HR] Your rights",
