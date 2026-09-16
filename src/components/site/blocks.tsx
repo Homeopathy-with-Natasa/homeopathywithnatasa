@@ -4,7 +4,7 @@ import { useI18n } from "@/i18n/LanguageProvider";
 import { bookingLink, mailtoLink, mentoringLink, CONTACT_EMAIL } from "@/config/site";
 import { submitContact } from "@/lib/contact.functions";
 import { cn } from "@/lib/utils";
-import natasaPortrait from "@/assets/natasa.jpg.asset.json";
+import natasaPortrait from "@/assets/natasa-home.jpg.asset.json";
 import { FadeIn } from "./FadeIn";
 import { CurveDivider } from "./CurveDivider";
 

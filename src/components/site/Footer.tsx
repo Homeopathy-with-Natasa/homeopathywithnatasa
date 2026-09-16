@@ -21,8 +21,7 @@ export function Footer() {
       <footer className="bg-green-800 text-green-100">
         <div className="container-site grid gap-10 py-14 md:grid-cols-4 md:py-16">
           <div className="md:col-span-2">
-            {/* LOGO PLACEHOLDER: white dandelion on green-800 */}
-            <Wordmark text={t("meta.brand")} className="text-green-50" />
+            <Wordmark text={t("meta.brand")} className="text-green-50" variant="white" />
             <p className="mt-4 max-w-sm text-sm text-green-200">{t("footer.tagline")}</p>
             <p className="mt-2 text-sm text-green-200">{PRACTICE_LOCATION}</p>
           </div>

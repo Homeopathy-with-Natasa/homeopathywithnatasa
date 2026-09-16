@@ -16,6 +16,8 @@ import {
   type QuoteItem,
 } from "@/components/site/blocks";
 import { useI18n } from "@/i18n/LanguageProvider";
+import { SITE_URL } from "@/config/site";
+import ogImage from "@/assets/og-image.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -33,7 +35,9 @@ export const Route = createFileRoute("/")({
           "A homeopath in London who treats the body as one integrated system. In person in Telegraph Hill and online.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:image", content: SITE_URL + ogImage.url },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:image", content: SITE_URL + ogImage.url },
     ],
   }),
   component: Home,

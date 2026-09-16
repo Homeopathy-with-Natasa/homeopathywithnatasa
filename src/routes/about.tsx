@@ -14,6 +14,7 @@ import {
   type Step,
 } from "@/components/site/blocks";
 import { useI18n } from "@/i18n/LanguageProvider";
+import natasaAbout from "@/assets/natasa-about.jpg.asset.json";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -48,8 +49,8 @@ function About() {
       <Section prose={false}>
         <div className="grid gap-12 md:grid-cols-[1fr_1.6fr] md:gap-16">
           <FadeIn className="mx-auto w-full max-w-[380px]">
-            {/* IMAGE PLACEHOLDER: natasa-about.jpg, portrait */}
-            <PortraitSlot label={t("images.aboutPortraitLabel")} />
+            {/* Portrait, about page */}
+            <PortraitSlot label={t("images.aboutPortraitLabel")} src={natasaAbout.url} />
           </FadeIn>
           <div className="space-y-12">
             {sections.map((section, i) => (
