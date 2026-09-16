@@ -4,14 +4,17 @@ import { FadeIn } from "@/components/site/FadeIn";
 import { CurveDivider } from "@/components/site/CurveDivider";
 import {
   CardList,
+  ContactForm,
   CtaBand,
   PageHeader,
   PriceTable,
   Prose,
+  QuoteRow,
   Section,
   SectionTitle,
   StepList,
   type PriceRow,
+  type QuoteItem,
   type Step,
 } from "@/components/site/blocks";
 import { useI18n } from "@/i18n/LanguageProvider";
