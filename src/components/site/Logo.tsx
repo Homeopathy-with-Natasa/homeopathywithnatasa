@@ -12,9 +12,10 @@ import { cn } from "@/lib/utils";
  * so nothing looks broken.
  */
 export function LogoMark({ className }: { className?: string | undefined }) {
+  const round = (n: number) => Math.round(n * 100) / 100;
   const seeds = Array.from({ length: 10 }, (_, i) => {
     const angle = (i / 10) * Math.PI * 2;
-    return { x: 20 + Math.cos(angle) * 9, y: 22 + Math.sin(angle) * 9 };
+    return { x: round(20 + Math.cos(angle) * 9), y: round(22 + Math.sin(angle) * 9) };
   });
 
   return (
