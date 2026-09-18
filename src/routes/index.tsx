@@ -7,6 +7,7 @@ import {
   CredentialsList,
   CtaBand,
   NewsletterBlock,
+  PlainList,
   PortraitSlot,
   Prose,
   QuoteRow,
@@ -52,7 +53,7 @@ function Home() {
         <div className="container-site grid items-center gap-10 pt-14 pb-16 md:grid-cols-[1.25fr_1fr] md:gap-16 md:pt-24 md:pb-24">
           <FadeIn>
             <h1 className="text-4xl leading-[1.1] md:text-[3.25rem]">{t("home.heroTitle")}</h1>
-            <p className="mt-6 max-w-xl text-lg text-green-700 md:text-xl">
+            <p className="font-display mt-6 max-w-xl text-lg tracking-wide text-green-700 md:text-xl">
               {t("home.heroSubtitle")}
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-3">
@@ -80,31 +81,18 @@ function Home() {
           <SectionTitle>{t("home.introTitle")}</SectionTitle>
           <Prose className="mt-6">
             <p>{t("home.introBody")}</p>
-            <p>{t("home.introBody2")}</p>
           </Prose>
         </FadeIn>
-        <FadeIn delay={80}>
-          <p className="font-display mt-14 max-w-2xl text-xl leading-relaxed text-green-700 md:text-2xl">
-            {t("home.mission")}
-          </p>
-        </FadeIn>
       </Section>
 
-      <CurveDivider variant="deep" from="background" fill="muted" />
+      <CurveDivider variant="soft" from="background" fill="muted" />
       <Section tone="muted">
-        <FadeIn>
-          <SectionTitle>{t("home.recognitionTitle")}</SectionTitle>
-        </FadeIn>
-        <RecognitionList items={tAny<string[]>("home.recognitionItems")} />
-      </Section>
-      <CurveDivider variant="deep" from="muted" fill="background" />
-
-      <Section>
         <FadeIn>
           <SectionTitle>{t("home.whatTitle")}</SectionTitle>
           <Prose className="mt-6">
-            <p>{t("home.whatBody")}</p>
-            <p>{t("home.whatBody2")}</p>
+            {t("home.whatBody")
+              .split("\n\n")
+              .map((paragraph, index) => <p key={index}>{paragraph}</p>)}
             <p>
               <Link
                 to="/homeopathy"
@@ -116,17 +104,39 @@ function Home() {
           </Prose>
         </FadeIn>
       </Section>
+      <CurveDivider variant="soft" from="muted" fill="background" />
 
-      <CurveDivider variant="soft" from="background" fill="muted" />
+      <Section>
+        <FadeIn>
+          <SectionTitle>{t("home.arrivalTitle")}</SectionTitle>
+          <Prose className="mt-6">
+            <p>{t("home.arrivalIntro")}</p>
+          </Prose>
+          <PlainList items={tAny<string[]>("home.arrivalItems")} />
+        </FadeIn>
+      </Section>
+
+      <CurveDivider variant="deep" from="background" fill="muted" />
       <Section tone="muted">
+        <FadeIn>
+          <SectionTitle>{t("home.recognitionTitle")}</SectionTitle>
+        </FadeIn>
+        <RecognitionList items={tAny<string[]>("home.recognitionItems")} />
+        <FadeIn>
+          <p className="mt-10 text-green-900/90">{t("home.recognitionClosing")}</p>
+        </FadeIn>
+      </Section>
+      <CurveDivider variant="deep" from="muted" fill="background" />
+
+      <Section>
         <FadeIn>
           <SectionTitle>{t("home.credentialsTitle")}</SectionTitle>
           <CredentialsList items={tAny<string[]>("home.credentials")} />
         </FadeIn>
       </Section>
-      <CurveDivider variant="soft" from="muted" fill="background" />
 
-      <Section prose={false}>
+      <CurveDivider variant="soft" from="background" fill="muted" />
+      <Section prose={false} tone="muted">
         <FadeIn>
           <SectionTitle>{t("home.quotesTitle")}</SectionTitle>
         </FadeIn>
@@ -136,6 +146,14 @@ function Home() {
       <Section prose={false} className="pt-0">
         <FadeIn>
           <NewsletterBlock />
+        </FadeIn>
+      </Section>
+
+      <Section>
+        <FadeIn>
+          <blockquote className="font-display max-w-3xl text-xl leading-relaxed text-green-700 md:text-2xl">
+            {t("home.beliefsQuote")}
+          </blockquote>
         </FadeIn>
       </Section>
 

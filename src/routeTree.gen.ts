@@ -16,6 +16,7 @@ import { Route as ConsultationsRouteImport } from './routes/consultations'
 import { Route as HomeopathyRouteImport } from './routes/homeopathy'
 import { Route as MentoringRouteImport } from './routes/mentoring'
 import { Route as PrivacyRouteImport } from './routes/privacy'
+import { Route as SupervisionRouteImport } from './routes/supervision'
 import { Route as TermsRouteImport } from './routes/terms'
 
 const IndexRoute = IndexRouteImport.update({
@@ -53,6 +54,11 @@ const PrivacyRoute = PrivacyRouteImport.update({
   path: '/privacy',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SupervisionRoute = SupervisionRouteImport.update({
+  id: '/supervision',
+  path: '/supervision',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const TermsRoute = TermsRouteImport.update({
   id: '/terms',
   path: '/terms',
@@ -67,6 +73,7 @@ export interface FileRoutesByFullPath {
   '/homeopathy': typeof HomeopathyRoute
   '/mentoring': typeof MentoringRoute
   '/privacy': typeof PrivacyRoute
+  '/supervision': typeof SupervisionRoute
   '/terms': typeof TermsRoute
 }
 export interface FileRoutesByTo {
@@ -77,6 +84,7 @@ export interface FileRoutesByTo {
   '/homeopathy': typeof HomeopathyRoute
   '/mentoring': typeof MentoringRoute
   '/privacy': typeof PrivacyRoute
+  '/supervision': typeof SupervisionRoute
   '/terms': typeof TermsRoute
 }
 export interface FileRoutesById {
@@ -88,6 +96,7 @@ export interface FileRoutesById {
   '/homeopathy': typeof HomeopathyRoute
   '/mentoring': typeof MentoringRoute
   '/privacy': typeof PrivacyRoute
+  '/supervision': typeof SupervisionRoute
   '/terms': typeof TermsRoute
 }
 export interface FileRouteTypes {
@@ -100,6 +109,7 @@ export interface FileRouteTypes {
     | '/homeopathy'
     | '/mentoring'
     | '/privacy'
+    | '/supervision'
     | '/terms'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -110,6 +120,7 @@ export interface FileRouteTypes {
     | '/homeopathy'
     | '/mentoring'
     | '/privacy'
+    | '/supervision'
     | '/terms'
   id:
     | '__root__'
@@ -120,6 +131,7 @@ export interface FileRouteTypes {
     | '/homeopathy'
     | '/mentoring'
     | '/privacy'
+    | '/supervision'
     | '/terms'
   fileRoutesById: FileRoutesById
 }
@@ -131,6 +143,7 @@ export interface RootRouteChildren {
   HomeopathyRoute: typeof HomeopathyRoute
   MentoringRoute: typeof MentoringRoute
   PrivacyRoute: typeof PrivacyRoute
+  SupervisionRoute: typeof SupervisionRoute
   TermsRoute: typeof TermsRoute
 }
 
@@ -185,6 +198,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PrivacyRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/supervision': {
+      id: '/supervision'
+      path: '/supervision'
+      fullPath: '/supervision'
+      preLoaderRoute: typeof SupervisionRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/terms': {
       id: '/terms'
       path: '/terms'
@@ -203,6 +223,7 @@ const rootRouteChildren: RootRouteChildren = {
   HomeopathyRoute: HomeopathyRoute,
   MentoringRoute: MentoringRoute,
   PrivacyRoute: PrivacyRoute,
+  SupervisionRoute: SupervisionRoute,
   TermsRoute: TermsRoute,
 }
 export const routeTree = rootRouteImport

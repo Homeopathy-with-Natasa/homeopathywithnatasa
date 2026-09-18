@@ -1,7 +1,7 @@
 import { useState, type FormEvent, type ReactNode } from "react";
 import { useServerFn } from "@tanstack/react-start";
 import { useI18n } from "@/i18n/LanguageProvider";
-import { bookingLink, mailtoLink, mentoringLink, CONTACT_EMAIL } from "@/config/site";
+import { bookingLink, mailtoLink, supervisionLink, CONTACT_EMAIL } from "@/config/site";
 import { submitContact } from "@/lib/contact.functions";
 import { cn } from "@/lib/utils";
 import natasaPortrait from "@/assets/natasa-home.jpg.asset.json";
@@ -13,16 +13,16 @@ import { CurveDivider } from "./CurveDivider";
 
 export function BookButton({
   variant = "primary",
-  mentoring = false,
+  supervision = false,
   label,
 }: {
   variant?: "primary" | "accent" | "quiet";
-  mentoring?: boolean;
+  supervision?: boolean;
   label?: string;
 }) {
   const { t, lang } = useI18n();
-  const href = mentoring ? mentoringLink(lang) : bookingLink(lang);
-  const text = label ?? t(mentoring ? "cta.bookMentoring" : "cta.book");
+  const href = supervision ? supervisionLink(lang) : bookingLink(lang);
+  const text = label ?? t(supervision ? "cta.bookSupervision" : "cta.book");
 
   return (
     <a
@@ -306,11 +306,11 @@ export function NewsletterBlock() {
 export function CtaBand({
   title,
   body,
-  mentoring = false,
+  supervision = false,
 }: {
   title: string;
   body: string;
-  mentoring?: boolean;
+  supervision?: boolean;
 }) {
   return (
     <>
@@ -321,7 +321,7 @@ export function CtaBand({
             <h2 className="text-3xl md:text-4xl">{title}</h2>
             <p className="mx-auto mt-5 max-w-xl text-green-900/85">{body}</p>
             <div className="mt-8 flex flex-wrap justify-center gap-3">
-              <BookButton variant="accent" mentoring={mentoring} />
+              <BookButton variant="accent" supervision={supervision} />
               <EmailLink />
             </div>
           </FadeIn>
