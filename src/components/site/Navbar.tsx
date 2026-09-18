@@ -12,7 +12,7 @@ export const NAV_ITEMS = [
   { to: "/about", key: "nav.about" },
   { to: "/homeopathy", key: "nav.homeopathy" },
   { to: "/consultations", key: "nav.consultations" },
-  { to: "/mentoring", key: "nav.mentoring" },
+  { to: "/supervision", key: "nav.supervision" },
 ] as const;
 
 export function Navbar() {

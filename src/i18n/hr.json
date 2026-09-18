@@ -8,39 +8,37 @@
     "about": "O meni",
     "homeopathy": "Homeopatija",
     "consultations": "Konzultacije i cijene",
-    "mentoring": "Mentorstvo",
     "menu": "Izbornik",
-    "close": "Zatvori"
+    "close": "Zatvori",
+    "supervision": "Supervizija"
   },
   "cta": {
     "book": "Rezervirajte prvu konzultaciju",
     "bookShort": "Rezervirajte konzultaciju",
-    "bookMentoring": "Rezervirajte superviziju",
     "email": "Pošaljite e-poruku",
     "readMore": "Saznajte više o homeopatiji",
-    "seePricing": "Pogledajte konzultacije i cijene"
+    "seePricing": "Pogledajte konzultacije i cijene",
+    "bookSupervision": "Rezervirajte superviziju"
   },
   "home": {
     "seoTitle": "Homeopathy with Natasa | Homeopatkinja u Londonu",
     "seoDescription": "Nataša Perić, PhD, homeopatkinja s privatnom praksom u Londonu od 2009. Videokonzultacije na daljinu i osobni dolasci u Telegraph Hill prema dogovoru.",
-    "heroTitle": "Zdravlje kojem se pristupalo u dijelovima može se sagledati kao cjelina",
-    "heroSubtitle": "Ja sam Nataša Perić, homeopatkinja u Londonu. Radim s ljudima čijim se simptomima pristupalo pojedinačno i kod različitih stručnjaka, a da ih nitko nije povezao u cjelinu.",
+    "heroTitle": "Dobra skrb počinje slušanjem.",
+    "heroSubtitle": "Promišljeno. Individualno. Osobno.",
     "heroNote": "Na daljinu putem videopoziva, gdje god se nalazili. Osobno u Telegraph Hillu u Londonu, prema dogovoru.",
-    "mission": "Pomažem ženama i mladima da se snađu u razdobljima u kojima su izgubili osjećaj sebe, uz homeopatiju, znanost i iskren razgovor.",
     "introTitle": "Znanstvenica koja je odabrala homeopatiju",
-    "introBody": "Prije nego što sam postala homeopatkinja, bavila sam se znanstvenim istraživanjem. Doktorirala sam prirodne znanosti i suautorica sam udžbenika biologije koji je više od desetljeća bio obvezna literatura na preddiplomskim studijima prirodnih znanosti u Hrvatskoj. Homeopatiji sam se okrenula nakon teškog poslijeporođajnog razdoblja, kada mi je osobno pomogla. Privatnu praksu u Londonu vodim od 2009.",
-    "introBody2": "Taj je način rada ostao sa mnom. Pažljivo slušam i bilježim, tražim obrasce te Vam iskreno kažem što mogu, a što ne mogu tvrditi.",
+    "introBody": "Pozdrav, ja sam Nataša, homeopatkinja, istraživačica, predavačica, supervizorica i majka koja živi u jugoistočnom Londonu. Homeopatija je važan dio mojeg života gotovo 25 godina, a profesionalno je prakticiram već 17 godina. Strastveno sam posvećena pružanju promišljene i individualizirane podrške. U svojem pristupu spajam iskustvo, suosjećanje i predanost cjeloživotnom učenju kako bih Vam pomogla da radite na boljem zdravlju, dobrobiti, ravnoteži i tome da se osjećate najbolje što možete.",
+    "introBody2": "",
     "recognitionTitle": "Možda ćete se prepoznati u ovome",
     "recognitionItems": [
-      "Nešto traje već dugo i nikada se nije posve razriješilo.",
-      "Rečeno Vam je da su nalazi uredni, ali Vi se ne osjećate dobro.",
-      "Svaki je simptom promatran zasebno, kod drugog stručnjaka.",
-      "Nemate ništa protiv konvencionalne medicine. Tim ste putem već prošli.",
-      "Željeli biste jedan temeljit razgovor o svom zdravlju, a ne još jedan kratki."
+      "Spremni ste ulagati u svoje zdravlje i dobrobit",
+      "Otvoreni ste i znatiželjni prema drukčijem pristupu zdravlju",
+      "Isprobali ste druge pristupe i tražite nešto drukčije ili Vas brinu nuspojave konvencionalnih lijekova",
+      "Spremni ste preuzeti aktivnu ulogu u vlastitom oporavku"
     ],
-    "whatTitle": "Što je homeopatija, jednostavno rečeno",
-    "whatBody": "Homeopatija je vrsta medicine koja tijelo promatra kao jedinstven, integriran sustav, umjesto da izdvaja pojedine organe koje različite medicinske specijalnosti proučavaju i obrađuju odvojeno. Cilj je prepoznati temeljni uzrok simptoma, a ne utišavati jedan po jedan.",
-    "whatBody2": "U praksi to znači dug razgovor, pažljivo promatranje i pripravak odabran za Vas kao pojedinca. Tijelo se nježno potiče na vlastiti proces oporavka. Male promjene mogu donijeti veliku razliku.",
+    "whatTitle": "Kako Vam mogu pomoći?",
+    "whatBody": "Kada ljudima kažem da sam homeopatkinja, zamole me da objasnim što to znači.\n\nHomeopatija promatra tijelo kao jedinstven, integriran sustav. Traži temeljni uzrok Vaših simptoma, umjesto da im pristupa samo površinski. Budući da je svaka osoba drukčija, svaki je pristup potpuno individualiziran.\n\nHomeopatija pruža podršku oporavku tijela, uma i duha kao cjeline, s ciljem uspostavljanja ravnoteže i dugotrajnije dobrobiti.\n\nNudim Vam podržavajući prostor bez osuđivanja, u kojem Vas vidim kao cjelovitu osobu i pružam Vam skrb koja Vam je potrebna.",
+    "whatBody2": "",
     "credentialsTitle": "Iskustvo i obrazovanje",
     "credentials": [
       "PhD iz prirodnih znanosti, bivša znanstvena istraživačica",
@@ -65,46 +63,69 @@
       }
     ],
     "closingTitle": "Ako ovakav pristup odgovara onome što tražite",
-    "closingBody": "Prva konzultacija opsežan je razgovor. Možete je odmah rezervirati ili mi se najprije javiti ako prije odluke želite nešto pitati."
+    "closingBody": "Prva konzultacija opsežan je razgovor. Možete je odmah rezervirati ili mi se najprije javiti ako prije odluke želite nešto pitati.",
+    "arrivalTitle": "Zbog čega mi se ljudi obraćaju",
+    "arrivalIntro": "Niste sami. Stres suvremenog života može donijeti niz izazova koji mogu ostaviti traga na našem zdravlju, među kojima su:",
+    "arrivalItems": [
+      "Osjećaj preopterećenosti i česta tjeskoba",
+      "Iscrpljenost i nemogućnost da odgovorite na zahtjeve svakodnevice",
+      "Mentalna magla, poteškoće s tjelesnom težinom, probavne tegobe ili smanjena otpornost",
+      "Hormonalna neravnoteža, PMS ili simptomi menopauze",
+      "Manjak energije i motivacije, sniženo raspoloženje ili loš san",
+      "Prošla trauma ili nerazriješeni osjećaji koji Vas možda sputavaju"
+    ],
+    "recognitionClosing": "Ako se u ovome prepoznajete, voljela bih da se povežemo i zajedno istražimo kako bi Vam homeopatija mogla pružiti podršku.",
+    "beliefsQuote": "U središtu moje prakse dva su čvrsta uvjerenja: da dijagnoza ne određuje našu sudbinu i da naše tijelo ima iznimnu sposobnost vlastitog oporavka kada dobije potrebnu podršku."
   },
   "about": {
     "seoTitle": "O Nataši Perić | Homeopatkinja u Londonu od 2009.",
     "seoDescription": "Nataša Perić, PhD iz prirodnih znanosti, homeopatkinja s privatnom praksom u Londonu od 2009. i supervizorica u Centre for Homeopathic Education.",
     "title": "O Nataši",
-    "standfirst": "Homeopatkinja sam s privatnom praksom u Londonu. Prije toga bavila sam se znanstvenim istraživanjem. Oba iskustva oblikuju moj način rada.",
+    "standfirst": "Znanstvenici koji su odabrali homeopatiju",
     "sections": [
       {
-        "heading": "Kako sam došla do ovog poziva",
-        "body": "Obrazovala sam se i radila kao znanstvena istraživačica te nisam očekivala da ću završiti ovdje. Homeopatiji sam se okrenula nakon teškog poslijeporođajnog razdoblja, kada mi je osobno pomogla, iako je tada nisam tražila. Željela sam razumjeti zašto. To me pitanje odvelo na edukaciju, a zatim u praksu. S klijentima u Londonu radim od 2009."
+        "heading": "Neočekivani počeci",
+        "body": "Moja strast prema homeopatiji razvila se nakon rođenja mojeg sina, kada sam dobila homeopatski pripravak za nekoliko poslijeporođajnih poteškoća, uključujući depresiju. Kada je moj sin imao šest mjeseci, potražila sam pomoć homeopata i iznenadila se koliko sam brzo odgovorila na pristup. Depresija se povukla i vratila mi se vitalnost, a istodobno sam osjetila snažan val ljubavi i povezanosti sa sinom. Nisam znala da su posljedice traumatičnog poroda izravno utjecale na našu povezanost te na moju mentalnu i emocionalnu dobrobit.\n\nTo je iskustvo probudilo moju fascinaciju homeopatijom i promijenilo mi život. Potaknulo me da u potpunosti razumijem kako sam se uspjela oporaviti. Manje od godinu dana poslije odlučila sam promijeniti zanimanje i upisati BSc studij homeopatije u Centre for Homeopathic Education u Londonu, najvećem homeopatskom učilištu u Ujedinjenom Kraljevstvu.\n\nPovezala sam svoje zanimanje za cjelovito zdravlje i medicinu sa znanjem iz prirodnih znanosti. Tijekom četverogodišnje homeopatske edukacije u CHE-u posvetila sam se naprednom proučavanju homeopatske teorije i filozofije, metodologije i istraživanja. Učila sam od izvrsnih nastavnika koji su donosili različite stilove i bogato iskustvo. Sve mi je to pomoglo razviti čvrstu kliničku praksu. Čast mi je što danas u CHE-u radim kao predavačica i tutorica uz iste homeopate i nastavnike koji su obrazovali mene."
       },
       {
         "heading": "Gdje se vidi znanstveni pristup",
         "body": "Doktorirala sam prirodne znanosti i suautorica sam udžbenika biologije koji je više od desetljeća bio obvezna literatura na preddiplomskim studijima prirodnih znanosti u Hrvatskoj. Iz tog sam rada zadržala metodu. Pažljivo slušam i bilježim, tražim obrazac koji povezuje pojave umjesto da se usredotočim samo na najizraženiji simptom te precizno biram riječi. Ako nešto nije sigurno, to ću i reći."
       },
       {
-        "heading": "Kako radim s Vama",
-        "body": "Radim s Vama i za Vas. To je partnerski odnos izgrađen na uzajamnom povjerenju i poštovanju, iskrenosti i otvorenosti. Pristup je prilagođen Vama kao pojedincu i prati ritam kojim se Vaše zdravlje doista mijenja. Nisam jedini autoritet u prostoriji. Vi o vlastitom tijelu znate ono što mi trebate ispričati."
-      },
-      {
-        "heading": "S kim najbolje radim",
-        "body": "Najbolje radim s ljudima koji rade na sebi. Mnogi su prošli neki oblik terapije, predani su svojoj dobrobiti i dobro osjećaju što se u njima događa. To je važno iz praktičnih, a ne uzvišenih razloga. Postavljam pitanja koja zadiru dublje, primjerice zašto osjećate sram i gdje ga u sebi osjećate, a ljudi koji se već donekle poznaju mogu na njih odgovoriti. Upravo se ondje nalazi ono bitno. Tijekom konzultacije nastojim razumjeti Vaš emocionalni svijet, i kao ljudsko biće i kao homeopatkinja. Ovakav način rada nije za svakoga. Ako želite brzo rješenje ili ste pokušali sve, ali se ničemu ne želite posvetiti, vjerojatno od njega nećete dobiti mnogo. Radije ću Vam to iskreno reći nego uzeti Vaš novac."
+        "heading": "Kako radim",
+        "body": "Važno mi je slušati Vas pažljivo i svjesno te uvažavati Vašu jedinstvenost i Vaše odnose sa sobom, drugima i svijetom oko Vas.\n\nPredana sam tome da Vam pružim najbolje od onoga što živim i učim, uz stvaran i iskren pristup na svakom koraku.\n\nOvo su vrijednosti prema kojima radim. Predana sam pružanju najkvalitetnije usluge svojim klijentima i pomaganju da otkriju snagu prirodnih pripravaka u procesu oporavka. Želim osnažiti klijente da preuzmu brigu o zdravlju u svoje ruke. Živim ono što govorim jer sam i sama istražila i iskusila prirodne pristupe zdravlju i homeopatiju, kvalitetnu prehranu, tapping, jogu i svjesnu prisutnost. Vodim Vas kroz Vaš individualni protokol i dijelim praktične alate i izvore koje sam i sama koristila.\n\nMoja je namjera jednostavna: raditi s Vama u partnerstvu i pomoći Vam da živite zdravo.\n\nVjerujem da svoje tijelo poznajemo bolje od ikoga i potičem klijente da sa mnom podijele vlastito viđenje. Važna mi je suradnja s klijentima pri stvaranju plana pristupa i jako me zanima ono što zajedno stvaramo."
       },
       {
         "heading": "Podučavanje i supervizija",
         "body": "Predajem i vodim superviziju u Centre for Homeopathic Education u Londonu, gdje vodim modul Research Proposition. Supervizija me drži u dodiru s načinom na koji se obrazuje nova generacija praktičara i pomaže mi da vlastito razmišljanje ostane iskreno i temeljito."
       }
     ],
-    "credentialsTitle": "Kvalifikacije",
-    "credentials": [
-      "PhD iz prirodnih znanosti",
-      "BSc (Hons)",
-      "LCHE, licencija ustanove Centre for Homeopathic Education",
-      "U privatnoj praksi u Londonu od 2009.",
-      "Predavačica i supervizorica, Centre for Homeopathic Education, London",
-      "Registrirana pri Complementary Therapist Association (udruženju komplementarnih terapeuta)"
-    ],
+    "credentialsTitle": "Biografija i kvalifikacije",
     "closingTitle": "Razgovarajmo",
-    "closingBody": "Prva je konzultacija duga i odvija se bez žurbe. To je najbolji način da utvrdite odgovara li Vam ovakav način rada."
+    "closingBody": "Prva je konzultacija duga i odvija se bez žurbe. To je najbolji način da utvrdite odgovara li Vam ovakav način rada.",
+    "credentialsIntro": "Homeopatiju prakticiram od stjecanja kvalifikacije 2009., u Londonu i u svojoj domovini Hrvatskoj. Uz privatnu homeopatsku praksu predajem i vodim superviziju studenata u Centre for Homeopathic Education, najvećem homeopatskom učilištu u Ujedinjenom Kraljevstvu.",
+    "credentialsGroups": [
+      {
+        "heading": "Homeopatsko obrazovanje i iskustvo",
+        "items": [
+          "Licentiate of the Centre for Homeopathic Education (LCHE) i BSc (Hons) studij homeopatije završen s najvišom ocjenom, uz potvrdu Middlesex University u Londonu",
+          "Registrirana članica Complementary Therapists Association",
+          "Predana stručnom usavršavanju; novije edukacije uključuju ljudsku biokemiju i homeopatiju za detoksikacijsku terapiju te homeobotaničku terapiju",
+          "Devet godina rada kao supervizorica studentima i nedavno kvalificiranim homeopatima te predavačica u Centre for Homeopathic Education u Londonu",
+          "Od 2005. do 2010.: Ainsworths Homeopathic Pharmacy, Marylebone u središnjem Londonu, savjetovanje klijenata i izdavanje homeopatskih pripravaka",
+          "2013.: sudjelovala u timu homeopata na intenzivnom jednotjednom putovanju u Gambiju, u pokretnoj klinici koja je donosila medicinsku skrb ruralnim zajednicama"
+        ]
+      },
+      {
+        "heading": "Ostalo obrazovanje i rad",
+        "items": [
+          "PhD iz prirodnih znanosti: molekularna biologija",
+          "15 godina u istraživačkom sektoru kao poslijedoktorska istraživačica te asistentica u nastavi i istraživanju",
+          "Edukacija iz osobnog razvoja, uključujući program Power of Awareness pri Awareness Training Institute, u suradnji s Greater Good Science Center na University of California, Berkeley",
+          "Prakticiram jogu, meditaciju i pisanje dnevnika"
+        ]
+      }
+    ]
   },
   "homeopathy": {
     "seoTitle": "Što je homeopatija | Homeopathy with Natasa, London",
@@ -134,34 +155,24 @@
       "San, napetost i emocionalna stanja koja prate tjelesne simptome",
       "Potreba za podrškom tijekom zahtjevnog razdoblja, a ne pristupom usmjerenim na samo jednu tegobu"
     ],
-    "consultationTitle": "Kako izgleda konzultacija",
-    "consultationSteps": [
-      {
-        "heading": "Prije susreta",
-        "body": "Rezervirate termin, a ja Vam šaljem kratak obrazac. Ništa složeno. Pomaže mi da se pripremim za naš susret."
-      },
-      {
-        "heading": "Prva konzultacija",
-        "body": "Razgovaramo putem videopoziva oko devedeset minuta. Pitat ću Vas o Vašoj zdravstvenoj povijesti, ali i o snu, apetitu, osjećaju topline i hladnoće, energiji, raspoloženju te o tome što Vam pomaže, a što pogoršava tegobe. Neka će pitanja možda djelovati nepovezano. Upravo ona pomažu da obrazac postane vidljiv."
-      },
-      {
-        "heading": "Nakon razgovora",
-        "body": "Nakon razgovora odvojim vrijeme da temeljito proučim Vaš slučaj prije nego što išta odaberem. Taj dio rada ne vidite, a upravo u njemu moje istraživačko obrazovanje dolazi do izražaja."
-      },
-      {
-        "heading": "Vaš pripravak",
-        "body": "Odabirem pripravak za Vas kao pojedinca, šaljem Vam ga poštom te Vam u pisanom obliku objašnjavam kako i kada ga uzimati, kako se ne biste morali oslanjati na pamćenje."
-      },
-      {
-        "heading": "Kontrolna konzultacija",
-        "body": "Obično se ponovno susretnemo nakon četiri do šest tjedana. Razmotrimo što se promijenilo, uključujući i sitnice, te prema tome prilagodimo daljnji pristup. Male promjene mogu donijeti veliku razliku."
-      }
-    ],
+    "consultationTitle": "Što možete očekivati",
     "remediesTitle": "Kako pripravci dolaze do Vas",
     "remediesBody": "Konzultacije se trenutačno održavaju na daljinu putem videopoziva, a pripravci Vam se šalju poštom. Priprema ih etablirana homeopatska ljekarna i šalje na Vašu adresu u Ujedinjenom Kraljevstvu, obično s dostavom u roku od nekoliko dana. Ako ste izvan Ujedinjenog Kraljevstva, prije konzultacije zajedno ćemo dogovoriti način dostave. Homeopatski pripravci uključeni su u cijenu konzultacije, osim kod akutnih konzultacija i detoksikacijskih terapija. Poštarina se naplaćuje zasebno.",
     "remediesBody2": "Uvijek ćete dobiti pisane upute. Ako Vam poslije nešto nije jasno, javite mi se. Radije ću odgovoriti na kratko pitanje nego da morate nagađati.",
     "askTitle": "Što tražim od Vas",
-    "askBody": "Iskrenost i otvorenost, uključujući i teme koje Vam se čine nevažnima ili neugodnima. Strpljenje, jer je ovo postupan proces. I da mi se javite između susreta ako se nešto promijeni. Zauzvrat imate moju punu pažnju, moje vrijeme i izravan odgovor kad god ga mogu dati."
+    "askBody": "Iskrenost i otvorenost, uključujući i teme koje Vam se čine nevažnima ili neugodnima. Strpljenje, jer je ovo postupan proces. I da mi se javite između susreta ako se nešto promijeni. Zauzvrat imate moju punu pažnju, moje vrijeme i izravan odgovor kad god ga mogu dati.",
+    "consultationBody": [
+      "Vjerujem da zdravlje nikada ne bi trebalo promatrati prema jednom obrascu za sve. Ono je jedinstveno za svaku osobu.",
+      "Homeopatija je individualizirana medicina. Svatko od nas jedinstven je po svojem genetskom ustroju, fiziologiji i reakcijama na okruženje i druge ljude. Ono što kod jedne osobe pridonosi bolesti nije isto kod druge, pa će se i pristup tome razlikovati.",
+      "Svaki detalj Vaše zdravstvene povijesti povezan je poput mreže. Sve je trag prema Vašem sadašnjem zdravstvenom stanju i želim ga upoznati u cijelosti.",
+      "Tijekom prve konzultacije razgovarat ćemo o Vašim trenutačnim zdravstvenim tegobama, općem zdravlju, načinu života, nošenju sa stresom i prehrani, kao i o prijašnjoj medicinskoj povijesti, zdravstvenim ciljevima te lijekovima ili dodacima prehrani koje možda uzimate.",
+      "Zajedno ćemo istražiti temeljne uzroke Vaših simptoma, a ja ću objasniti što trebamo učiniti kako biste se ponovno osjećali dobro."
+    ],
+    "interestTitle": "Područja od posebnog interesa",
+    "interestBody": [
+      "Posebno me zanima rad na području ženskog zdravlja te mentalnog i emocionalnog oporavka, od tinejdžerskih godina, trudnoće i poroda, preko majčinstva i menopauze pa nadalje.",
+      "Moja područja posebnog interesa uključuju stres, tjeskobu i sniženo raspoloženje, otpornost organizma, hormonalno zdravlje, uključujući tegobe povezane s nadbubrežnim i štitnjačom te hormonskom kontracepcijom, kao i poteškoće u ponašanju kod djece."
+    ]
   },
   "consultations": {
     "seoTitle": "Homeopatske konzultacije i cijene | Homeopathy with Natasa",
@@ -190,11 +201,11 @@
     "priceRows": [
       {
         "label": "Prva konzultacija, 90 minuta",
-        "value": "£95"
+        "value": "£120"
       },
       {
         "label": "Kontrolna konzultacija, 45 minuta",
-        "value": "£75"
+        "value": "£80"
       },
       {
         "label": "Roditelj i beba do godinu dana, do 2 sata",
@@ -202,18 +213,18 @@
       },
       {
         "label": "Obiteljska konzultacija, dva člana obitelji koji su već bili kod mene, 75 minuta",
-        "value": "£120"
+        "value": "£150"
       },
       {
         "label": "Akutna konzultacija, 20 minuta, pripravci se dodatno naplaćuju",
         "value": "£35"
       },
       {
-        "label": "Homeobotanički pripravci, organsko bilje",
+        "label": "Homeobotanički pripravci",
         "value": "£25"
       },
       {
-        "label": "Poštarina, ovisno o veličini i težini",
+        "label": "Poštarina",
         "value": "Od £3.50"
       }
     ],
@@ -280,63 +291,6 @@
     "fallbackLead": "Ili mi pišite izravno na",
     "note": "Ono što ovdje pošaljete dolazi meni i bilježi se u mojem sigurnom sustavu za upravljanje podacima klijenata kako bih Vam mogla odgovoriti. Ne objavljuje se nigdje."
   },
-  "mentoring": {
-    "seoTitle": "Supervizija i mentorstvo za homeopate | Nataša Perić",
-    "seoDescription": "Individualna supervizija i supervizija u malim grupama za studente homeopatije i nedavno kvalificirane praktičare, uz predavačicu iz Centre for Homeopathic Education.",
-    "title": "Mentorstvo i supervizija",
-    "standfirst": "Pred Vama je slučaj, a nemate s kim provjeriti svoje razmišljanje. Ovdje ga možemo zajedno razmotriti.",
-    "forTitle": "Kome je namijenjeno",
-    "forItems": [
-      "Studentima na kliničkoj edukaciji koji žele temeljito razmotriti slučaj",
-      "Nedavno kvalificiranim praktičarima koji pokreću svoju prvu praksu",
-      "Praktičarima koji se vraćaju nakon stanke",
-      "Svima koji rade na istraživačkom prijedlogu ili pisanom prikazu slučaja"
-    ],
-    "oneToOneTitle": "Individualna supervizija",
-    "oneToOneBody": "Susret posvećen Vašim slučajevima i pitanjima. Razmatramo što ste prikupili, što ste možda previdjeli i kako ste došli do odluke. Cilj nije dati Vam gotov odgovor, nego pomoći da Vaše vlastito zaključivanje postane jasnije i dosljednije.",
-    "groupTitle": "Supervizija u maloj grupi",
-    "groupBody": "Grupe su male kako bi svi imali priliku govoriti. Na svakom se susretu otvoreno raspravlja o jednom ili dva slučaja koja predstavljaju članovi grupe. Praktičari često jednako mnogo nauče i iz slučaja koji nije njihov.",
-    "howTitle": "Kako susreti izgledaju",
-    "howSteps": [
-      {
-        "heading": "Slučaj šaljete unaprijed",
-        "body": "Tako ga mogu pročitati prije susreta, a zajedničko vrijeme posvetiti razmišljanju umjesto prepričavanju."
-      },
-      {
-        "heading": "Zajedno ga razmatramo",
-        "body": "Uzimanje slučaja, analiza, obrazloženje odabira pripravka i ono što biste sljedeći put učinili drukčije."
-      },
-      {
-        "heading": "Odlazite s bilješkama",
-        "body": "Kratak pisani sažetak dogovorenoga, za Vašu evidenciju i dnevnik edukacije."
-      }
-    ],
-    "backgroundTitle": "Zašto raditi sa mnom",
-    "backgroundBody": "Predajem i vodim superviziju u Centre for Homeopathic Education u Londonu, gdje vodim modul Research Proposition. U praksi sam od 2009., a u homeopatiju sam došla iz znanstvenog istraživanja. Metodologija i dokazi prirodan su dio mojeg rada, kao i otvoreno priznanje kada nešto nije poznato.",
-    "pricingTitle": "Cijene",
-    "pricingNote": "Male grupe čine dvije ili tri osobe kako bi svi imali priliku govoriti. Susreti obično traju sat i pol, ponekad dva sata. Individualna supervizija naplaćuje se po satu, a kraći kontrolni susret razmjerno trajanju.",
-    "priceRows": [
-      {
-        "label": "Individualna supervizija, po satu",
-        "value": "£50"
-      },
-      {
-        "label": "Supervizija u maloj grupi, 90 minuta, po osobi",
-        "value": "£30"
-      }
-    ],
-    "quotes": [],
-    "closingTitle": "Javite mi se",
-    "closingBody": "Recite mi gdje ste u svojoj edukaciji i u čemu biste željeli podršku pa ćemo pronaći oblik rada koji Vam odgovara.",
-    "recognitionTitle": "Možda ćete se prepoznati u ovome",
-    "recognitionItems": [
-      "Pred Vama je slučaj, niste sigurni je li Vaše zaključivanje utemeljeno, a nemate ga s kim provjeriti.",
-      "Za stjecanje kvalifikacije trebate sate supervizije, ali želite da Vam doista koriste, a ne da budu samo ispunjena obveza.",
-      "Završili ste edukaciju i odjednom ste sami, sa stvarnim ljudima pred sobom.",
-      "Poznajete teoriju, ali ipak zastanete kada stvarni slučaj ne nalikuje ničemu iz knjiga.",
-      "Pišete prikaz slučaja ili istraživački prijedlog i niste sigurni je li dovoljno dobar."
-    ]
-  },
   "newsletter": {
     "title": "Povremena pisma",
     "body": "Nekoliko puta godišnje pišem o svom radu i onome što čitam. Bez učestalih poruka na koje se morate pripremati.",
@@ -385,7 +339,7 @@
         },
         {
           "heading": "Koliko ih dugo čuvam",
-          "body": "Evidencija konzultacija čuva se onoliko dugo koliko je praktičar dužan čuvati takvu dokumentaciju. TODO: confirm the exact retention period before the site goes live. Upiti koji ne dovedu do termina brišu se kada više nisu potrebni."
+          "body": "Evidenciju pacijenata dužna sam čuvati 7 godina. Upiti koji ne dovedu do termina brišu se kada više nisu potrebni."
         },
         {
           "heading": "Tko još ima pristup",
@@ -474,5 +428,62 @@
     "homePortraitLabel": "Nataša Perić, homeopatkinja, London",
     "aboutPortraitLabel": "Nataša Perić, homeopatkinja, London",
     "logoAlt": "Logotip maslačka, Homeopathy with Natasa"
+  },
+  "supervision": {
+    "seoTitle": "Supervizija za homeopate | Nataša Perić",
+    "seoDescription": "Individualna supervizija i supervizija u malim grupama za studente homeopatije i kvalificirane homeopate uz Natašu Perić.",
+    "title": "Supervizija",
+    "standfirst": "Od 2009. predajem u Centre for Homeopathic Education i vodim superviziju brojnih studenata na preddiplomskoj i poslijediplomskoj razini. Volim ovaj dio svojeg rada jer mi omogućuje da svoje znanje i iskustvo dijelim sa studentima homeopatije. Duboko mi je stalo do njihova stručnog i osobnog razvoja i zahvalna sam što mogu biti dio njihova puta. Na to sam istinski ponosna.",
+    "forTitle": "Kome je namijenjeno",
+    "forItems": [
+      "Studentima na kliničkoj edukaciji koji žele temeljito razmotriti slučaj",
+      "Nedavno kvalificiranim praktičarima koji pokreću svoju prvu praksu",
+      "Praktičarima koji se vraćaju nakon stanke",
+      "Svima koji rade na istraživačkom prijedlogu ili pisanom prikazu slučaja"
+    ],
+    "oneToOneTitle": "Individualna supervizija",
+    "oneToOneBody": "Susret posvećen Vašim slučajevima i pitanjima. Razmatramo što ste prikupili, što ste možda previdjeli i kako ste došli do odluke. Cilj nije dati Vam gotov odgovor, nego pomoći da Vaše vlastito zaključivanje postane jasnije i dosljednije.",
+    "groupTitle": "Supervizija u maloj grupi",
+    "groupBody": "Grupe su male kako bi svi imali priliku govoriti. Na svakom se susretu otvoreno raspravlja o jednom ili dva slučaja koja predstavljaju članovi grupe. Praktičari često jednako mnogo nauče i iz slučaja koji nije njihov.",
+    "backgroundTitle": "Zašto raditi sa mnom",
+    "backgroundBody": "Predajem i vodim superviziju u Centre for Homeopathic Education u Londonu, gdje vodim modul Research Proposition. U praksi sam od 2009., a u homeopatiju sam došla iz znanstvenog istraživanja. Metodologija i dokazi prirodan su dio mojeg rada, kao i otvoreno priznanje kada nešto nije poznato.",
+    "pricingTitle": "Cijene",
+    "pricingNote": "Male grupe čine dvije ili tri osobe kako bi svi imali priliku govoriti. Susreti obično traju sat i pol, ponekad dva sata. Individualna supervizija naplaćuje se po satu, a kraći kontrolni susret razmjerno trajanju.",
+    "priceRows": [
+      {
+        "label": "Individualna supervizija, po satu",
+        "value": "£50"
+      },
+      {
+        "label": "Supervizija u maloj grupi, 90 minuta, po osobi",
+        "value": "£40"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "Nataša je postala moja supervizorica dok sam završavala BSc studij homeopatije, no i danas, kao kvalificirana homeopatkinja, redovito odlazim na superviziju kod nje kako bih održala najviši standard svojeg rada. Nataša nije samo izvrsna homeopatkinja nego i predana i entuzijastična edukatorica posvećena uspjehu svakog studenta. Posjeduje impresivno homeopatsko znanje i spremna je učiniti više kako bi podržala osobe kojima vodi superviziju.",
+        "author": "Kvalificirana homeopatkinja"
+      },
+      {
+        "text": "Nataša uvijek pažljivo razmatra moje ideje i uspijeva pronaći ravnotežu između toga da me potakne na izazov i da me ohrabri. Naše su supervizije interaktivne i suradničke, što ne unapređuje samo moje kliničke vještine nego podržava i moj osobni i profesionalni razvoj.",
+        "author": "Supervizantica"
+      },
+      {
+        "text": "Iznimno cijenim Natašin iskren pristup i osobnost u razgovorima o usponima i padovima koje doživljavam kao homeopatkinja. Njezina profesionalnost i predanost nadahnjuju. Nataša je izvrsna supervizorica u svakom pogledu i od srca je preporučujem.",
+        "author": "Kvalificirana homeopatkinja"
+      }
+    ],
+    "closingTitle": "Javite mi se",
+    "closingBody": "Javite mi se kako bismo razgovarali o Vašim potrebama za supervizijom i pronašli način na koji možemo raditi zajedno.",
+    "recognitionTitle": "Možda ćete se prepoznati u ovome",
+    "recognitionItems": [
+      "Pred Vama je slučaj, niste sigurni je li Vaše zaključivanje utemeljeno, a nemate ga s kim provjeriti.",
+      "Za stjecanje kvalifikacije trebate sate supervizije, ali želite da Vam doista koriste, a ne da budu samo ispunjena obveza.",
+      "Završili ste edukaciju i odjednom ste sami, sa stvarnim ljudima pred sobom.",
+      "Poznajete teoriju, ali ipak zastanete kada stvarni slučaj ne nalikuje ničemu iz knjiga.",
+      "Pišete prikaz slučaja ili istraživački prijedlog i niste sigurni je li dovoljno dobar."
+    ],
+    "introBody": "Nudim individualnu superviziju studentima i diplomiranim homeopatima. Nudim i grupnu superviziju te poduku tijekom koje možete učiti iz kliničkih slučajeva jedni drugih u podržavajućem okruženju za učenje. Ovi susreti dostupni su na daljinu.",
+    "quotesTitle": "Što kažu studenti"
   }
 }

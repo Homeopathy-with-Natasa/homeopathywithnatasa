@@ -19,8 +19,8 @@ export const BOOKING_URL: Record<Lang, string> = {
   hr: "https://cal.com/PLACEHOLDER-natasa/prvi-pregled",
 };
 
-/** TODO: PLACEHOLDER - swap for the real mentoring booking links. */
-export const MENTORING_BOOKING_URL: Record<Lang, string> = {
+/** TODO: PLACEHOLDER - swap for the real supervision booking links. */
+export const SUPERVISION_BOOKING_URL: Record<Lang, string> = {
   en: "https://cal.com/PLACEHOLDER-natasa/supervision",
   hr: "https://cal.com/PLACEHOLDER-natasa/supervizija",
 };
@@ -48,8 +48,8 @@ export function bookingLink(lang: Lang): string {
   return BOOKING_URL[lang];
 }
 
-export function mentoringLink(lang: Lang): string {
-  return MENTORING_BOOKING_URL[lang];
+export function supervisionLink(lang: Lang): string {
+  return SUPERVISION_BOOKING_URL[lang];
 }
 
 export const CTHA_URL = "https://www.complementary.assoc.org.uk/";
