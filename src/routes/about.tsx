@@ -50,12 +50,12 @@ function About() {
       <PageHeader title={t("about.title")} standfirst={t("about.standfirst")} />
 
       <Section prose={false}>
-        <div className="grid gap-12 md:grid-cols-[1fr_1.6fr] md:gap-16">
-          <FadeIn className="mx-auto w-full max-w-[380px]">
+        <div className="flow-root">
+          <FadeIn className="mx-auto w-full max-w-[380px] md:float-left md:mb-10 md:mr-16 md:w-[36%]">
             {/* Portrait, about page */}
             <PortraitSlot label={t("images.aboutPortraitLabel")} src={natasaAbout.url} />
           </FadeIn>
-          <div className="space-y-12">
+          <div className="mt-12 space-y-12 md:mt-0">
             {sections.map((section, i) => (
               <FadeIn key={i} delay={i * 50}>
                 <SectionTitle>{section.heading}</SectionTitle>
