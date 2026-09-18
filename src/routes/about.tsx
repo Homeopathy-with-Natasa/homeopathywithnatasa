@@ -78,12 +78,12 @@ function About() {
             <p>{t("about.credentialsIntro")}</p>
           </Prose>
           <div className="mt-10 space-y-10">
-            {credentialGroups.map((group, groupIndex) => (
+            {credentialGroups.map((group) => (
               <div key={group.heading}>
                 <h3 className="before:mb-3 before:block before:h-0.5 before:w-8 before:rounded-full before:bg-rose-400 before:content-[''] text-xl">
                   {group.heading}
                 </h3>
-                <CredentialsList items={group.items} marker={groupIndex === 0 ? "check" : "line"} />
+                <CredentialsList items={group.items} marker="check" />
               </div>
             ))}
           </div>
