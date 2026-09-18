@@ -209,11 +209,11 @@ export function QuoteRow({ quotes }: { quotes: QuoteItem[] }) {
   );
 }
 
-export type CredentialMarker = "check" | "dot" | "line";
+export type CredentialMarker = "none" | "check" | "dot" | "line";
 
 export function CredentialsList({
   items,
-  marker = "check",
+  marker = "none",
 }: {
   items: string[];
   marker?: CredentialMarker;
@@ -221,16 +221,21 @@ export function CredentialsList({
   return (
     <ul className="mt-8 divide-y divide-green-100 border-y border-green-100">
       {items.map((item, i) => (
-        <li key={i} className="flex items-start gap-4 py-4 text-green-900/90">
-          <span aria-hidden="true" className="mt-[5px] shrink-0">
-            {marker === "check" ? (
-              <Check className="h-4 w-4 text-rose-500" strokeWidth={2.5} />
-            ) : marker === "dot" ? (
-              <span className="block h-1.5 w-1.5 rounded-full bg-rose-500" />
-            ) : (
-              <span className="block h-0.5 w-4 rounded-full bg-rose-400" />
-            )}
-          </span>
+        <li
+          key={i}
+          className={cn("py-4 text-green-900/90", marker !== "none" && "flex items-start gap-4")}
+        >
+          {marker !== "none" ? (
+            <span aria-hidden="true" className="mt-[5px] shrink-0">
+              {marker === "check" ? (
+                <Check className="h-4 w-4 text-rose-500" strokeWidth={2.5} />
+              ) : marker === "dot" ? (
+                <span className="block h-1.5 w-1.5 rounded-full bg-rose-500" />
+              ) : (
+                <span className="block h-0.5 w-4 rounded-full bg-rose-400" />
+              )}
+            </span>
+          ) : null}
           <span>{item}</span>
         </li>
       ))}
