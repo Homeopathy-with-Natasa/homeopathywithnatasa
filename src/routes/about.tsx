@@ -41,6 +41,9 @@ export const Route = createFileRoute("/about")({
 function About() {
   const { t, tAny } = useI18n();
   const sections = tAny<Step[]>("about.sections");
+  const credentialGroups = tAny<{ heading: string; items: string[] }[]>(
+    "about.credentialsGroups",
+  );
 
   return (
     <SiteLayout>
@@ -57,7 +60,9 @@ function About() {
               <FadeIn key={i} delay={i * 50}>
                 <SectionTitle>{section.heading}</SectionTitle>
                 <Prose className="mt-5">
-                  <p>{section.body}</p>
+                  {section.body
+                    .split("\n\n")
+                    .map((paragraph, paragraphIndex) => <p key={paragraphIndex}>{paragraph}</p>)}
                 </Prose>
               </FadeIn>
             ))}
@@ -69,7 +74,17 @@ function About() {
       <Section tone="muted">
         <FadeIn>
           <SectionTitle>{t("about.credentialsTitle")}</SectionTitle>
-          <CredentialsList items={tAny<string[]>("about.credentials")} />
+          <Prose className="mt-6">
+            <p>{t("about.credentialsIntro")}</p>
+          </Prose>
+          <div className="mt-10 space-y-10">
+            {credentialGroups.map((group) => (
+              <div key={group.heading}>
+                <h3 className="text-xl">{group.heading}</h3>
+                <CredentialsList items={group.items} />
+              </div>
+            ))}
+          </div>
         </FadeIn>
       </Section>
       <CurveDivider variant="soft" from="muted" fill="background" />

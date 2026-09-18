@@ -10,8 +10,6 @@ import {
   RecognitionList,
   Section,
   SectionTitle,
-  StepList,
-  type Step,
 } from "@/components/site/blocks";
 import { useI18n } from "@/i18n/LanguageProvider";
 
@@ -84,8 +82,20 @@ function Homeopathy() {
       <Section tone="muted">
         <FadeIn>
           <SectionTitle>{t("homeopathy.consultationTitle")}</SectionTitle>
+          <Prose className="mt-6">
+            {tAny<string[]>("homeopathy.consultationBody").map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
+          </Prose>
         </FadeIn>
-        <StepList steps={tAny<Step[]>("homeopathy.consultationSteps")} roseNumbers />
+        <FadeIn className="mt-14">
+          <SectionTitle>{t("homeopathy.interestTitle")}</SectionTitle>
+          <Prose className="mt-6">
+            {tAny<string[]>("homeopathy.interestBody").map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
+          </Prose>
+        </FadeIn>
       </Section>
       <CurveDivider variant="wave" from="muted" fill="background" />
 
