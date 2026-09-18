@@ -5,6 +5,7 @@ import { bookingLink, mailtoLink, supervisionLink, CONTACT_EMAIL } from "@/confi
 import { submitContact } from "@/lib/contact.functions";
 import { cn } from "@/lib/utils";
 import natasaPortrait from "@/assets/natasa-home.jpg.asset.json";
+import { Check } from "lucide-react";
 import { FadeIn } from "./FadeIn";
 import { CurveDivider } from "./CurveDivider";
 
@@ -208,12 +209,29 @@ export function QuoteRow({ quotes }: { quotes: QuoteItem[] }) {
   );
 }
 
-export function CredentialsList({ items }: { items: string[] }) {
+export type CredentialMarker = "check" | "dot" | "line";
+
+export function CredentialsList({
+  items,
+  marker = "check",
+}: {
+  items: string[];
+  marker?: CredentialMarker;
+}) {
   return (
     <ul className="mt-8 divide-y divide-green-100 border-y border-green-100">
       {items.map((item, i) => (
-        <li key={i} className="py-4 text-green-900/90">
-          {item}
+        <li key={i} className="flex items-start gap-4 py-4 text-green-900/90">
+          <span aria-hidden="true" className="mt-[5px] shrink-0">
+            {marker === "check" ? (
+              <Check className="h-4 w-4 text-rose-500" strokeWidth={2.5} />
+            ) : marker === "dot" ? (
+              <span className="block h-1.5 w-1.5 rounded-full bg-rose-500" />
+            ) : (
+              <span className="block h-0.5 w-4 rounded-full bg-rose-400" />
+            )}
+          </span>
+          <span>{item}</span>
         </li>
       ))}
     </ul>
