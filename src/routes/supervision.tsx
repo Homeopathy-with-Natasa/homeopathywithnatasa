@@ -53,6 +53,11 @@ function Supervision() {
           </Prose>
         </FadeIn>
         <FadeIn className="mt-14">
+          <SectionTitle>{t("supervision.quotesTitle")}</SectionTitle>
+        </FadeIn>
+        <QuoteRow quotes={tAny<QuoteItem[]>("supervision.quotes")} />
+
+        <FadeIn className="mt-14">
           <SectionTitle>{t("supervision.recognitionTitle")}</SectionTitle>
         </FadeIn>
         <RecognitionList items={tAny<string[]>("supervision.recognitionItems")} />
@@ -87,11 +92,6 @@ function Supervision() {
             <p>{t("supervision.backgroundBody")}</p>
           </Prose>
         </FadeIn>
-
-        <FadeIn className="mt-14">
-          <SectionTitle>{t("supervision.quotesTitle")}</SectionTitle>
-        </FadeIn>
-        <QuoteRow quotes={tAny<QuoteItem[]>("supervision.quotes")} />
 
         <FadeIn className="mt-14">
           <SectionTitle>{t("supervision.pricingTitle")}</SectionTitle>

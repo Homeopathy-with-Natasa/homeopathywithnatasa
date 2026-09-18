@@ -53,7 +53,7 @@ function Home() {
         <div className="container-site grid items-center gap-10 pt-14 pb-16 md:grid-cols-[1.25fr_1fr] md:gap-16 md:pt-24 md:pb-24">
           <FadeIn>
             <h1 className="text-4xl leading-[1.1] md:text-[3.25rem]">{t("home.heroTitle")}</h1>
-            <p className="mt-6 max-w-xl text-lg text-green-700 md:text-xl">
+            <p className="font-display mt-6 max-w-xl text-lg tracking-wide text-green-700 md:text-xl">
               {t("home.heroSubtitle")}
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-3">
