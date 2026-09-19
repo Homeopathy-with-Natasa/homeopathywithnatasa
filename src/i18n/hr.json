@@ -92,6 +92,8 @@
       }
     ],
     "credentialsTitle": "Biografija i kvalifikacije",
+    "roseImageAlt": "Bijela ruža.",
+    "roseImagePlaceholder": "Mjesto za fotografiju: bijela ruža",
     "closingTitle": "Razgovarajmo",
     "closingBody": "Prva je konzultacija duga i odvija se bez žurbe. To je najbolji način da utvrdite odgovara li Vam ovakav način rada.",
     "credentialsIntro": "Homeopatiju prakticiram od stjecanja kvalifikacije 2009., u Londonu i u svojoj domovini Hrvatskoj. Uz privatnu homeopatsku praksu predajem i vodim superviziju studenata u Centre for Homeopathic Education, najvećem homeopatskom učilištu u Ujedinjenom Kraljevstvu.",
@@ -189,6 +191,8 @@
     ],
     "formatTitle": "Kako se susrećemo",
     "formatBody": "Konzultacije se trenutačno održavaju na daljinu putem videopoziva, a pripravci Vam se šalju poštom. To dobro funkcionira jer se najveći dio ovoga rada odvija kroz razgovor. Osobni termini u Telegraph Hillu u jugoistočnom Londonu dostupni su prema dogovoru. Odaberite mogućnost koja Vam omogućuje da budete na mirnom mjestu bez ometanja.",
+    "hawthornImageAlt": "Cvijet gloga.",
+    "hawthornImagePlaceholder": "Mjesto za fotografiju: cvijet gloga",
     "pricingTitle": "Cijene",
     "pricingNote": "Svi homeopatski pripravci uključeni su u cijenu konzultacije, osim kod akutnih konzultacija i detoksikacijskih terapija.",
     "priceRows": [

@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/SiteLayout";
 import { FadeIn } from "@/components/site/FadeIn";
 import { CurveDivider } from "@/components/site/CurveDivider";
+import { ClientPhoto } from "@/components/site/ClientPhoto";
 import {
   CardList,
   ContactForm,
@@ -18,6 +19,7 @@ import {
   type Step,
 } from "@/components/site/blocks";
 import { useI18n } from "@/i18n/LanguageProvider";
+import hawthornBlossom from "@/assets/hawthorn-blossom.jpg.asset.json";
 
 export const Route = createFileRoute("/consultations")({
   head: () => ({
@@ -67,6 +69,17 @@ function Consultations() {
       <CurveDivider variant="soft" from="muted" fill="background" />
 
       <Section>
+        <FadeIn className="mb-16">
+          <ClientPhoto
+            src={hawthornBlossom.url}
+            alt={t("consultations.hawthornImageAlt")}
+            placeholder={t("consultations.hawthornImagePlaceholder")}
+            width={1200}
+            height={1600}
+            className="h-auto w-full rounded-2xl"
+            placeholderClassName="flex w-full items-center justify-center rounded-2xl bg-green-100 px-6 text-center text-sm text-green-700"
+          />
+        </FadeIn>
         <FadeIn>
           <SectionTitle>{t("consultations.pricingTitle")}</SectionTitle>
           <PriceTable
