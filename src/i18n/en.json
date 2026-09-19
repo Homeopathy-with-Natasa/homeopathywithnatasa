@@ -13,7 +13,7 @@
     "supervision": "Supervision"
   },
   "cta": {
-    "book": "Book a first consultation",
+    "book": "Book a consultation",
     "bookShort": "Book a consultation",
     "email": "Send an email",
     "readMore": "Read more about homeopathy",
@@ -26,9 +26,13 @@
     "heroTitle": "Good care begins with listening.",
     "heroSubtitle": "Thoughtful. Individual. Personal.",
     "heroNote": "Online by video, wherever you are. In person in Telegraph Hill, London, by arrangement.",
-    "introTitle": "A scientist who chose homeopathy",
-    "introBody": "Hello, I'm Nataša, a homeopath, researcher, lecturer, supervisor and mum living in South East London. For almost 25 years, homeopathy has been an important part of my life, and I have been practising professionally for 17 years. I am passionate about providing thoughtful, individualised support. My approach combines experience, compassion and a commitment to lifelong learning to help you work towards greater health, wellbeing, balance, and feeling your best.",
-    "introBody2": "",
+    "introTitle": "Your experience of health is uniquely yours.",
+    "introBody": "I take the time to listen, ask questions and understand the bigger picture. Your symptoms, experiences, circumstances and responses are individual to you, and understanding that wider context matters.\n\nMy work begins with listening. I want to understand what you are experiencing, what has brought you here, and how the different parts of your story fit together.\n\nYears of practising homeopathy have taught me that understanding a person requires time, attention and a willingness to look beyond the obvious.",
+    "scientistTitle": "A scientist who chose homeopathy",
+    "scientistBody": "My background in biology, research and education has shaped the way I think and work. I bring curiosity, critical thinking and a commitment to lifelong learning to my practice, while recognising that there is always more to learn. That curiosity is one of the things that first brought me to homeopathy.\n\nI bring experience, knowledge and careful attention to every consultation, while recognising that you are the expert on your own experience. I listen attentively, ask thoughtful questions and look for connections, working with you to make sense of your individual experience.",
+    "scientistLink": "Learn more",
+    "processTitle": "Homeopathy with me is a process, not a quick fix.",
+    "processBody": "I've been practising homeopathy since 2009. For me, it is a way of thinking, listening and exploring what is happening for each individual person.\n\nAt the heart of my practice are two beliefs: that a diagnosis is not our destiny, and that the body has a remarkable capacity for change and adaptation when given the support it needs.\n\nThese beliefs shape the way I work. I don't see you simply through the lens of a diagnosis or a list of symptoms. I want to understand the person experiencing them: your story, your circumstances, your patterns and your individual experience. My role is to explore your case carefully, rather than looking at each symptom in isolation.\n\nThe relationship between practitioner and patient is an important part of this process. I want you to feel listened to, understood and able to bring your whole experience into the consultation.\n\nTogether, we explore your concerns, your symptoms and what may be relevant to understanding your individual experience. I then prescribe individualised homeopathic remedies. Follow-up consultations give us the opportunity to look at what has changed, what you've noticed, and how you're responding, so that we can reflect on your progress and consider the next steps together.",
     "recognitionTitle": "You may recognise some of this",
     "recognitionItems": [
       "You are ready and willing to invest in your health and wellbeing",
@@ -39,14 +43,6 @@
     "whatTitle": "How can I help?",
     "whatBody": "When I tell people I'm a homeopath, they ask me to explain what that is.\n\nHomeopathy views the body as one unique, integrated system. It looks for the root cause of your symptoms rather than addressing them on the surface. Because every person is different, every treatment approach is completely personalised.\n\nHomeopathy supports healing of the body, mind and spirit as a whole, with the aim of addressing imbalances and restoring long lasting wellbeing.\n\nI offer a supportive, non judgemental space where I see you as a whole person and provide the care you need.",
     "whatBody2": "",
-    "credentialsTitle": "Background",
-    "credentials": [
-      "PhD in Natural Sciences, former research scientist",
-      "In private practice in London since 2009",
-      "Teaches and supervises at the Centre for Homeopathic Education, London, where she leads the Research Proposition module",
-      "Co-author of a university biology textbook used in Croatia for over a decade",
-      "Registered with the Complementary Therapist Association"
-    ],
     "quotesTitle": "In their words",
     "quotes": [
       {
@@ -63,7 +59,7 @@
       }
     ],
     "closingTitle": "If this sounds like the kind of care you are looking for",
-    "closingBody": "The first consultation is a long conversation. You can book it directly, or write to me first if you would rather ask something before you commit.",
+    "closingBody": "I'd love to meet you, hear your story and explore together what might be helpful for you. You can book a consultation directly, or if you have a question first, you're very welcome to write to me.",
     "arrivalTitle": "What people come to me with",
     "arrivalIntro": "You're not alone. The stress of modern life can bring a host of challenges that may take their toll on our health, including:",
     "arrivalItems": [
@@ -74,8 +70,7 @@
       "Low energy, lack of motivation, low moods or poor sleep",
       "Past trauma or unresolved feelings that may be holding us back"
     ],
-    "recognitionClosing": "If this resonates with you, I'd love to connect and explore how homeopathy might support you.",
-    "beliefsQuote": "At the heart of my practice are two strong beliefs: that our diagnosis is not our destiny, and that our body has a remarkable ability to heal itself when given the support it needs."
+    "recognitionClosing": "If this resonates with you, I'd love to connect and explore how homeopathy might support you."
   },
   "about": {
     "seoTitle": "About Nataša Perić | Homeopath in London since 2009",
@@ -292,8 +287,8 @@
     "note": "What you send here goes to me and is recorded in my secure client management system so that I can reply. It is not published anywhere."
   },
   "newsletter": {
-    "title": "Occasional letters",
-    "body": "A few times a year I write about how I work and what I am reading. No frequency you need to brace for.",
+    "title": "Occasional notes",
+    "body": "A few times a year, I send bite-size notes on how I work, what I'm reading, and things I'm learning.",
     "placeholder": "Your email address",
     "button": "Sign up",
     "note": "PLACEHOLDER: not connected yet. Nothing is sent or stored.",

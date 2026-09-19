@@ -287,12 +287,10 @@ export function PortraitSlot({
 
 export function NewsletterBlock() {
   const { t } = useI18n();
-  const [done, setDone] = useState(false);
 
   // Not wired to anything yet. Nothing is sent or stored.
   const onSubmit = (e: FormEvent) => {
     e.preventDefault();
-    setDone(true);
   };
 
   return (
@@ -317,9 +315,6 @@ export function NewsletterBlock() {
           {t("newsletter.button")}
         </button>
       </form>
-      <p className="mt-3 text-sm text-muted-foreground">
-        {done ? t("newsletter.success") : t("newsletter.note")}
-      </p>
     </div>
   );
 }

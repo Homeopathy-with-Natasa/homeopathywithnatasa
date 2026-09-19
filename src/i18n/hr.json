@@ -13,7 +13,7 @@
     "supervision": "Supervizija"
   },
   "cta": {
-    "book": "Rezervirajte prvu konzultaciju",
+    "book": "Rezervirajte konzultaciju",
     "bookShort": "Rezervirajte konzultaciju",
     "email": "Pošaljite e-poruku",
     "readMore": "Saznajte više o homeopatiji",
@@ -26,9 +26,13 @@
     "heroTitle": "Dobra skrb počinje slušanjem.",
     "heroSubtitle": "Promišljeno. Individualno. Osobno.",
     "heroNote": "Na daljinu putem videopoziva, gdje god se nalazili. Osobno u Telegraph Hillu u Londonu, prema dogovoru.",
-    "introTitle": "Znanstvenica koja je odabrala homeopatiju",
-    "introBody": "Pozdrav, ja sam Nataša, homeopatkinja, istraživačica, predavačica, supervizorica i majka koja živi u jugoistočnom Londonu. Homeopatija je važan dio mojeg života gotovo 25 godina, a profesionalno je prakticiram već 17 godina. Strastveno sam posvećena pružanju promišljene i individualizirane podrške. U svojem pristupu spajam iskustvo, suosjećanje i predanost cjeloživotnom učenju kako bih Vam pomogla da radite na boljem zdravlju, dobrobiti, ravnoteži i tome da se osjećate najbolje što možete.",
-    "introBody2": "",
+    "introTitle": "Vaše iskustvo zdravlja jedinstveno je.",
+    "introBody": "Odvajam vrijeme kako bih Vas saslušala, postavila pitanja i razumjela širu sliku. Vaši simptomi, iskustva, okolnosti i reakcije svojstveni su Vama, a razumijevanje tog šireg konteksta važno je.\n\nMoj rad počinje slušanjem. Želim razumjeti što proživljavate, što Vas je dovelo ovamo i kako se različiti dijelovi Vaše priče uklapaju u cjelinu.\n\nGodine prakticiranja homeopatije naučile su me da razumijevanje osobe zahtijeva vrijeme, pažnju i spremnost da se pogleda dalje od očitoga.",
+    "scientistTitle": "Znanstvenica koja je odabrala homeopatiju",
+    "scientistBody": "Moje obrazovanje i iskustvo u biologiji, istraživanju i obrazovanju oblikovali su način na koji razmišljam i radim. U svoju praksu unosim znatiželju, kritičko razmišljanje i predanost cjeloživotnom učenju, svjesna da uvijek postoji još toga što mogu naučiti. Upravo me ta znatiželja prvi put i privukla homeopatiji.\n\nU svaku konzultaciju unosim iskustvo, znanje i pomnu pažnju, istodobno prepoznajući da ste Vi stručnjak za vlastito iskustvo. Pažljivo slušam, postavljam promišljena pitanja i tražim poveznice, radeći s Vama kako bismo zajedno razumjeli Vaše individualno iskustvo.",
+    "scientistLink": "Saznajte više",
+    "processTitle": "Homeopatija je u mojem radu proces, a ne brzo rješenje.",
+    "processBody": "Homeopatiju prakticiram od 2009. Za mene je ona način razmišljanja, slušanja i istraživanja onoga što se događa svakoj pojedinoj osobi.\n\nU središtu moje prakse dva su uvjerenja: da dijagnoza ne određuje našu sudbinu i da tijelo ima iznimnu sposobnost promjene i prilagodbe kada dobije potrebnu podršku.\n\nTa uvjerenja oblikuju način na koji radim. Ne promatram Vas samo kroz dijagnozu ili popis simptoma. Želim razumjeti osobu koja ih doživljava: Vašu priču, okolnosti, obrasce i individualno iskustvo. Moja je uloga pažljivo istražiti Vaš slučaj, umjesto da svaki simptom promatram zasebno.\n\nOdnos između praktičara i pacijenta važan je dio tog procesa. Želim da se osjećate saslušano i shvaćeno te da u konzultaciju možete unijeti cijelo svoje iskustvo.\n\nZajedno istražujemo Vaše poteškoće, simptome i ono što bi moglo biti važno za razumijevanje Vašeg individualnog iskustva. Zatim propisujem individualizirane homeopatske pripravke. Kontrolne konzultacije pružaju nam priliku da razmotrimo što se promijenilo, što ste primijetili i kako reagirate, kako bismo se osvrnuli na Vaš napredak i zajedno razmotrili sljedeće korake.",
     "recognitionTitle": "Možda ćete se prepoznati u ovome",
     "recognitionItems": [
       "Spremni ste ulagati u svoje zdravlje i dobrobit",
@@ -39,14 +43,6 @@
     "whatTitle": "Kako Vam mogu pomoći?",
     "whatBody": "Kada ljudima kažem da sam homeopatkinja, zamole me da objasnim što to znači.\n\nHomeopatija promatra tijelo kao jedinstven, integriran sustav. Traži temeljni uzrok Vaših simptoma, umjesto da im pristupa samo površinski. Budući da je svaka osoba drukčija, svaki je pristup potpuno individualiziran.\n\nHomeopatija pruža podršku oporavku tijela, uma i duha kao cjeline, s ciljem uspostavljanja ravnoteže i dugotrajnije dobrobiti.\n\nNudim Vam podržavajući prostor bez osuđivanja, u kojem Vas vidim kao cjelovitu osobu i pružam Vam skrb koja Vam je potrebna.",
     "whatBody2": "",
-    "credentialsTitle": "Iskustvo i obrazovanje",
-    "credentials": [
-      "PhD iz prirodnih znanosti, bivša znanstvena istraživačica",
-      "U privatnoj praksi u Londonu od 2009.",
-      "Predaje i vodi superviziju u Centre for Homeopathic Education u Londonu, gdje vodi modul Research Proposition",
-      "Suautorica sveučilišnog udžbenika biologije koji se u Hrvatskoj koristio više od desetljeća",
-      "Registrirana pri Complementary Therapist Association (udruženju komplementarnih terapeuta)"
-    ],
     "quotesTitle": "Njihovim riječima",
     "quotes": [
       {
@@ -63,7 +59,7 @@
       }
     ],
     "closingTitle": "Ako ovakav pristup odgovara onome što tražite",
-    "closingBody": "Prva konzultacija opsežan je razgovor. Možete je odmah rezervirati ili mi se najprije javiti ako prije odluke želite nešto pitati.",
+    "closingBody": "Voljela bih Vas upoznati, čuti Vašu priču i zajedno istražiti što bi Vam moglo pomoći. Konzultaciju možete rezervirati izravno, a ako najprije imate pitanje, slobodno mi pišite.",
     "arrivalTitle": "Zbog čega mi se ljudi obraćaju",
     "arrivalIntro": "Niste sami. Stres suvremenog života može donijeti niz izazova koji mogu ostaviti traga na našem zdravlju, među kojima su:",
     "arrivalItems": [
@@ -74,8 +70,7 @@
       "Manjak energije i motivacije, sniženo raspoloženje ili loš san",
       "Prošla trauma ili nerazriješeni osjećaji koji Vas možda sputavaju"
     ],
-    "recognitionClosing": "Ako se u ovome prepoznajete, voljela bih da se povežemo i zajedno istražimo kako bi Vam homeopatija mogla pružiti podršku.",
-    "beliefsQuote": "U središtu moje prakse dva su čvrsta uvjerenja: da dijagnoza ne određuje našu sudbinu i da naše tijelo ima iznimnu sposobnost vlastitog oporavka kada dobije potrebnu podršku."
+    "recognitionClosing": "Ako se u ovome prepoznajete, voljela bih da se povežemo i zajedno istražimo kako bi Vam homeopatija mogla pružiti podršku."
   },
   "about": {
     "seoTitle": "O Nataši Perić | Homeopatkinja u Londonu od 2009.",
@@ -292,8 +287,8 @@
     "note": "Ono što ovdje pošaljete dolazi meni i bilježi se u mojem sigurnom sustavu za upravljanje podacima klijenata kako bih Vam mogla odgovoriti. Ne objavljuje se nigdje."
   },
   "newsletter": {
-    "title": "Povremena pisma",
-    "body": "Nekoliko puta godišnje pišem o svom radu i onome što čitam. Bez učestalih poruka na koje se morate pripremati.",
+    "title": "Povremene bilješke",
+    "body": "Nekoliko puta godišnje šaljem kratke bilješke o tome kako radim, što čitam i što učim.",
     "placeholder": "Vaša adresa e-pošte",
     "button": "Prijavite se",
     "note": "JOŠ NIJE POVEZANO: ništa se ne šalje niti pohranjuje.",

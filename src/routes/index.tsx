@@ -4,7 +4,6 @@ import { FadeIn } from "@/components/site/FadeIn";
 import { CurveDivider } from "@/components/site/CurveDivider";
 import {
   BookButton,
-  CredentialsList,
   CtaBand,
   NewsletterBlock,
   PlainList,
@@ -80,13 +79,43 @@ function Home() {
         <FadeIn>
           <SectionTitle>{t("home.introTitle")}</SectionTitle>
           <Prose className="mt-6">
-            <p>{t("home.introBody")}</p>
+            {t("home.introBody")
+              .split("\n\n")
+              .map((paragraph, index) => <p key={index}>{paragraph}</p>)}
           </Prose>
         </FadeIn>
       </Section>
 
+      <Section>
+        <FadeIn>
+          <SectionTitle>{t("home.scientistTitle")}</SectionTitle>
+          <Prose className="mt-6">
+            {t("home.scientistBody")
+              .split("\n\n")
+              .map((paragraph, index) => <p key={index}>{paragraph}</p>)}
+          </Prose>
+          <Link
+            to="/about"
+            className="mt-8 inline-flex items-center justify-center rounded-full border border-green-300 px-6 py-3 text-[0.98rem] text-green-800 transition-colors hover:bg-green-50"
+          >
+            {t("home.scientistLink")}
+          </Link>
+        </FadeIn>
+      </Section>
       <CurveDivider variant="soft" from="background" fill="muted" />
       <Section tone="muted">
+        <FadeIn>
+          <SectionTitle>{t("home.processTitle")}</SectionTitle>
+          <Prose className="mt-6">
+            {t("home.processBody")
+              .split("\n\n")
+              .map((paragraph, index) => <p key={index}>{paragraph}</p>)}
+          </Prose>
+        </FadeIn>
+      </Section>
+
+      <CurveDivider variant="soft" from="muted" fill="background" />
+      <Section>
         <FadeIn>
           <SectionTitle>{t("home.whatTitle")}</SectionTitle>
           <Prose className="mt-6">
@@ -128,15 +157,7 @@ function Home() {
       </Section>
       <CurveDivider variant="deep" from="muted" fill="background" />
 
-      <Section>
-        <FadeIn>
-          <SectionTitle>{t("home.credentialsTitle")}</SectionTitle>
-          <CredentialsList items={tAny<string[]>("home.credentials")} />
-        </FadeIn>
-      </Section>
-
-      <CurveDivider variant="soft" from="background" fill="muted" />
-      <Section prose={false} tone="muted">
+      <Section prose={false}>
         <FadeIn>
           <SectionTitle>{t("home.quotesTitle")}</SectionTitle>
         </FadeIn>
@@ -146,14 +167,6 @@ function Home() {
       <Section prose={false} className="pt-0">
         <FadeIn>
           <NewsletterBlock />
-        </FadeIn>
-      </Section>
-
-      <Section>
-        <FadeIn>
-          <blockquote className="font-display max-w-3xl text-xl leading-relaxed text-green-700 md:text-2xl">
-            {t("home.beliefsQuote")}
-          </blockquote>
         </FadeIn>
       </Section>
 
