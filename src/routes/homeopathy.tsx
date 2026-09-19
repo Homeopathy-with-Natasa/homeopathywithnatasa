@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/SiteLayout";
 import { FadeIn } from "@/components/site/FadeIn";
@@ -37,6 +38,7 @@ export const Route = createFileRoute("/homeopathy")({
 
 function Homeopathy() {
   const { t, tAny } = useI18n();
+  const [consultationImageAvailable, setConsultationImageAvailable] = useState(true);
 
   return (
     <SiteLayout>
@@ -87,6 +89,20 @@ function Homeopathy() {
               <p key={index}>{paragraph}</p>
             ))}
           </Prose>
+        </FadeIn>
+        <FadeIn className="mt-14">
+          {consultationImageAvailable ? (
+            <img
+              src="/images/fern-unfurling.jpg"
+              alt={t("homeopathy.consultationImageAlt")}
+              className="h-auto w-full rounded-2xl"
+              onError={() => setConsultationImageAvailable(false)}
+            />
+          ) : (
+            <div className="flex aspect-[3/4] w-full items-center justify-center rounded-2xl bg-green-100 px-6 text-center text-sm text-green-700">
+              {t("homeopathy.consultationImagePlaceholder")}
+            </div>
+          )}
         </FadeIn>
         <FadeIn className="mt-14">
           <SectionTitle>{t("homeopathy.interestTitle")}</SectionTitle>
