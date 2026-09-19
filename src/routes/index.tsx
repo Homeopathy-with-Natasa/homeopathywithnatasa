@@ -115,7 +115,7 @@ function Home() {
       </Section>
 
       <CurveDivider variant="soft" from="muted" fill="background" />
-      <Section tone="muted">
+      <Section>
         <FadeIn>
           <SectionTitle>{t("home.whatTitle")}</SectionTitle>
           <Prose className="mt-6">
@@ -164,8 +164,7 @@ function Home() {
         <QuoteRow quotes={tAny<QuoteItem[]>("home.quotes")} />
       </Section>
 
-      <CurveDivider variant="soft" from="background" fill="muted" />
-      <Section prose={false} tone="muted">
+      <Section prose={false} className="pt-0">
         <FadeIn>
           <NewsletterBlock />
         </FadeIn>
