@@ -47,7 +47,7 @@ function Home() {
   const { t, tAny } = useI18n();
 
   return (
-    <SiteLayout>
+    <SiteLayout footerFrom="background">
       <section className="bg-green-50">
         <div className="container-site grid items-center gap-10 pt-14 pb-16 md:grid-cols-[1.25fr_1fr] md:gap-16 md:pt-24 md:pb-24">
           <FadeIn>
@@ -77,17 +77,6 @@ function Home() {
 
       <Section>
         <FadeIn>
-          <SectionTitle>{t("home.introTitle")}</SectionTitle>
-          <Prose className="mt-6">
-            {t("home.introBody")
-              .split("\n\n")
-              .map((paragraph, index) => <p key={index}>{paragraph}</p>)}
-          </Prose>
-        </FadeIn>
-      </Section>
-
-      <Section>
-        <FadeIn>
           <SectionTitle>{t("home.scientistTitle")}</SectionTitle>
           <Prose className="mt-6">
             {t("home.scientistBody")
@@ -102,8 +91,20 @@ function Home() {
           </Link>
         </FadeIn>
       </Section>
+
       <CurveDivider variant="soft" from="background" fill="muted" />
       <Section tone="muted">
+        <FadeIn>
+          <SectionTitle>{t("home.introTitle")}</SectionTitle>
+          <Prose className="mt-6">
+            {t("home.introBody")
+              .split("\n\n")
+              .map((paragraph, index) => <p key={index}>{paragraph}</p>)}
+          </Prose>
+        </FadeIn>
+      </Section>
+      <CurveDivider variant="soft" from="muted" fill="background" />
+      <Section>
         <FadeIn>
           <SectionTitle>{t("home.processTitle")}</SectionTitle>
           <Prose className="mt-6">
@@ -114,8 +115,8 @@ function Home() {
         </FadeIn>
       </Section>
 
-      <CurveDivider variant="soft" from="muted" fill="background" />
-      <Section>
+      <CurveDivider variant="soft" from="background" fill="muted" />
+      <Section tone="muted">
         <FadeIn>
           <SectionTitle>{t("home.whatTitle")}</SectionTitle>
           <Prose className="mt-6">
@@ -164,13 +165,14 @@ function Home() {
         <QuoteRow quotes={tAny<QuoteItem[]>("home.quotes")} />
       </Section>
 
-      <Section prose={false} className="pt-0">
+      <CtaBand title={t("home.closingTitle")} body={t("home.closingBody")} />
+
+      <CurveDivider variant="soft" from="green-100" fill="background" />
+      <Section prose={false}>
         <FadeIn>
           <NewsletterBlock />
         </FadeIn>
       </Section>
-
-      <CtaBand title={t("home.closingTitle")} body={t("home.closingBody")} />
     </SiteLayout>
   );
 }
