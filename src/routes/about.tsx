@@ -43,6 +43,7 @@ export const Route = createFileRoute("/about")({
 function About() {
   const { t, tAny } = useI18n();
   const sections = tAny<Step[]>("about.sections");
+  const [unexpectedBeginnings, howIWork, ...remainingSections] = sections;
   const credentialGroups = tAny<{ heading: string; items: string[] }[]>(
     "about.credentialsGroups",
   );
@@ -58,30 +59,50 @@ function About() {
             <PortraitSlot label={t("images.aboutPortraitLabel")} src={natasaAbout.url} />
           </FadeIn>
           <div className="mt-12 space-y-12 md:mt-0">
-            {sections.map((section, i) => (
-              <div key={i}>
-                <FadeIn delay={i * 50}>
-                  <SectionTitle>{section.heading}</SectionTitle>
+            {unexpectedBeginnings ? (
+              <FadeIn>
+                <SectionTitle>{unexpectedBeginnings.heading}</SectionTitle>
+                <Prose className="mt-5">
+                  {unexpectedBeginnings.body
+                    .split("\n\n")
+                    .map((paragraph, paragraphIndex) => <p key={paragraphIndex}>{paragraph}</p>)}
+                </Prose>
+              </FadeIn>
+            ) : null}
+
+            <div className="grid items-start gap-12 md:grid-cols-[minmax(0,1fr)_210px] md:gap-14">
+              <FadeIn className="mx-auto w-full max-w-[210px] md:order-2 md:mx-0">
+                <ClientPhoto
+                  src={whiteRose.url}
+                  alt={t("about.roseImageAlt")}
+                  placeholder={t("about.roseImagePlaceholder")}
+                  width={750}
+                  height={844}
+                  className="h-auto w-full"
+                  placeholderClassName="flex w-full items-center justify-center bg-background px-6 text-center text-sm text-green-700"
+                />
+              </FadeIn>
+              {howIWork ? (
+                <FadeIn delay={50} className="md:order-1">
+                  <SectionTitle>{howIWork.heading}</SectionTitle>
                   <Prose className="mt-5">
-                    {section.body
+                    {howIWork.body
                       .split("\n\n")
                       .map((paragraph, paragraphIndex) => <p key={paragraphIndex}>{paragraph}</p>)}
                   </Prose>
                 </FadeIn>
-                {i === 0 ? (
-                  <FadeIn className="mx-auto my-16 w-full max-w-[420px]">
-                    <ClientPhoto
-                      src={whiteRose.url}
-                      alt={t("about.roseImageAlt")}
-                      placeholder={t("about.roseImagePlaceholder")}
-                      width={750}
-                      height={844}
-                      className="mx-auto h-auto w-full"
-                      placeholderClassName="flex w-full items-center justify-center bg-background px-6 text-center text-sm text-green-700"
-                    />
-                  </FadeIn>
-                ) : null}
-              </div>
+              ) : null}
+            </div>
+
+            {remainingSections.map((section, i) => (
+              <FadeIn key={section.heading} delay={(i + 2) * 50}>
+                <SectionTitle>{section.heading}</SectionTitle>
+                <Prose className="mt-5">
+                  {section.body
+                    .split("\n\n")
+                    .map((paragraph, paragraphIndex) => <p key={paragraphIndex}>{paragraph}</p>)}
+                </Prose>
+              </FadeIn>
             ))}
           </div>
         </div>

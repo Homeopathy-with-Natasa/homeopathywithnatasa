@@ -59,27 +59,29 @@ function Consultations() {
 
       <CurveDivider variant="soft" from="background" fill="muted" />
       <Section tone="muted">
-        <FadeIn>
-          <SectionTitle>{t("consultations.formatTitle")}</SectionTitle>
-          <Prose className="mt-6">
-            <p>{t("consultations.formatBody")}</p>
-          </Prose>
-        </FadeIn>
+        <div className="grid items-start gap-12 md:grid-cols-2 md:gap-14">
+          <FadeIn className="md:order-2">
+            <ClientPhoto
+              src={hawthornBlossom.url}
+              alt={t("consultations.hawthornImageAlt")}
+              placeholder={t("consultations.hawthornImagePlaceholder")}
+              width={1200}
+              height={1600}
+              className="h-auto w-full rounded-2xl"
+              placeholderClassName="flex w-full items-center justify-center rounded-2xl bg-green-100 px-6 text-center text-sm text-green-700"
+            />
+          </FadeIn>
+          <FadeIn className="md:order-1">
+            <SectionTitle>{t("consultations.formatTitle")}</SectionTitle>
+            <Prose className="mt-6">
+              <p>{t("consultations.formatBody")}</p>
+            </Prose>
+          </FadeIn>
+        </div>
       </Section>
       <CurveDivider variant="soft" from="muted" fill="background" />
 
       <Section>
-        <FadeIn className="mb-16">
-          <ClientPhoto
-            src={hawthornBlossom.url}
-            alt={t("consultations.hawthornImageAlt")}
-            placeholder={t("consultations.hawthornImagePlaceholder")}
-            width={1200}
-            height={1600}
-            className="h-auto w-full rounded-2xl"
-            placeholderClassName="flex w-full items-center justify-center rounded-2xl bg-green-100 px-6 text-center text-sm text-green-700"
-          />
-        </FadeIn>
         <FadeIn>
           <SectionTitle>{t("consultations.pricingTitle")}</SectionTitle>
           <PriceTable

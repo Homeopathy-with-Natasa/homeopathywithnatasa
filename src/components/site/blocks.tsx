@@ -182,8 +182,10 @@ export function PriceTable({ rows, note }: { rows: PriceRow[]; note?: string }) 
       <dl className="divide-y divide-green-100 overflow-hidden rounded-2xl bg-card ring-1 ring-green-100">
         {rows.map((row, i) => (
           <div key={i} className="flex flex-wrap items-baseline justify-between gap-2 px-6 py-5">
-            <dt className="text-green-900/90">{row.label}</dt>
-            <dd className="font-display text-lg text-rose-600">{row.value}</dd>
+            <dt className="min-w-0 flex-1 text-green-900/90">{row.label}</dt>
+            <dd className="font-display ml-auto shrink-0 text-right text-lg text-rose-600">
+              {row.value}
+            </dd>
           </div>
         ))}
       </dl>

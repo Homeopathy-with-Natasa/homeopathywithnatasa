@@ -82,25 +82,27 @@ function Homeopathy() {
 
       <CurveDivider variant="wave" from="background" fill="muted" />
       <Section tone="muted">
-        <FadeIn>
-          <SectionTitle>{t("homeopathy.consultationTitle")}</SectionTitle>
-          <Prose className="mt-6">
-            {tAny<string[]>("homeopathy.consultationBody").map((paragraph, index) => (
-              <p key={index}>{paragraph}</p>
-            ))}
-          </Prose>
-        </FadeIn>
-        <FadeIn className="mt-14">
-          <ClientPhoto
-            src={fernUnfurling.url}
-            alt={t("homeopathy.consultationImageAlt")}
-            placeholder={t("homeopathy.consultationImagePlaceholder")}
-            width={1200}
-            height={1600}
-            className="h-auto w-full rounded-2xl"
-            placeholderClassName="flex w-full items-center justify-center rounded-2xl bg-green-100 px-6 text-center text-sm text-green-700"
-          />
-        </FadeIn>
+        <div className="grid items-start gap-12 md:grid-cols-2 md:gap-14">
+          <FadeIn className="md:order-2">
+            <ClientPhoto
+              src={fernUnfurling.url}
+              alt={t("homeopathy.consultationImageAlt")}
+              placeholder={t("homeopathy.consultationImagePlaceholder")}
+              width={1200}
+              height={1600}
+              className="h-auto w-full rounded-2xl"
+              placeholderClassName="flex w-full items-center justify-center rounded-2xl bg-green-100 px-6 text-center text-sm text-green-700"
+            />
+          </FadeIn>
+          <FadeIn className="md:order-1">
+            <SectionTitle>{t("homeopathy.consultationTitle")}</SectionTitle>
+            <Prose className="mt-6">
+              {tAny<string[]>("homeopathy.consultationBody").map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
+              ))}
+            </Prose>
+          </FadeIn>
+        </div>
         <FadeIn className="mt-14">
           <SectionTitle>{t("homeopathy.interestTitle")}</SectionTitle>
           <Prose className="mt-6">
