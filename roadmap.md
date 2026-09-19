@@ -15,3 +15,4 @@
 - [x] Validate image loading, language parity, and English page screenshots
 - [x] Pair the About, Homeopathy, and Consultations photographs with their text on desktop
 - [x] Keep all consultation prices aligned to the right
+- [x] Let the Homeopathy consultation text flow beneath the right-aligned fern

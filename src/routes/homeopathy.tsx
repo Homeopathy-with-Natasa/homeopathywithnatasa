@@ -82,8 +82,8 @@ function Homeopathy() {
 
       <CurveDivider variant="wave" from="background" fill="muted" />
       <Section tone="muted">
-        <div className="grid items-start gap-12 md:grid-cols-2 md:gap-14">
-          <FadeIn className="md:order-2">
+        <div className="flow-root">
+          <FadeIn className="mb-12 md:float-right md:mb-8 md:ml-14 md:w-[46%]">
             <ClientPhoto
               src={fernUnfurling.url}
               alt={t("homeopathy.consultationImageAlt")}
@@ -94,7 +94,7 @@ function Homeopathy() {
               placeholderClassName="flex w-full items-center justify-center rounded-2xl bg-green-100 px-6 text-center text-sm text-green-700"
             />
           </FadeIn>
-          <FadeIn className="md:order-1">
+          <FadeIn>
             <SectionTitle>{t("homeopathy.consultationTitle")}</SectionTitle>
             <Prose className="mt-6">
               {tAny<string[]>("homeopathy.consultationBody").map((paragraph, index) => (
