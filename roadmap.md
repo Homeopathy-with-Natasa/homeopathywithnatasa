@@ -6,3 +6,4 @@
 - [x] Verify and capture English Home, About, and Supervision screenshots
 - [x] Apply Lot 8 Home page flow and global booking label
 - [x] Validate English and Croatian parity and capture desktop/mobile Home screenshots
+- [x] Apply Lot 9 Home intro section cuts in English and Croatian
