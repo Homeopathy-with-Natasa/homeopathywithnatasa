@@ -7,3 +7,6 @@
 - [x] Apply Lot 8 Home page flow and global booking label
 - [x] Validate English and Croatian parity and capture desktop/mobile Home screenshots
 - [x] Apply Lot 9 Home intro section cuts in English and Croatian
+- [ ] Apply Lot 10 Home and About copy revisions in English and Croatian
+- [ ] Apply Lot 11 Home section reorderings and Homeopathy image slot
+- [ ] Validate language parity, removed copy, page rendering, and requested screenshots
