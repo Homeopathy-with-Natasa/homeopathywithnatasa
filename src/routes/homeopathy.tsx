@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/SiteLayout";
 import { FadeIn } from "@/components/site/FadeIn";
@@ -38,7 +38,15 @@ export const Route = createFileRoute("/homeopathy")({
 
 function Homeopathy() {
   const { t, tAny } = useI18n();
-  const [consultationImageAvailable, setConsultationImageAvailable] = useState(true);
+  const [consultationImageAvailable, setConsultationImageAvailable] = useState(false);
+
+  useEffect(() => {
+    const controller = new AbortController();
+    fetch("/images/fern-unfurling.jpg", { method: "HEAD", signal: controller.signal })
+      .then((response) => setConsultationImageAvailable(response.ok))
+      .catch(() => setConsultationImageAvailable(false));
+    return () => controller.abort();
+  }, []);
 
   return (
     <SiteLayout>
@@ -96,7 +104,6 @@ function Homeopathy() {
               src="/images/fern-unfurling.jpg"
               alt={t("homeopathy.consultationImageAlt")}
               className="h-auto w-full rounded-2xl"
-              onError={() => setConsultationImageAvailable(false)}
             />
           ) : (
             <div className="flex aspect-[3/4] w-full items-center justify-center rounded-2xl bg-green-100 px-6 text-center text-sm text-green-700">
