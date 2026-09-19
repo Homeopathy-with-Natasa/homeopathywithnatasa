@@ -10,3 +10,6 @@
 - [x] Apply Lot 10 Home and About copy revisions in English and Croatian
 - [x] Apply Lot 11 Home section reorderings and Homeopathy image slot
 - [x] Validate language parity, removed copy, page rendering, and requested screenshots
+- [ ] Locate and register the eight client photographs
+- [ ] Place exactly the fern, cream-background rose, and hawthorn on their specified pages
+- [ ] Validate image loading, language parity, and English page screenshots
