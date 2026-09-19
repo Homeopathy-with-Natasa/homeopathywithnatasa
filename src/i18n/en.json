@@ -92,6 +92,8 @@
       }
     ],
     "credentialsTitle": "Bio and credentials",
+    "roseImageAlt": "A white rose.",
+    "roseImagePlaceholder": "Photograph placeholder: white rose",
     "closingTitle": "Shall we talk",
     "closingBody": "The first consultation is long and unhurried. It is the best way to find out whether this way of working suits you.",
     "credentialsIntro": "I've practised homeopathy since I qualified in 2009, both in London and in my homeland, Croatia. Alongside my private homeopathy practice, I lecture and supervise students at the Centre for Homeopathic Education, the largest homeopathy college in the UK.",
@@ -189,6 +191,8 @@
     ],
     "formatTitle": "How we meet",
     "formatBody": "Consultations are currently held online by video, and your remedies are posted to you. This works well, because most of this work is a conversation. In person appointments in Telegraph Hill, south east London, are available by arrangement. Choose whichever lets you be somewhere quiet and uninterrupted.",
+    "hawthornImageAlt": "Hawthorn blossom.",
+    "hawthornImagePlaceholder": "Photograph placeholder: hawthorn blossom",
     "pricingTitle": "Fees",
     "pricingNote": "All homeopathic medicines are included in the consultation fees, except for acute consultations and detox therapies.",
     "priceRows": [

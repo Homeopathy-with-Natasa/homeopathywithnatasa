@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/SiteLayout";
 import { FadeIn } from "@/components/site/FadeIn";
 import { CurveDivider } from "@/components/site/CurveDivider";
+import { ClientPhoto } from "@/components/site/ClientPhoto";
 import {
   CredentialsList,
   CtaBand,
@@ -15,6 +16,7 @@ import {
 } from "@/components/site/blocks";
 import { useI18n } from "@/i18n/LanguageProvider";
 import natasaAbout from "@/assets/natasa-about.jpg.asset.json";
+import whiteRose from "@/assets/white-rose-on-cream.jpg.asset.json";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -57,14 +59,29 @@ function About() {
           </FadeIn>
           <div className="mt-12 space-y-12 md:mt-0">
             {sections.map((section, i) => (
-              <FadeIn key={i} delay={i * 50}>
-                <SectionTitle>{section.heading}</SectionTitle>
-                <Prose className="mt-5">
-                  {section.body
-                    .split("\n\n")
-                    .map((paragraph, paragraphIndex) => <p key={paragraphIndex}>{paragraph}</p>)}
-                </Prose>
-              </FadeIn>
+              <div key={i}>
+                <FadeIn delay={i * 50}>
+                  <SectionTitle>{section.heading}</SectionTitle>
+                  <Prose className="mt-5">
+                    {section.body
+                      .split("\n\n")
+                      .map((paragraph, paragraphIndex) => <p key={paragraphIndex}>{paragraph}</p>)}
+                  </Prose>
+                </FadeIn>
+                {i === 0 ? (
+                  <FadeIn className="mx-auto my-16 w-full max-w-[420px]">
+                    <ClientPhoto
+                      src={whiteRose.url}
+                      alt={t("about.roseImageAlt")}
+                      placeholder={t("about.roseImagePlaceholder")}
+                      width={750}
+                      height={844}
+                      className="mx-auto h-auto w-full"
+                      placeholderClassName="flex w-full items-center justify-center bg-background px-6 text-center text-sm text-green-700"
+                    />
+                  </FadeIn>
+                ) : null}
+              </div>
             ))}
           </div>
         </div>

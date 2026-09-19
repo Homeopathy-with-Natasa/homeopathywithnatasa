@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/SiteLayout";
 import { FadeIn } from "@/components/site/FadeIn";
 import { CurveDivider } from "@/components/site/CurveDivider";
+import { ClientPhoto } from "@/components/site/ClientPhoto";
 import {
   CtaBand,
   PageHeader,
@@ -13,6 +13,7 @@ import {
   SectionTitle,
 } from "@/components/site/blocks";
 import { useI18n } from "@/i18n/LanguageProvider";
+import fernUnfurling from "@/assets/fern-unfurling.jpg.asset.json";
 
 export const Route = createFileRoute("/homeopathy")({
   head: () => ({
@@ -38,15 +39,6 @@ export const Route = createFileRoute("/homeopathy")({
 
 function Homeopathy() {
   const { t, tAny } = useI18n();
-  const [consultationImageAvailable, setConsultationImageAvailable] = useState(false);
-
-  useEffect(() => {
-    const controller = new AbortController();
-    fetch("/images/fern-unfurling.jpg", { method: "HEAD", signal: controller.signal })
-      .then((response) => setConsultationImageAvailable(response.ok))
-      .catch(() => setConsultationImageAvailable(false));
-    return () => controller.abort();
-  }, []);
 
   return (
     <SiteLayout>
@@ -99,17 +91,15 @@ function Homeopathy() {
           </Prose>
         </FadeIn>
         <FadeIn className="mt-14">
-          {consultationImageAvailable ? (
-            <img
-              src="/images/fern-unfurling.jpg"
-              alt={t("homeopathy.consultationImageAlt")}
-              className="h-auto w-full rounded-2xl"
-            />
-          ) : (
-            <div className="flex aspect-[3/4] w-full items-center justify-center rounded-2xl bg-green-100 px-6 text-center text-sm text-green-700">
-              {t("homeopathy.consultationImagePlaceholder")}
-            </div>
-          )}
+          <ClientPhoto
+            src={fernUnfurling.url}
+            alt={t("homeopathy.consultationImageAlt")}
+            placeholder={t("homeopathy.consultationImagePlaceholder")}
+            width={1200}
+            height={1600}
+            className="h-auto w-full rounded-2xl"
+            placeholderClassName="flex w-full items-center justify-center rounded-2xl bg-green-100 px-6 text-center text-sm text-green-700"
+          />
         </FadeIn>
         <FadeIn className="mt-14">
           <SectionTitle>{t("homeopathy.interestTitle")}</SectionTitle>
