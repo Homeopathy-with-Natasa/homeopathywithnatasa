@@ -1,13 +1,10 @@
-# Lot 10 content update
+# Enregistrer les nouvelles photos
 
-## Changes
-- Replace the two specified Home page bodies in English and Croatian, keeping each as one paragraph.
-- Remove the “Where the science shows up” About section in both languages.
-- Replace the “How I work” body with the supplied three paragraphs and a formal-Vi Croatian translation.
-- Leave all routes, layout, styling, and other copy unchanged.
+## Mise en œuvre
+- Enregistrer les huit photos fournies dans les ressources du site, sans les afficher automatiquement ailleurs.
+- Remplacer l’emplacement réservé de la page Homeopathy par la vraie photo `fern-unfurling.jpg`.
+- Conserver les textes, la mise en page et toutes les autres pages inchangés.
 
-## Verification
-- Confirm both language files parse and have identical keys and structure.
-- Confirm the removed English and Croatian sentences no longer occur anywhere in either file.
-- Confirm no em dashes were introduced.
-- Check the English Home and About pages in the running preview and capture screenshots.
+## Vérification
+- Vérifier que la photo de fougère s’affiche sans emplacement de secours.
+- Vérifier que le site se construit sans erreur.
