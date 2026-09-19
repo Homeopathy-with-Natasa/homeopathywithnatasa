@@ -86,8 +86,7 @@ function Home() {
         </FadeIn>
       </Section>
 
-      <CurveDivider variant="soft" from="background" fill="muted" />
-      <Section tone="muted">
+      <Section>
         <FadeIn>
           <SectionTitle>{t("home.scientistTitle")}</SectionTitle>
           <Prose className="mt-6">
@@ -103,9 +102,8 @@ function Home() {
           </Link>
         </FadeIn>
       </Section>
-      <CurveDivider variant="soft" from="muted" fill="background" />
-
-      <Section>
+      <CurveDivider variant="soft" from="background" fill="muted" />
+      <Section tone="muted">
         <FadeIn>
           <SectionTitle>{t("home.processTitle")}</SectionTitle>
           <Prose className="mt-6">
@@ -116,7 +114,7 @@ function Home() {
         </FadeIn>
       </Section>
 
-      <CurveDivider variant="soft" from="background" fill="muted" />
+      <CurveDivider variant="soft" from="muted" fill="background" />
       <Section tone="muted">
         <FadeIn>
           <SectionTitle>{t("home.whatTitle")}</SectionTitle>
