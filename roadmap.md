@@ -13,3 +13,5 @@
 - [x] Locate and register the eight client photographs
 - [x] Place exactly the fern, cream-background rose, and hawthorn on their specified pages
 - [x] Validate image loading, language parity, and English page screenshots
+- [x] Pair the About, Homeopathy, and Consultations photographs with their text on desktop
+- [x] Keep all consultation prices aligned to the right
