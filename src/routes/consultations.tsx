@@ -1,40 +1,24 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/SiteLayout";
-import { FadeIn } from "@/components/site/FadeIn";
-import { CurveDivider } from "@/components/site/CurveDivider";
 import { ClientPhoto } from "@/components/site/ClientPhoto";
-import {
-  CardList,
-  ContactForm,
-  CtaBand,
-  PageHeader,
-  PriceTable,
-  Prose,
-  QuoteRow,
-  Section,
-  SectionTitle,
-  StepList,
-  type PriceRow,
-  type QuoteItem,
-  type Step,
-} from "@/components/site/blocks";
+import { PageHeader, PlainList, Section } from "@/components/site/blocks";
+import { BeforeFirstAppointment, BookingPanel } from "@/components/site/BookingPanel";
 import { useI18n } from "@/i18n/LanguageProvider";
 import hawthornBlossom from "@/assets/hawthorn-blossom.jpg.asset.json";
 
 export const Route = createFileRoute("/consultations")({
   head: () => ({
     meta: [
-      { title: "Consultations and pricing | Homeopathy with Natasa, London" },
+      { title: "Consultations and booking | Homeopathy with Natasa" },
       {
         name: "description",
         content:
-          "First consultations, follow-ups and acute support, in person in Telegraph Hill, London, or online. Fees, clinic hours and cancellation policy.",
+          "Book an online homeopathy consultation with Nataša Perić by Google Meet video: first and follow-up appointments for adults and children, and acute appointments.",
       },
-      { property: "og:title", content: "Consultations and pricing | Homeopathy with Natasa" },
+      { property: "og:title", content: "Consultations and booking | Homeopathy with Natasa" },
       {
         property: "og:description",
-        content:
-          "How consultations work, what they cost, and what happens after you book. In person in London or online.",
+        content: "Choose an appointment, see fees and book online by Google Meet video.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -43,89 +27,49 @@ export const Route = createFileRoute("/consultations")({
   component: Consultations,
 });
 
+const split = (text: string) => text.split("\n\n").map((p, i) => <p key={i}>{p}</p>);
+
 function Consultations() {
   const { t, tAny } = useI18n();
 
   return (
-    <SiteLayout>
+    <SiteLayout footerFrom="background">
       <PageHeader title={t("consultations.title")} standfirst={t("consultations.standfirst")} />
-
       <Section prose={false}>
-        <FadeIn>
-          <SectionTitle>{t("consultations.offerTitle")}</SectionTitle>
-        </FadeIn>
-        <CardList items={tAny<Step[]>("consultations.offers")} />
+        <BookingPanel
+          group="consultation"
+          intro={
+            <>
+              {split(t("consultations.intro"))}
+              <div className="space-y-5 border-t border-green-100 pt-5 text-[0.98rem]">
+                {split(t("consultations.bookingNote"))}
+              </div>
+            </>
+          }
+          aside={
+            <div className="space-y-10">
+              <ClientPhoto
+                src={hawthornBlossom.url}
+                alt={t("consultations.hawthornImageAlt")}
+                placeholder={t("consultations.hawthornImagePlaceholder")}
+                width={1200}
+                height={1600}
+                className="mx-auto hidden h-auto w-full max-w-[260px] rounded-2xl lg:block"
+                placeholderClassName="hidden"
+              />
+              <div>
+                <h2 className="text-2xl">{t("consultations.expectTitle")}</h2>
+                <PlainList items={tAny<string[]>("consultations.expectItems")} />
+              </div>
+              <div>
+                <h2 className="text-2xl">{t("consultations.availabilityTitle")}</h2>
+                <p className="mt-4 text-green-900/90">{t("consultations.availabilityBody")}</p>
+              </div>
+              <BeforeFirstAppointment />
+            </div>
+          }
+        />
       </Section>
-
-      <CurveDivider variant="soft" from="background" fill="muted" />
-      <Section tone="muted">
-        <div className="grid items-start gap-12 md:grid-cols-2 md:gap-14">
-          <FadeIn className="md:order-2">
-            <ClientPhoto
-              src={hawthornBlossom.url}
-              alt={t("consultations.hawthornImageAlt")}
-              placeholder={t("consultations.hawthornImagePlaceholder")}
-              width={1200}
-              height={1600}
-              className="h-auto w-full rounded-2xl"
-              placeholderClassName="flex w-full items-center justify-center rounded-2xl bg-green-100 px-6 text-center text-sm text-green-700"
-            />
-          </FadeIn>
-          <FadeIn className="md:order-1">
-            <SectionTitle>{t("consultations.formatTitle")}</SectionTitle>
-            <Prose className="mt-6">
-              <p>{t("consultations.formatBody")}</p>
-            </Prose>
-          </FadeIn>
-        </div>
-      </Section>
-      <CurveDivider variant="soft" from="muted" fill="background" />
-
-      <Section>
-        <FadeIn>
-          <SectionTitle>{t("consultations.pricingTitle")}</SectionTitle>
-          <PriceTable
-            rows={tAny<PriceRow[]>("consultations.priceRows")}
-            note={t("consultations.pricingNote")}
-          />
-        </FadeIn>
-
-        <FadeIn className="mt-14">
-          <SectionTitle>{t("consultations.hoursTitle")}</SectionTitle>
-          <PriceTable rows={tAny<PriceRow[]>("consultations.hoursRows")} />
-        </FadeIn>
-
-        <FadeIn className="mt-14">
-          <SectionTitle>{t("consultations.cancellationTitle")}</SectionTitle>
-          <Prose className="mt-6">
-            <p>{t("consultations.cancellationBody")}</p>
-          </Prose>
-        </FadeIn>
-      </Section>
-
-      <CurveDivider variant="wave" from="background" fill="muted" />
-      <Section tone="muted">
-        <FadeIn>
-          <SectionTitle>{t("consultations.nextTitle")}</SectionTitle>
-        </FadeIn>
-        <StepList steps={tAny<Step[]>("consultations.nextSteps")} roseNumbers />
-
-        <FadeIn className="mt-14">
-          <SectionTitle>{t("consultations.quotesTitle")}</SectionTitle>
-          <QuoteRow quotes={tAny<QuoteItem[]>("consultations.quotes")} />
-        </FadeIn>
-      </Section>
-      <CurveDivider variant="wave" from="muted" fill="background" />
-
-      <Section>
-        <FadeIn>
-          <div id="contact" className="scroll-mt-24">
-            <ContactForm />
-          </div>
-        </FadeIn>
-      </Section>
-
-      <CtaBand title={t("consultations.closingTitle")} body={t("consultations.closingBody")} />
     </SiteLayout>
   );
 }
