@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+- Bookable services live only in the SERVICES array in src/config/site.ts; booking cards and Cal.com embeds read from it, so prices and slugs change in one place.
+- All Airtable calls go through src/lib/airtable.server.ts (base ID, table IDs, typecast writes, rate limit), loaded inside server function handlers only, so the token never reaches the browser.
