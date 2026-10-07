@@ -10,7 +10,7 @@ const schema = z.object({
   company: z.string().max(0).optional().default(""),
 });
 
-export type ContactResult = { ok: true; id?: string } | { ok: false; error: string };
+export type ContactResult = { ok: true; id?: string | undefined } | { ok: false; error: string };
 
 /** Writes contact form enquiries to the Leads table, server side only. */
 export const submitContact = createServerFn({ method: "POST" })

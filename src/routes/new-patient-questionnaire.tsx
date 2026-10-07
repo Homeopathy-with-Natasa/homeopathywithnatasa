@@ -62,7 +62,7 @@ const inputCls =
   "mt-2 w-full rounded-2xl border border-green-300 bg-card px-4 py-2.5 text-green-900 focus:ring-2 focus:ring-green-400 focus:outline-none";
 const linkCls = "text-green-700 underline underline-offset-4 hover:text-green-600";
 
-function Label({ children, required }: { children: ReactNode; required?: boolean }) {
+function Label({ children, required }: { children: ReactNode; required?: boolean | undefined }) {
   return (
     <span className="block text-green-900">
       {children}

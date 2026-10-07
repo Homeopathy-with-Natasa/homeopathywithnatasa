@@ -28,7 +28,7 @@ export async function airtable<T = unknown>(
   const res = await fetch(url, {
     method: init.method ?? "GET",
     headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
-    body: init.body === undefined ? undefined : JSON.stringify(init.body),
+    body: init.body === undefined ? null : JSON.stringify(init.body),
   });
   if (!res.ok) {
     const body = await res.text();
