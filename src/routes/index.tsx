@@ -20,13 +20,13 @@ import ogImage from "@/assets/og-image.jpg.asset.json";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Homeopathy with Natasa | Homeopath in London" },
+      { title: "Homeopathy with Nataša | Homeopath in London" },
       {
         name: "description",
         content:
           "Nataša Perić, PhD, homeopath in private practice in London since 2009. Thoughtful, individualised consultations online by video.",
       },
-      { property: "og:title", content: "Homeopathy with Natasa | Homeopath in London" },
+      { property: "og:title", content: "Homeopathy with Nataša | Homeopath in London" },
       {
         property: "og:description",
         content:

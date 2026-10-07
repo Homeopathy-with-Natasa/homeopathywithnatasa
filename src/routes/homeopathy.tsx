@@ -18,13 +18,13 @@ import fernUnfurling from "@/assets/fern-unfurling.jpg.asset.json";
 export const Route = createFileRoute("/homeopathy")({
   head: () => ({
     meta: [
-      { title: "What homeopathy is | Homeopathy with Natasa, London" },
+      { title: "What homeopathy is | Homeopathy with Nataša, London" },
       {
         name: "description",
         content:
           "Homeopathy treats the body as one integrated system rather than isolated organs. What a consultation is like, what it may support, and how remedies are sent.",
       },
-      { property: "og:title", content: "What homeopathy is | Homeopathy with Natasa" },
+      { property: "og:title", content: "What homeopathy is | Homeopathy with Nataša" },
       {
         property: "og:description",
         content:

@@ -4,13 +4,13 @@ import { LegalPage } from "@/components/site/LegalPage";
 export const Route = createFileRoute("/code-of-ethics")({
   head: () => ({
     meta: [
-      { title: "Code of Ethics | Homeopathy with Natasa" },
+      { title: "Code of Ethics | Homeopathy with Nataša" },
       {
         name: "description",
         content:
           "The professional standards Nataša Perić practises to, as a member of the Complementary Therapist Association.",
       },
-      { property: "og:title", content: "Code of Ethics | Homeopathy with Natasa" },
+      { property: "og:title", content: "Code of Ethics | Homeopathy with Nataša" },
       {
         property: "og:description",
         content: "Confidentiality, consent, scope of practice and honesty.",

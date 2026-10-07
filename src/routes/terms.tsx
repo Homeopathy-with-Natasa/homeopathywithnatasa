@@ -7,13 +7,13 @@ import { CONTACT_EMAIL } from "@/config/site";
 export const Route = createFileRoute("/terms")({
   head: () => ({
     meta: [
-      { title: "Terms and Conditions | Homeopathy with Natasa" },
+      { title: "Terms and Conditions | Homeopathy with Nataša" },
       {
         name: "description",
         content:
           "Terms and Conditions and Patient - Therapist Agreement for consultations, booking, payment, cancellations and use of this website.",
       },
-      { property: "og:title", content: "Terms and Conditions | Homeopathy with Natasa" },
+      { property: "og:title", content: "Terms and Conditions | Homeopathy with Nataša" },
       {
         property: "og:description",
         content: "The terms on which consultations with Nataša Perić are provided.",
@@ -43,7 +43,7 @@ const SECTIONS: { title: string; body: ReactNode }[] = [
     body: (
       <p>
         This website is operated by Nataša Perić, PhD, BSc (Hons), LCHE, a sole trader trading as
-        Homeopathy with Natasa, practising in the United Kingdom. I am registered with the
+        Homeopathy with Nataša, practising in the United Kingdom. I am registered with the
         Complementary Therapists Association (CThA) and abide by a professional{" "}
         <In to="/code-of-ethics">Code of Ethics and Practice</In>. For any queries about these
         terms, please contact <Mail />.
@@ -319,7 +319,7 @@ function Terms() {
         </ol>
         <div className="mt-14 rounded-2xl bg-green-100 p-6 text-green-900">
           <p>Nataša Perić</p>
-          <p>Homeopathy with Natasa</p>
+          <p>Homeopathy with Nataša</p>
           <p>
             <Mail />
           </p>

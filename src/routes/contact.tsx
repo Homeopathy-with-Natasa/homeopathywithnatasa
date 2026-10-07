@@ -8,13 +8,13 @@ import { useI18n } from "@/i18n/LanguageProvider";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact | Homeopathy with Natasa" },
+      { title: "Contact | Homeopathy with Nataša" },
       {
         name: "description",
         content:
           "Ask Nataša Perić a question before you book. Every message is read and usually answered within 2 working days.",
       },
-      { property: "og:title", content: "Contact | Homeopathy with Natasa" },
+      { property: "og:title", content: "Contact | Homeopathy with Nataša" },
       {
         property: "og:description",
         content: "Send a note before you book, or write directly to hello@homeopathywithnatasa.co.uk.",
