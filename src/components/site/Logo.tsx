@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
-import logoGreen from "@/assets/logo-green.png.asset.json";
-import logoWhite from "@/assets/logo-white.png.asset.json";
+import logoGreen from "@/assets/logo-green.png";
+import logoWhite from "@/assets/logo-white.png";
 
 /**
  * Dandelion logo, drawn for Natasa in 2019.
@@ -16,7 +16,7 @@ export function LogoMark({
 }) {
   return (
     <img
-      src={variant === "white" ? logoWhite.url : logoGreen.url}
+      src={variant === "white" ? logoWhite : logoGreen}
       alt=""
       aria-hidden="true"
       className={cn("h-16 w-auto md:h-20", className)}

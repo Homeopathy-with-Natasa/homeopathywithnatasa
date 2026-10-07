@@ -11,3 +11,6 @@
 - Bookable services live only in the SERVICES array in src/config/site.ts; booking cards and Cal.com embeds read from it, so prices and slugs change in one place.
 - All Airtable calls go through src/lib/airtable.server.ts (base ID, table IDs, typecast writes, rate limit), loaded inside server function handlers only, so the token never reaches the browser.
 - Booking success handling stays inside BookingPanel and uses each selected service slug to decide whether the questionnaire action appears, so all booking pages remain consistent.
+
+- Images live as real files in src/assets and are imported directly (no Lovable asset pointers), so the site can deploy outside Lovable.
+- vite.config.ts switches nitro to the netlify preset when NETLIFY=true or NITRO_PRESET=netlify; Lovable builds always keep their own Cloudflare target.

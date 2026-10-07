@@ -13,7 +13,7 @@ import {
   SectionTitle,
 } from "@/components/site/blocks";
 import { useI18n } from "@/i18n/LanguageProvider";
-import fernUnfurling from "@/assets/fern-unfurling.jpg.asset.json";
+import fernUnfurling from "@/assets/fern-unfurling.jpg";
 
 export const Route = createFileRoute("/homeopathy")({
   head: () => ({
@@ -85,7 +85,7 @@ function Homeopathy() {
         <div className="flow-root">
           <FadeIn className="mb-12 md:float-right md:mb-8 md:ml-14 md:w-[46%]">
             <ClientPhoto
-              src={fernUnfurling.url}
+              src={fernUnfurling}
               alt={t("homeopathy.consultationImageAlt")}
               placeholder={t("homeopathy.consultationImagePlaceholder")}
               width={1200}

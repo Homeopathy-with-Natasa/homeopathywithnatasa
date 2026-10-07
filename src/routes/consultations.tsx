@@ -4,7 +4,7 @@ import { ClientPhoto } from "@/components/site/ClientPhoto";
 import { PageHeader, PlainList, Section } from "@/components/site/blocks";
 import { BeforeFirstAppointment, BookingPanel } from "@/components/site/BookingPanel";
 import { useI18n } from "@/i18n/LanguageProvider";
-import hawthornBlossom from "@/assets/hawthorn-blossom.jpg.asset.json";
+import hawthornBlossom from "@/assets/hawthorn-blossom.jpg";
 
 export const Route = createFileRoute("/consultations")({
   head: () => ({
@@ -49,7 +49,7 @@ function Consultations() {
           aside={
             <div className="space-y-10">
               <ClientPhoto
-                src={hawthornBlossom.url}
+                src={hawthornBlossom}
                 alt={t("consultations.hawthornImageAlt")}
                 placeholder={t("consultations.hawthornImagePlaceholder")}
                 width={1200}
