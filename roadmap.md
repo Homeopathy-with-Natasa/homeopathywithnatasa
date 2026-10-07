@@ -17,4 +17,4 @@
 - [x] Keep all consultation prices aligned to the right
 - [x] Let the Homeopathy consultation text flow beneath the right-aligned fern
 - [x] Combined update: new Airtable base, SERVICES config, Contact page, embedded Cal.com booking, new copy, Terms, New Patient Questionnaire
-- [ ] Live Airtable tests (adult, child, contact form): blocked, AIRTABLE_TOKEN secret is not set in the project
+- [x] Live Airtable tests (adult, child, contact form): all passed, test records deleted
