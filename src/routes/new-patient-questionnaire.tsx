@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useServerFn } from "@tanstack/react-start";
-import { useMemo, useState, type ReactNode } from "react";
+import { createContext, useContext, useMemo, useState, type ReactNode } from "react";
 import { Plus, Trash2 } from "lucide-react";
 import { SiteLayout } from "@/components/site/SiteLayout";
 import { Section } from "@/components/site/blocks";
@@ -71,6 +71,41 @@ function Label({ children, required }: { children: ReactNode; required?: boolean
   );
 }
 
+type FormCtx = {
+  text: Partial<Record<TextKey, string>>;
+  setText: (k: TextKey, v: string) => void;
+  d: Details;
+  setDetail: (k: keyof Details, v: string) => void;
+};
+const Ctx = createContext<FormCtx | null>(null);
+const useForm = () => useContext(Ctx)!;
+
+function T({ k, label, rows = 3, required }: { k: TextKey; label: string; rows?: number; required?: boolean }) {
+  const { text, setText } = useForm();
+  return (
+    <label className="block">
+      <Label required={required}>{label}</Label>
+      <textarea
+        rows={rows}
+        maxLength={4000}
+        value={text[k] ?? ""}
+        onChange={(e) => setText(k, e.target.value)}
+        className={cn(inputCls, "resize-y")}
+      />
+    </label>
+  );
+}
+
+function I({ k, label, type = "text", required }: { k: keyof Details; label: string; type?: string; required?: boolean }) {
+  const { d, setDetail } = useForm();
+  return (
+    <label className="block">
+      <Label required={required}>{label}</Label>
+      <input type={type} value={d[k]} onChange={(e) => setDetail(k, e.target.value)} className={inputCls} />
+    </label>
+  );
+}
+
 function Questionnaire() {
   const send = useServerFn(submitIntake);
   const [path, setPath] = useState<Path | null>(null);
@@ -97,25 +132,6 @@ function Questionnaire() {
 
   const setDetail = (k: keyof Details, v: string) =>
     setD((prev) => ({ ...prev, [k]: v, ...(k === "dob" ? { age: ageFrom(v) } : {}) }));
-
-  const T = ({ k, label, rows = 3, required }: { k: TextKey; label: string; rows?: number; required?: boolean }) => (
-    <label className="block">
-      <Label required={required}>{label}</Label>
-      <textarea
-        rows={rows}
-        maxLength={4000}
-        value={text[k] ?? ""}
-        onChange={(e) => setText((p) => ({ ...p, [k]: e.target.value }))}
-        className={cn(inputCls, "resize-y")}
-      />
-    </label>
-  );
-  const I = ({ k, label, type = "text", required }: { k: keyof Details; label: string; type?: string; required?: boolean }) => (
-    <label className="block">
-      <Label required={required}>{label}</Label>
-      <input type={type} value={d[k]} onChange={(e) => setDetail(k, e.target.value)} className={inputCls} />
-    </label>
-  );
 
   const illnessBlock = (question: string) => (
     <fieldset>
@@ -479,6 +495,7 @@ function Questionnaire() {
   };
 
   return (
+    <Ctx.Provider value={{ text, setText: (k, v) => setText((p) => ({ ...p, [k]: v })), d, setDetail }}>
     <SiteLayout footerFrom="background">
       <header className="bg-green-50">
         <div className="container-prose pt-14 pb-12 md:pt-20 md:pb-16">
@@ -542,5 +559,6 @@ function Questionnaire() {
         )}
       </Section>
     </SiteLayout>
+    </Ctx.Provider>
   );
 }
