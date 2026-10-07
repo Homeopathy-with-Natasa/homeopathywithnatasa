@@ -330,6 +330,7 @@ export function CtaBand({
   body: string;
   supervision?: boolean;
 }) {
+  const { t } = useI18n();
   return (
     <>
       <CurveDivider variant="wave" from="background" fill="green-100" />
@@ -361,7 +362,7 @@ export function CtaBand({
  * Natasa's client management system. Credentials stay on the server.
  * The mailto fallback below the form is always visible, on purpose.
  */
-export function ContactForm() {
+export function ContactForm({ showHeading = true }: { showHeading?: boolean }) {
   const { t, lang } = useI18n();
   const [state, setState] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const send = useServerFn(submitContact);
@@ -396,8 +397,12 @@ export function ContactForm() {
 
   return (
     <div>
-      <h2 className="text-3xl md:text-4xl">{t("contact.title")}</h2>
-      <p className="mt-5 max-w-xl text-green-900/90">{t("contact.body")}</p>
+      {showHeading ? (
+        <>
+          <h2 className="text-3xl md:text-4xl">{t("contact.title")}</h2>
+          <p className="mt-5 max-w-xl text-green-900/90">{t("contact.body")}</p>
+        </>
+      ) : null}
 
       <form onSubmit={onSubmit} className="mt-8 max-w-xl space-y-4">
         <div>
@@ -476,7 +481,8 @@ export function ContactForm() {
         </p>
       ) : null}
 
-      <p className="mt-6 text-green-900/90">
+      <p className="mt-6 max-w-xl text-sm text-muted-foreground">{t("contact.note")}</p>
+      <p className="mt-3 text-green-900/90">
         {t("contact.fallbackLead")}{" "}
         <a
           href={mailtoLink(lang)}
@@ -485,7 +491,6 @@ export function ContactForm() {
           {CONTACT_EMAIL}
         </a>
       </p>
-      <p className="mt-3 max-w-xl text-sm text-muted-foreground">{t("contact.note")}</p>
     </div>
   );
 }
