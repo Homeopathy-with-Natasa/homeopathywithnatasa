@@ -15,7 +15,7 @@ import {
 } from "@/components/site/blocks";
 import { useI18n } from "@/i18n/LanguageProvider";
 import { SITE_URL } from "@/config/site";
-import ogImage from "@/assets/og-image.jpg.asset.json";
+import ogImage from "@/assets/og-image.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -33,9 +33,9 @@ export const Route = createFileRoute("/")({
           "Good care begins with listening. A homeopath who sees the body as one living, intelligent system.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:image", content: SITE_URL + ogImage.url },
+      { property: "og:image", content: SITE_URL + ogImage },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:image", content: SITE_URL + ogImage.url },
+      { name: "twitter:image", content: SITE_URL + ogImage },
     ],
   }),
   component: Home,

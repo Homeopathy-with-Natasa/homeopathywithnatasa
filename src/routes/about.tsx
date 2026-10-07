@@ -15,8 +15,8 @@ import {
   type Step,
 } from "@/components/site/blocks";
 import { useI18n } from "@/i18n/LanguageProvider";
-import natasaAbout from "@/assets/natasa-about.jpg.asset.json";
-import whiteRose from "@/assets/white-rose-on-cream.jpg.asset.json";
+import natasaAbout from "@/assets/natasa-about.jpg";
+import whiteRose from "@/assets/white-rose-on-cream.jpg";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -56,7 +56,7 @@ function About() {
         <div className="flow-root">
           <FadeIn className="mx-auto w-full max-w-[380px] md:float-left md:mb-10 md:mr-16 md:w-[36%]">
             {/* Portrait, about page */}
-            <PortraitSlot label={t("images.aboutPortraitLabel")} src={natasaAbout.url} />
+            <PortraitSlot label={t("images.aboutPortraitLabel")} src={natasaAbout} />
           </FadeIn>
           <div className="mt-12 space-y-12 md:mt-0">
             {unexpectedBeginnings ? (
@@ -73,7 +73,7 @@ function About() {
             <div className="grid items-start gap-12 md:grid-cols-[minmax(0,1fr)_210px] md:gap-14">
               <FadeIn className="mx-auto w-full max-w-[210px] md:order-2 md:mx-0">
                 <ClientPhoto
-                  src={whiteRose.url}
+                  src={whiteRose}
                   alt={t("about.roseImageAlt")}
                   placeholder={t("about.roseImagePlaceholder")}
                   width={750}

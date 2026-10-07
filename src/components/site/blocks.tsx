@@ -5,7 +5,7 @@ import { Link } from "@tanstack/react-router";
 import { mailtoLink, CONTACT_EMAIL } from "@/config/site";
 import { submitContact } from "@/lib/contact.functions";
 import { cn } from "@/lib/utils";
-import natasaPortrait from "@/assets/natasa-home.jpg.asset.json";
+import natasaPortrait from "@/assets/natasa-home.jpg";
 import { Check } from "lucide-react";
 import { FadeIn } from "./FadeIn";
 import { CurveDivider } from "./CurveDivider";
@@ -254,7 +254,7 @@ export function PortraitSlot({
   label,
   className,
   ratio = "aspect-[5/6]",
-  src = natasaPortrait.url,
+  src = natasaPortrait,
 }: {
   label: string;
   className?: string;
