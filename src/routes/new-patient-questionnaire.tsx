@@ -17,13 +17,13 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/new-patient-questionnaire")({
   head: () => ({
     meta: [
-      { title: "New Patient Questionnaire | Homeopathy with Natasa" },
+      { title: "New Patient Questionnaire | Homeopathy with Nataša" },
       {
         name: "description",
         content:
           "Confidential questionnaire to complete before your first homeopathy appointment with Nataša Perić.",
       },
-      { property: "og:title", content: "New Patient Questionnaire | Homeopathy with Natasa" },
+      { property: "og:title", content: "New Patient Questionnaire | Homeopathy with Nataša" },
       {
         property: "og:description",
         content: "Please complete this confidential questionnaire before your first appointment.",

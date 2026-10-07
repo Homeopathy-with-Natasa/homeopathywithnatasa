@@ -9,13 +9,13 @@ import hawthornBlossom from "@/assets/hawthorn-blossom.jpg.asset.json";
 export const Route = createFileRoute("/consultations")({
   head: () => ({
     meta: [
-      { title: "Consultations and booking | Homeopathy with Natasa" },
+      { title: "Consultations and booking | Homeopathy with Nataša" },
       {
         name: "description",
         content:
           "Book an online homeopathy consultation with Nataša Perić by Google Meet video: first and follow-up appointments for adults and children, and acute appointments.",
       },
-      { property: "og:title", content: "Consultations and booking | Homeopathy with Natasa" },
+      { property: "og:title", content: "Consultations and booking | Homeopathy with Nataša" },
       {
         property: "og:description",
         content: "Choose an appointment, see fees and book online by Google Meet video.",
