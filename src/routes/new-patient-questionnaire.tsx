@@ -16,7 +16,7 @@ import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/new-patient-questionnaire")({
   validateSearch: (search: Record<string, unknown>) => ({
-    type: search.type === "child" ? ("child" as const) : undefined,
+    type: search["type"] === "child" ? ("child" as const) : undefined,
   }),
   head: () => ({
     meta: [

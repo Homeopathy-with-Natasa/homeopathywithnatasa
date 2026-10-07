@@ -136,7 +136,7 @@ export function BookingPanel({
                   {isFirstConsultation ? (
                     <Link
                       to="/new-patient-questionnaire"
-                      search={isChildConsultation ? { type: "child" } : {}}
+                      search={{ type: isChildConsultation ? "child" : undefined }}
                       className="mt-6 inline-flex rounded-full bg-primary px-6 py-3 text-primary-foreground transition-colors hover:bg-green-800"
                     >
                       {t("booking.completeQuestionnaire")}
@@ -188,6 +188,7 @@ export function BeforeFirstAppointment() {
         <li>
           <Link
             to="/new-patient-questionnaire"
+             search={{ type: undefined }}
             className="text-green-800 underline underline-offset-4 hover:text-green-600"
           >
             {t("booking.questionnaireLink")}
