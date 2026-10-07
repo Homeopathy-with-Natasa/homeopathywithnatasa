@@ -1,7 +1,8 @@
 import { useState, type FormEvent, type ReactNode } from "react";
 import { useServerFn } from "@tanstack/react-start";
 import { useI18n } from "@/i18n/LanguageProvider";
-import { bookingLink, mailtoLink, supervisionLink, CONTACT_EMAIL } from "@/config/site";
+import { Link } from "@tanstack/react-router";
+import { mailtoLink, CONTACT_EMAIL } from "@/config/site";
 import { submitContact } from "@/lib/contact.functions";
 import { cn } from "@/lib/utils";
 import natasaPortrait from "@/assets/natasa-home.jpg.asset.json";
@@ -21,15 +22,12 @@ export function BookButton({
   supervision?: boolean;
   label?: string;
 }) {
-  const { t, lang } = useI18n();
-  const href = supervision ? supervisionLink(lang) : bookingLink(lang);
+  const { t } = useI18n();
   const text = label ?? t(supervision ? "cta.bookSupervision" : "cta.book");
 
   return (
-    <a
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
+    <Link
+      to={supervision ? "/supervision" : "/consultations"}
       className={cn(
         "inline-flex items-center justify-center rounded-full px-6 py-3 text-[0.98rem] transition-colors",
         variant === "primary" && "bg-primary text-primary-foreground hover:bg-green-800",
@@ -38,11 +36,11 @@ export function BookButton({
       )}
     >
       {text}
-    </a>
+    </Link>
   );
 }
 
-export function EmailLink({ className }: { className?: string }) {
+export function EmailLink({ className, label }: { className?: string; label?: string }) {
   const { t, lang } = useI18n();
   return (
     <a
@@ -52,20 +50,20 @@ export function EmailLink({ className }: { className?: string }) {
         className,
       )}
     >
-      {t("cta.email")}
+      {label ?? t("cta.email")}
     </a>
   );
 }
 
 /* --------------------------------------------------------------- headings */
 
-export function PageHeader({ title, standfirst }: { title: string; standfirst: string }) {
+export function PageHeader({ title, standfirst }: { title: string; standfirst?: string }) {
   return (
     <header className="bg-green-50">
       <div className="container-prose pt-16 pb-14 md:pt-24 md:pb-20">
         <FadeIn>
           <h1 className="text-4xl md:text-5xl">{title}</h1>
-          <p className="mt-6 text-lg text-green-700 md:text-xl">{standfirst}</p>
+          {standfirst ? <p className="mt-6 text-lg text-green-700 md:text-xl">{standfirst}</p> : null}
         </FadeIn>
       </div>
       <CurveDivider variant="soft" from="green-50" fill="background" />
@@ -332,6 +330,7 @@ export function CtaBand({
   body: string;
   supervision?: boolean;
 }) {
+  const { t } = useI18n();
   return (
     <>
       <CurveDivider variant="wave" from="background" fill="green-100" />
@@ -342,7 +341,12 @@ export function CtaBand({
             <p className="mx-auto mt-5 max-w-xl text-green-900/85">{body}</p>
             <div className="mt-8 flex flex-wrap justify-center gap-3">
               <BookButton variant="accent" supervision={supervision} />
-              <EmailLink />
+              <Link
+                to="/contact"
+                className="inline-flex items-center justify-center rounded-full border border-green-300 px-6 py-3 text-[0.98rem] text-green-800 transition-colors hover:bg-green-50"
+              >
+                {t("cta.writeToMe")}
+              </Link>
             </div>
           </FadeIn>
         </div>
@@ -358,7 +362,7 @@ export function CtaBand({
  * Natasa's client management system. Credentials stay on the server.
  * The mailto fallback below the form is always visible, on purpose.
  */
-export function ContactForm() {
+export function ContactForm({ showHeading = true }: { showHeading?: boolean }) {
   const { t, lang } = useI18n();
   const [state, setState] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const send = useServerFn(submitContact);
@@ -393,8 +397,12 @@ export function ContactForm() {
 
   return (
     <div>
-      <h2 className="text-3xl md:text-4xl">{t("contact.title")}</h2>
-      <p className="mt-5 max-w-xl text-green-900/90">{t("contact.body")}</p>
+      {showHeading ? (
+        <>
+          <h2 className="text-3xl md:text-4xl">{t("contact.title")}</h2>
+          <p className="mt-5 max-w-xl text-green-900/90">{t("contact.body")}</p>
+        </>
+      ) : null}
 
       <form onSubmit={onSubmit} className="mt-8 max-w-xl space-y-4">
         <div>
@@ -473,7 +481,8 @@ export function ContactForm() {
         </p>
       ) : null}
 
-      <p className="mt-6 text-green-900/90">
+      <p className="mt-6 max-w-xl text-sm text-muted-foreground">{t("contact.note")}</p>
+      <p className="mt-3 text-green-900/90">
         {t("contact.fallbackLead")}{" "}
         <a
           href={mailtoLink(lang)}
@@ -482,7 +491,6 @@ export function ContactForm() {
           {CONTACT_EMAIL}
         </a>
       </p>
-      <p className="mt-3 max-w-xl text-sm text-muted-foreground">{t("contact.note")}</p>
     </div>
   );
 }

@@ -7,10 +7,11 @@
     "home": "Početna",
     "about": "O meni",
     "homeopathy": "Homeopatija",
-    "consultations": "Konzultacije i cijene",
+    "consultations": "Konzultacije",
     "menu": "Izbornik",
     "close": "Zatvori",
-    "supervision": "Supervizija"
+    "supervision": "Supervizija",
+    "contact": "Kontakt"
   },
   "cta": {
     "book": "Rezervirajte konzultaciju",
@@ -18,31 +19,23 @@
     "email": "Pošaljite e-poruku",
     "readMore": "Saznajte više o homeopatiji",
     "seePricing": "Pogledajte konzultacije i cijene",
-    "bookSupervision": "Rezervirajte superviziju"
+    "bookSupervision": "Rezervirajte superviziju",
+    "writeToMe": "Pišite mi",
+    "findOut": "Saznajte kako radim",
+    "viewServices": "Pogledajte sve usluge",
+    "homeopathy": "Homeopatija",
+    "learnMore": "Saznajte više"
   },
   "home": {
     "seoTitle": "Homeopathy with Natasa | Homeopatkinja u Londonu",
     "seoDescription": "Nataša Perić, PhD, homeopatkinja s privatnom praksom u Londonu od 2009. Videokonzultacije na daljinu i osobni dolasci u Telegraph Hill prema dogovoru.",
-    "heroTitle": "Dobra skrb počinje slušanjem.",
+    "heroTitle": "Dobra skrb počinje slušanjem",
     "heroSubtitle": "Promišljeno. Individualno. Osobno.",
-    "heroNote": "Na daljinu putem videopoziva, gdje god se nalazili. Osobno u Telegraph Hillu u Londonu, prema dogovoru.",
     "introTitle": "Vaše iskustvo zdravlja jedinstveno je.",
-    "introBody": "Vjerujem da svoje tijelo poznajemo bolje od ikoga i potičem Vas da sa mnom podijelite svoja gledišta. Odvajam vrijeme kako bih Vas saslušala, postavila promišljena pitanja i nastojala razumjeti širu sliku. Vaši simptomi, okolnosti i reakcije svojstveni su Vama. Želim razumjeti što proživljavate, što Vas je dovelo ovamo i poveznice unutar Vaše zdravstvene priče.",
+    "introBody": "Vjerujem da svoje tijelo poznajemo bolje od ikoga i potičem Vas da sa mnom podijelite svoja viđenja. Odvajam vrijeme da slušam, postavljam promišljena pitanja i nastojim razumjeti širu sliku. Vaši simptomi, okolnosti i reakcije svojstveni su upravo Vama. Želim razumjeti što proživljavate, što Vas je dovelo k meni i kako su povezani dijelovi Vaše zdravstvene priče.",
     "scientistTitle": "Znanstvenica koja je odabrala homeopatiju",
-    "scientistBody": "Način na koji radim oblikovali su mnogi putovi kojima sam prošla. Moje obrazovanje u biološkim znanostima i ljudskoj fiziologiji, istraživački i obrazovni rad te majčinstvo utjecali su na to tko sam kao homeopatska praktičarka. Putem sam prikupila različita gledišta, praktične alate i mudrost, a oni i dalje utječu na način na koji radim s pacijentima. U svaku konzultaciju unosim to iskustvo, znanje, suosjećanje i pomnu pažnju.",
+    "scientistBody": "Mnogi putovi kojima sam prošla oblikovali su način na koji se bavim homeopatijom. Moje obrazovanje iz bioloških znanosti i ljudske fiziologije, istraživački rad, poučavanje i majčinstvo utjecali su na to kakva sam homeopatkinja. Usput sam prikupila različite perspektive, praktične alate i mudrost, i oni i dalje utječu na to kako radim s pacijentima.",
     "scientistLink": "Saznajte više",
-    "processTitle": "Homeopatija je u mojem radu proces, a ne brzo rješenje.",
-    "processBody": "Homeopatiju prakticiram od 2009. Za mene je ona način razmišljanja, slušanja i istraživanja onoga što se događa svakoj pojedinoj osobi.\n\nU središtu moje prakse dva su uvjerenja: da dijagnoza ne određuje našu sudbinu i da tijelo ima iznimnu sposobnost promjene i prilagodbe kada dobije potrebnu podršku.\n\nTa uvjerenja oblikuju način na koji radim. Ne promatram Vas samo kroz dijagnozu ili popis simptoma. Želim razumjeti osobu koja ih doživljava: Vašu priču, okolnosti, obrasce i individualno iskustvo. Moja je uloga pažljivo istražiti Vaš slučaj, umjesto da svaki simptom promatram zasebno.\n\nOdnos između praktičara i pacijenta važan je dio tog procesa. Želim da se osjećate saslušano i shvaćeno te da u konzultaciju možete unijeti cijelo svoje iskustvo.\n\nZajedno istražujemo Vaše poteškoće, simptome i ono što bi moglo biti važno za razumijevanje Vašeg individualnog iskustva. Zatim propisujem individualizirane homeopatske pripravke. Kontrolne konzultacije pružaju nam priliku da razmotrimo što se promijenilo, što ste primijetili i kako reagirate, kako bismo se osvrnuli na Vaš napredak i zajedno razmotrili sljedeće korake.",
-    "recognitionTitle": "Možda ćete se prepoznati u ovome",
-    "recognitionItems": [
-      "Spremni ste ulagati u svoje zdravlje i dobrobit",
-      "Otvoreni ste i znatiželjni prema drukčijem pristupu zdravlju",
-      "Isprobali ste druge pristupe i tražite nešto drukčije ili Vas brinu nuspojave konvencionalnih lijekova",
-      "Spremni ste preuzeti aktivnu ulogu u vlastitom oporavku"
-    ],
-    "whatTitle": "Kako Vam mogu pomoći?",
-    "whatBody": "Kada ljudima kažem da sam homeopatkinja, zamole me da objasnim što to znači.\n\nHomeopatija promatra tijelo kao jedinstven, integriran sustav. Traži temeljni uzrok Vaših simptoma, umjesto da im pristupa samo površinski. Budući da je svaka osoba drukčija, svaki je pristup potpuno individualiziran.\n\nHomeopatija pruža podršku oporavku tijela, uma i duha kao cjeline, s ciljem uspostavljanja ravnoteže i dugotrajnije dobrobiti.\n\nNudim Vam podržavajući prostor bez osuđivanja, u kojem Vas vidim kao cjelovitu osobu i pružam Vam skrb koja Vam je potrebna.",
-    "whatBody2": "",
     "quotesTitle": "Njihovim riječima",
     "quotes": [
       {
@@ -58,19 +51,11 @@
         "author": "Klijentica, London"
       }
     ],
-    "closingTitle": "Ako ovakav pristup odgovara onome što tražite",
-    "closingBody": "Voljela bih Vas upoznati, čuti Vašu priču i zajedno istražiti što bi Vam moglo pomoći. Konzultaciju možete rezervirati izravno, a ako najprije imate pitanje, slobodno mi pišite.",
-    "arrivalTitle": "Zbog čega mi se ljudi obraćaju",
-    "arrivalIntro": "Niste sami. Stres suvremenog života može donijeti niz izazova koji mogu ostaviti traga na našem zdravlju, među kojima su:",
-    "arrivalItems": [
-      "Osjećaj preopterećenosti i česta tjeskoba",
-      "Iscrpljenost i nemogućnost da odgovorite na zahtjeve svakodnevice",
-      "Mentalna magla, poteškoće s tjelesnom težinom, probavne tegobe ili smanjena otpornost",
-      "Hormonalna neravnoteža, PMS ili simptomi menopauze",
-      "Manjak energije i motivacije, sniženo raspoloženje ili loš san",
-      "Prošla trauma ili nerazriješeni osjećaji koji Vas možda sputavaju"
-    ],
-    "recognitionClosing": "Ako se u ovome prepoznajete, voljela bih da se povežemo i zajedno istražimo kako bi Vam homeopatija mogla pružiti podršku."
+    "closingTitle": "Ako Vam se čini da je ovo skrb kakvu tražite",
+    "closingBody": "Važno je pronaći pravu osobu za suradnju. Rado bih Vas upoznala i zajedno s Vama istražila što bi Vam moglo najviše pomoći. Konzultaciju možete rezervirati izravno, a ako najprije imate pitanje, slobodno mi pišite.",
+    "holisticTitle": "Želite li svoje zdravlje istražiti na cjelovit način?",
+    "holisticBody": "Tijelo ne vidim kao stroj koji se jednostavno pokvari, nego kao živ, inteligentan sustav s urođenom mudrošću i sposobnošću da reagira te pronađe ravnotežu i sklad.\n\nDobrobit obuhvaća više od tjelesnog zdravlja, a zdravlje nije samo liječenje pojedinačnih simptoma. Riječ je o razumijevanju cijele osobe i stvaranju uvjeta koji mogu poduprijeti vlastitu sposobnost tijela za ravnotežu, prilagodbu i promjenu. U sebi imate više resursa nego što možda mislite, a homeopatija je pristup kojim ih podupirem.\n\nU srcu mojeg rada dva su uvjerenja: da Vas dijagnoza ne određuje i da tijelo ima izvanrednu sposobnost reagiranja kada dobije potporu koja mu je potrebna.",
+    "quoteLine": "Što ako osjećati se dobro nije nešto za čim treba juriti, nego nešto čemu se možemo vratiti?"
   },
   "about": {
     "seoTitle": "O Nataši Perić | Homeopatkinja u Londonu od 2009.",
@@ -172,112 +157,26 @@
   "consultations": {
     "seoTitle": "Homeopatske konzultacije i cijene | Homeopathy with Natasa",
     "seoDescription": "Prve, kontrolne i akutne homeopatske konzultacije putem videopoziva ili osobno u Telegraph Hillu u Londonu prema dogovoru. Cijene, radno vrijeme i uvjeti otkazivanja.",
-    "title": "Konzultacije i cijene",
-    "standfirst": "Na daljinu putem videopoziva, gdje god se nalazili, uz dostavu pripravaka poštom. Osobno u Telegraph Hillu u Londonu, prema dogovoru.",
-    "offerTitle": "Što nudim",
-    "offers": [
-      {
-        "heading": "Prva konzultacija",
-        "body": "Devedeset minuta. Temeljit razgovor o Vašem zdravlju, zdravstvenoj povijesti i životu danas. Analizu slučaja i odabir pripravka obavljam poslije, u svoje vrijeme, a uključeni su u cijenu."
-      },
-      {
-        "heading": "Kontrolna konzultacija",
-        "body": "Četrdeset pet minuta, obično četiri do šest tjedana poslije. Razmotrimo što se promijenilo i tome prilagodimo daljnji pristup."
-      },
-      {
-        "heading": "Akutna konzultacija",
-        "body": "Dvadesetominutni termin za iznenadnu i nedavnu tegobu, namijenjen osobama koje su već moji klijenti. Pripravci se naplaćuju zasebno. Korisno je znati da je ta mogućnost dostupna ako se nešto pojavi."
-      }
-    ],
-    "formatTitle": "Kako se susrećemo",
-    "formatBody": "Konzultacije se trenutačno održavaju na daljinu putem videopoziva, a pripravci Vam se šalju poštom. To dobro funkcionira jer se najveći dio ovoga rada odvija kroz razgovor. Osobni termini u Telegraph Hillu u jugoistočnom Londonu dostupni su prema dogovoru. Odaberite mogućnost koja Vam omogućuje da budete na mirnom mjestu bez ometanja.",
+    "title": "Konzultacije",
+    "standfirst": "Online putem Google Meeta, gdje god se nalazili.",
     "hawthornImageAlt": "Cvijet gloga.",
     "hawthornImagePlaceholder": "Mjesto za fotografiju: cvijet gloga",
-    "pricingTitle": "Cijene",
-    "pricingNote": "Svi homeopatski pripravci uključeni su u cijenu konzultacije, osim kod akutnih konzultacija i detoksikacijskih terapija.",
-    "priceRows": [
-      {
-        "label": "Prva konzultacija, 90 minuta",
-        "value": "£120"
-      },
-      {
-        "label": "Kontrolna konzultacija, 45 minuta",
-        "value": "£80"
-      },
-      {
-        "label": "Roditelj i beba do godinu dana, do 2 sata",
-        "value": "£180"
-      },
-      {
-        "label": "Obiteljska konzultacija, dva člana obitelji koji su već bili kod mene, 75 minuta",
-        "value": "£150"
-      },
-      {
-        "label": "Akutna konzultacija, 20 minuta, pripravci se dodatno naplaćuju",
-        "value": "£35"
-      },
-      {
-        "label": "Homeobotanički pripravci",
-        "value": "£25"
-      },
-      {
-        "label": "Poštarina",
-        "value": "Od £3.50"
-      }
+    "intro": "Ne vidim Vas samo kao dijagnozu ili skup izoliranih simptoma. Želim razumjeti osobu koja ih proživljava: Vašu priču, okolnosti, obrasce i Vaše osobno iskustvo.\n\nHomeopatija sa mnom je proces, a ne brzo rješenje. Zajedno istražujemo Vaše zdravstvene teškoće i okolnosti koje ih prate. Radim uz Vas kako bismo razumjeli Vaša iskustva i ono što je moglo pridonijeti njima.\n\nMoj rad nadopunjuje, a ne zamjenjuje konvencionalnu medicinsku skrb.",
+    "bookingNote": "Ovdje rezervirajte svoj online termin. Termini se održavaju videopozivom putem Google Meeta. Vremena su navedena u 24-satnom formatu. Ako niste u vremenskoj zoni GMT/BST, najprije odaberite svoju vremensku zonu kako biste vidjeli termine po svojem vremenu. Plaćanje se obavlja pri rezervaciji i osigurava Vaš termin.\n\nAko ne vidite termin koji Vam odgovara ili sam potpuno popunjena, pišite mi na hello@homeopathywithnatasa.co.uk. Ako me trebate hitno, obično imam slobodan termin.",
+    "expectTitle": "Što možete očekivati",
+    "expectItems": [
+      "Dovoljno vremena da razgovaramo o svemu što Vas muči.",
+      "Povjerljiv prostor i topao sugovornik koji ne osuđuje.",
+      "Jasan plan liječenja, ponekad s dodatnim holističkim preporukama.",
+      "Objašnjenje homeopatskog pristupa i onoga što možete očekivati tijekom liječenja.",
+      "Pripravke prilagođene Vama, s jasnim uputama."
     ],
-    "hoursTitle": "Radno vrijeme",
-    "hoursRows": [
-      {
-        "label": "Utorak",
-        "value": "9:00 do 17:00"
-      },
-      {
-        "label": "Četvrtak",
-        "value": "13:00 do 18:00"
-      },
-      {
-        "label": "Petak",
-        "value": "9:00 do 17:00"
-      },
-      {
-        "label": "Ponedjeljak, srijeda, subota i nedjelja",
-        "value": "Nema termina"
-      }
-    ],
-    "cancellationTitle": "Uvjeti otkazivanja",
-    "cancellationBody": "Ako trebate otkazati ili promijeniti termin, molim Vas da me obavijestite najmanje 24 sata unaprijed, odnosno 48 sati unaprijed ako još niste bili kod mene. Kasno otkazani i propušteni termini naplaćuju se u cijelosti. Ako se dogodi nešto hitno, javite mi. Važno mi je da znam.",
-    "nextTitle": "Što slijedi nakon rezervacije",
-    "nextSteps": [
-      {
-        "heading": "Odaberete termin",
-        "body": "Stranica za rezervaciju otvara se u novoj kartici, gdje odaberete termin koji Vam odgovara."
-      },
-      {
-        "heading": "Šaljem Vam kratak obrazac",
-        "body": "Nekoliko pitanja e-poštom kako bismo dobro iskoristili vrijeme koje imamo."
-      },
-      {
-        "heading": "Susrećemo se",
-        "body": "Putem videopoziva ili prema dogovoru u Telegraph Hillu, bez žurbe."
-      },
-      {
-        "heading": "Pripravak stiže poštom",
-        "body": "S pisanim uputama, nakon što proučim Vaš slučaj."
-      }
-    ],
-    "quotesTitle": "Njihovim riječima",
-    "quotes": [
-      {
-        "text": "Iznimno sam zahvalna Nataši na temeljitosti i pažnji koju posvećuje pojedinostima moje zdravstvene slike. Hvala Vam, Nataša, na stručnosti i brižnosti. Stalno Vas preporučujem drugima.",
-        "author": "Klijentica, London"
-      }
-    ],
-    "closingTitle": "Kad budete spremni",
-    "closingBody": "Ako najprije želite nešto pitati, javite mi se. Svaku e-poruku čitam osobno."
+    "availabilityTitle": "Moja dostupnost",
+    "availabilityBody": "Konzultacije se održavaju online putem Google Meeta i mogu se prilagoditi klijentima u različitim vremenskim zonama. Ako imate pitanja o tome, slobodno mi se javite."
   },
   "contact": {
     "title": "Kontakt",
-    "body": "Ako prije rezervacije želite nešto pitati, pošaljite mi poruku. Svaku poruku čitam osobno i odgovaram čim mogu.",
+    "body": "Ako prije rezervacije želite nešto pitati, pošaljite mi poruku. Čitam svaku poruku i obično odgovaram u roku od 2 radna dana.",
     "name": "Vaše ime",
     "email": "Vaša adresa e-pošte",
     "message": "Vaša poruka",
@@ -286,11 +185,13 @@
     "success": "Hvala Vam. Vaša je poruka poslana i odgovorit ću čim mogu.",
     "error": "Vaša poruka nije poslana. Molim Vas, javite mi se izravno na adresu u nastavku kako bi poruka sigurno stigla do mene.",
     "fallbackLead": "Ili mi pišite izravno na",
-    "note": "Ono što ovdje pošaljete dolazi meni i bilježi se u mojem sigurnom sustavu za upravljanje podacima klijenata kako bih Vam mogla odgovoriti. Ne objavljuje se nigdje."
+    "note": "Vaši se podaci sigurno pohranjuju i koriste se samo kako bih odgovorila na Vašu poruku.",
+    "seoTitle": "Kontakt",
+    "readyTitle": "Spremni za rezervaciju?"
   },
   "newsletter": {
-    "title": "Povremene bilješke",
-    "body": "Nekoliko puta godišnje šaljem kratke bilješke o tome kako radim, što čitam i što učim.",
+    "title": "Primajte povremene bilješke",
+    "body": "Nekoliko puta godišnje šaljem kratke bilješke o prirodnom zdravlju, homeopatiji i onome što me u posljednje vrijeme nadahnjuje. Pridružite mi se?",
     "placeholder": "Vaša adresa e-pošte",
     "button": "Prijavite se",
     "note": "JOŠ NIJE POVEZANO: ništa se ne šalje niti pohranjuje.",
@@ -431,56 +332,46 @@
     "seoDescription": "Individualna supervizija i supervizija u malim grupama za studente homeopatije i kvalificirane homeopate uz Natašu Perić.",
     "title": "Supervizija",
     "standfirst": "Od 2009. predajem u Centre for Homeopathic Education i vodim superviziju brojnih studenata na preddiplomskoj i poslijediplomskoj razini. Volim ovaj dio svojeg rada jer mi omogućuje da svoje znanje i iskustvo dijelim sa studentima homeopatije. Duboko mi je stalo do njihova stručnog i osobnog razvoja i zahvalna sam što mogu biti dio njihova puta. Na to sam istinski ponosna.",
-    "forTitle": "Kome je namijenjeno",
-    "forItems": [
-      "Studentima na kliničkoj edukaciji koji žele temeljito razmotriti slučaj",
-      "Nedavno kvalificiranim praktičarima koji pokreću svoju prvu praksu",
-      "Praktičarima koji se vraćaju nakon stanke",
-      "Svima koji rade na istraživačkom prijedlogu ili pisanom prikazu slučaja"
-    ],
-    "oneToOneTitle": "Individualna supervizija",
-    "oneToOneBody": "Susret posvećen Vašim slučajevima i pitanjima. Razmatramo što ste prikupili, što ste možda previdjeli i kako ste došli do odluke. Cilj nije dati Vam gotov odgovor, nego pomoći da Vaše vlastito zaključivanje postane jasnije i dosljednije.",
-    "groupTitle": "Supervizija u maloj grupi",
-    "groupBody": "Grupe su male kako bi svi imali priliku govoriti. Na svakom se susretu otvoreno raspravlja o jednom ili dva slučaja koja predstavljaju članovi grupe. Praktičari često jednako mnogo nauče i iz slučaja koji nije njihov.",
-    "backgroundTitle": "Zašto raditi sa mnom",
-    "backgroundBody": "Predajem i vodim superviziju u Centre for Homeopathic Education u Londonu, gdje vodim modul Research Proposition. U praksi sam od 2009., a u homeopatiju sam došla iz znanstvenog istraživanja. Metodologija i dokazi prirodan su dio mojeg rada, kao i otvoreno priznanje kada nešto nije poznato.",
-    "pricingTitle": "Cijene",
-    "pricingNote": "Susreti obično traju sat i pol, ponekad dva sata. Individualna supervizija naplaćuje se po satu, a kraći kontrolni susret razmjerno trajanju.",
-    "priceRows": [
-      {
-        "label": "Individualna supervizija, po satu",
-        "value": "£50"
-      },
-      {
-        "label": "Supervizija u maloj grupi, 90 minuta, po osobi",
-        "value": "£40"
-      }
-    ],
     "quotes": [
       {
-        "text": "Nataša je postala moja supervizorica dok sam završavala BSc studij homeopatije, no i danas, kao kvalificirana homeopatkinja, redovito odlazim na superviziju kod nje kako bih održala najviši standard svojeg rada. Nataša nije samo izvrsna homeopatkinja nego i predana i entuzijastična edukatorica posvećena uspjehu svakog studenta. Posjeduje impresivno homeopatsko znanje i spremna je učiniti više kako bi podržala osobe kojima vodi superviziju.",
-        "author": "Kvalificirana homeopatkinja"
-      },
-      {
-        "text": "Nataša uvijek pažljivo razmatra moje ideje i uspijeva pronaći ravnotežu između toga da me potakne na izazov i da me ohrabri. Naše su supervizije interaktivne i suradničke, što ne unapređuje samo moje kliničke vještine nego podržava i moj osobni i profesionalni razvoj.",
+        "text": "Natasa uvijek pažljivo razmotri moje ideje i uspijeva pronaći ravnotežu između toga da me izaziva i da me ohrabruje. Naši su supervizijski susreti interaktivni i suradnički, što ne samo da poboljšava moje kliničke vještine nego je stvarno utjecalo na moj rast, i kao osobe i kao homeopatkinje.",
         "author": "Supervizantica"
       },
       {
-        "text": "Iznimno cijenim Natašin iskren pristup i osobnost u razgovorima o usponima i padovima koje doživljavam kao homeopatkinja. Njezina profesionalnost i predanost nadahnjuju. Nataša je izvrsna supervizorica u svakom pogledu i od srca je preporučujem.",
-        "author": "Kvalificirana homeopatkinja"
+        "text": "Natasa mi je postala supervizorica dok sam završavala preddiplomski studij homeopatije, ali i danas, kao kvalificirana homeopatkinja, redovito idem k njoj na superviziju. Ima impresivno znanje o homeopatiji, vođenju pacijenata te anatomiji i fiziologiji, i uvijek je spremna učiniti i više da me podrži.",
+        "author": "Supervizantica"
+      },
+      {
+        "text": "Iznimno cijenim Natasinu iskrenu toplinu u suočavanju s mojim usponima i padovima kao homeopatkinje. Njezina profesionalnost i predanost uvijek me nadahnjuju.",
+        "author": "Supervizantica"
       }
     ],
-    "closingTitle": "Javite mi se",
-    "closingBody": "Javite mi se kako bismo razgovarali o Vašim potrebama za supervizijom i pronašli način na koji možemo raditi zajedno.",
-    "recognitionTitle": "Možda ćete se prepoznati u ovome",
-    "recognitionItems": [
-      "Pred Vama je slučaj, niste sigurni je li Vaše zaključivanje utemeljeno, a nemate ga s kim provjeriti.",
-      "Za stjecanje kvalifikacije trebate sate supervizije, ali želite da Vam doista koriste, a ne da budu samo ispunjena obveza.",
-      "Završili ste edukaciju i odjednom ste sami, sa stvarnim ljudima pred sobom.",
-      "Poznajete teoriju, ali ipak zastanete kada stvarni slučaj ne nalikuje ničemu iz knjiga.",
-      "Pišete prikaz slučaja ili istraživački prijedlog i niste sigurni je li dovoljno dobar."
-    ],
-    "introBody": "Nudim individualnu superviziju studentima i diplomiranim homeopatima. Nudim i grupnu superviziju te poduku tijekom koje možete učiti iz kliničkih slučajeva jedni drugih u podržavajućem okruženju za učenje. Ovi susreti dostupni su na daljinu.",
-    "quotesTitle": "Što kažu studenti"
+    "introBody": "Nudim individualnu superviziju za studente homeopatije, diplomante i homeopate u praksi.\n\nNudim i superviziju u malim grupama, u kojoj možete donijeti kliničke slučajeve na raspravu i učiti jedni od drugih u poticajnom okruženju. Susreti se održavaju online.",
+    "quotesTitle": "Što kažu supervizanti",
+    "workingTitle": "Zajednički rad",
+    "workingBody": "Supervizija je prilika da donesete svoje slučajeve, pitanja i izazove te imate prostora da ih promislite.\n\nMoj je cilj stvoriti poticajan prostor u kojem možete promišljati o svojoj praksi, razvijati kritičko i kliničko razmišljanje te graditi samopouzdanje u svojem radu.",
+    "contactTitle": "Javite mi se",
+    "contactBody": "Javite mi se kako bismo razgovarali o Vašim potrebama za supervizijom i istražili kako možemo surađivati."
+  },
+  "booking": {
+    "selectTitle": "Odaberite termin",
+    "book": "Rezervirajte",
+    "back": "Natrag na sve termine",
+    "close": "Zatvori",
+    "smallPrintPre": "Rezervacijom prihvaćate moje ",
+    "termsLink": "Uvjete poslovanja",
+    "beforeTitle": "Prije prvog termina",
+    "beforeBody": "Molim Vas da prije našeg susreta ispunite Upitnik za nove pacijente i pročitate moje Uvjete poslovanja.",
+    "questionnaireLink": "Upitnik za nove pacijente",
+    "loading": "Učitava se kalendar rezervacija"
+  },
+  "services": {
+    "first-adult": "Cjelovito uzimanje anamneze za odrasle, do 90 minuta.",
+    "follow-up-adult": "Pregled Vašeg napretka, obično svakih četiri do šest tjedana.",
+    "children-first": "Prvi pregled za djecu mlađu od 16 godina, uz roditelja ili skrbnika.",
+    "children-follow-up": "Kontrolni pregled za djecu mlađu od 16 godina.",
+    "acute": "Kratak termin za akutna stanja poput prehlade, kašlja, grlobolje ili lakših ozljeda.",
+    "supervision-1-1": "Individualna supervizija za studente, diplomante i homeopate u praksi.",
+    "supervision-group": "Donesite kliničke slučajeve na raspravu i učite jedni od drugih, online."
   }
 }

@@ -7,10 +7,11 @@
     "home": "Home",
     "about": "About",
     "homeopathy": "Homeopathy",
-    "consultations": "Consultations & Pricing",
+    "consultations": "Consultations",
     "menu": "Menu",
     "close": "Close",
-    "supervision": "Supervision"
+    "supervision": "Supervision",
+    "contact": "Contact"
   },
   "cta": {
     "book": "Book a consultation",
@@ -18,31 +19,23 @@
     "email": "Send an email",
     "readMore": "Read more about homeopathy",
     "seePricing": "See consultations and pricing",
-    "bookSupervision": "Book a supervision session"
+    "bookSupervision": "Book a supervision session",
+    "writeToMe": "Write to me",
+    "findOut": "Find out how I work",
+    "viewServices": "View all services",
+    "homeopathy": "Homeopathy",
+    "learnMore": "Learn more"
   },
   "home": {
     "seoTitle": "Homeopathy with Natasa | Homeopath in London",
     "seoDescription": "Nataša Perić, PhD, homeopath in private practice in London since 2009. Online consultations by video, and in person in Telegraph Hill by arrangement.",
-    "heroTitle": "Good care begins with listening.",
-    "heroSubtitle": "Thoughtful. Individual. Personal.",
-    "heroNote": "Online by video, wherever you are. In person in Telegraph Hill, London, by arrangement.",
+    "heroTitle": "Good care begins with listening",
+    "heroSubtitle": "Thoughtful. Individualised. Personalised.",
     "introTitle": "Your experience of health is uniquely yours.",
     "introBody": "I believe that we know our bodies better than anyone, and I encourage you to share your perspectives with me. I take the time to listen, ask thoughtful questions and aim to understand the bigger picture. Your symptoms, circumstances and responses are individual to you. I want to understand what you are experiencing, what has brought you here, and the connections within your health story.",
     "scientistTitle": "A scientist who chose homeopathy",
-    "scientistBody": "The way I work has been shaped by the many paths I've travelled. My background in biological sciences and human physiology, research, education and motherhood have all influenced who I am as a homeopathic practitioner. I've gathered perspectives, practical tools and wisdom along the way, and they continue to influence how I work with patients. I bring this experience, knowledge, compassion and careful attention to every consultation.",
+    "scientistBody": "The many paths I have explored have shaped the way I practise homeopathy. My background in biological sciences and human physiology, research, education and motherhood have all influenced who I am as a homeopathic practitioner. I've gathered different perspectives, practical tools and wisdom along the way, and they continue to influence how I work with patients.",
     "scientistLink": "Learn more",
-    "processTitle": "Homeopathy with me is a process, not a quick fix.",
-    "processBody": "I've been practising homeopathy since 2009. For me, it is a way of thinking, listening and exploring what is happening for each individual person.\n\nAt the heart of my practice are two beliefs: that a diagnosis is not our destiny, and that the body has a remarkable capacity for change and adaptation when given the support it needs.\n\nThese beliefs shape the way I work. I don't see you simply through the lens of a diagnosis or a list of symptoms. I want to understand the person experiencing them: your story, your circumstances, your patterns and your individual experience. My role is to explore your case carefully, rather than looking at each symptom in isolation.\n\nThe relationship between practitioner and patient is an important part of this process. I want you to feel listened to, understood and able to bring your whole experience into the consultation.\n\nTogether, we explore your concerns, your symptoms and what may be relevant to understanding your individual experience. I then prescribe individualised homeopathic remedies. Follow-up consultations give us the opportunity to look at what has changed, what you've noticed, and how you're responding, so that we can reflect on your progress and consider the next steps together.",
-    "recognitionTitle": "You may recognise some of this",
-    "recognitionItems": [
-      "You are ready and willing to invest in your health and wellbeing",
-      "You are open minded and curious about a different approach to health",
-      "You've tried other approaches and are looking for something different, or you are concerned about the side effects of conventional medications",
-      "You are ready to take an active role in your own healing"
-    ],
-    "whatTitle": "How can I help?",
-    "whatBody": "When I tell people I'm a homeopath, they ask me to explain what that is.\n\nHomeopathy views the body as one unique, integrated system. It looks for the root cause of your symptoms rather than addressing them on the surface. Because every person is different, every treatment approach is completely personalised.\n\nHomeopathy supports healing of the body, mind and spirit as a whole, with the aim of addressing imbalances and restoring long lasting wellbeing.\n\nI offer a supportive, non judgemental space where I see you as a whole person and provide the care you need.",
-    "whatBody2": "",
     "quotesTitle": "In their words",
     "quotes": [
       {
@@ -58,19 +51,11 @@
         "author": "Patient, London"
       }
     ],
-    "closingTitle": "If this sounds like the kind of care you are looking for",
-    "closingBody": "I'd love to meet you, hear your story and explore together what might be helpful for you. You can book a consultation directly, or if you have a question first, you're very welcome to write to me.",
-    "arrivalTitle": "What people come to me with",
-    "arrivalIntro": "You're not alone. The stress of modern life can bring a host of challenges that may take their toll on our health, including:",
-    "arrivalItems": [
-      "Feeling overwhelmed and often anxious",
-      "Exhaustion and an inability to meet the demands of daily life",
-      "Mental fog, weight issues, digestive problems or lowered immunity",
-      "Hormonal imbalances, PMS or menopausal symptoms",
-      "Low energy, lack of motivation, low moods or poor sleep",
-      "Past trauma or unresolved feelings that may be holding us back"
-    ],
-    "recognitionClosing": "If this resonates with you, I'd love to connect and explore how homeopathy might support you."
+    "closingTitle": "If this feels like the kind of care you are looking for",
+    "closingBody": "It is important to find the right person to work with. I'd like to meet you and explore together what might be most helpful for you. You can book a consultation directly, or if you have a question first, you're welcome to write to me.",
+    "holisticTitle": "Would you like to explore your health in a holistic way?",
+    "holisticBody": "I see the body not as a machine that simply breaks down, but as a living, intelligent system with an innate wisdom and the ability to respond and find balance and harmony.\n\nWellbeing involves more than physical health, and health is not just about treating individual symptoms. It is about understanding the whole person and creating the conditions that may support the body's own capacity for balance, adaptation and change. You have more resources within you than you may realise, and homeopathy is the approach I use to support them.\n\nAt the heart of my practice are two beliefs: that a diagnosis doesn't define you, and that the body has a remarkable capacity to respond when given the support it needs.",
+    "quoteLine": "What if feeling well isn't something to chase, but something to come back to?"
   },
   "about": {
     "seoTitle": "About Nataša Perić | Homeopath in London since 2009",
@@ -172,112 +157,26 @@
   "consultations": {
     "seoTitle": "Consultations and pricing | Homeopathy with Natasa, London",
     "seoDescription": "First consultations, follow-ups and acute appointments, online by video or in person in Telegraph Hill, London, by arrangement. Fees, clinic hours and cancellation policy.",
-    "title": "Consultations & pricing",
-    "standfirst": "Online by video, wherever you are, with remedies posted to you. In person in Telegraph Hill, London, by arrangement.",
-    "offerTitle": "What I offer",
-    "offers": [
-      {
-        "heading": "First consultation",
-        "body": "Ninety minutes. A full conversation about your health, your history and how you are living now. Case study and remedy selection happen afterwards, in my own time, and are included."
-      },
-      {
-        "heading": "Follow-up consultation",
-        "body": "Forty-five minutes, usually four to six weeks later. We look at what has shifted and adjust from there."
-      },
-      {
-        "heading": "Acute consultation",
-        "body": "A twenty minute appointment for something sudden and recent, for people I already see. Remedies are charged separately. Good to have in case something comes up."
-      }
-    ],
-    "formatTitle": "How we meet",
-    "formatBody": "Consultations are currently held online by video, and your remedies are posted to you. This works well, because most of this work is a conversation. In person appointments in Telegraph Hill, south east London, are available by arrangement. Choose whichever lets you be somewhere quiet and uninterrupted.",
+    "title": "Consultations",
+    "standfirst": "Online by Google Meet video, wherever you are.",
     "hawthornImageAlt": "Hawthorn blossom.",
     "hawthornImagePlaceholder": "Photograph placeholder: hawthorn blossom",
-    "pricingTitle": "Fees",
-    "pricingNote": "All homeopathic medicines are included in the consultation fees, except for acute consultations and detox therapies.",
-    "priceRows": [
-      {
-        "label": "First consultation, 90 minutes",
-        "value": "£120"
-      },
-      {
-        "label": "Follow-up consultation, 45 minutes",
-        "value": "£80"
-      },
-      {
-        "label": "Parent and baby, up to 1 year, up to 2 hours",
-        "value": "£180"
-      },
-      {
-        "label": "Family consultation, two family members who have seen me before, 75 minutes",
-        "value": "£150"
-      },
-      {
-        "label": "Acute consultation, 20 minutes, plus remedies",
-        "value": "£35"
-      },
-      {
-        "label": "Homeobotanicals",
-        "value": "£25"
-      },
-      {
-        "label": "Postage",
-        "value": "From £3.50"
-      }
+    "intro": "I don't see you simply as a diagnosis or a collection of isolated symptoms. I want to understand the person experiencing them: your story, your circumstances, your patterns, and your individual experience.\n\nHomeopathy with me is a process, rather than a quick fix. Together, we explore your health concerns and the circumstances surrounding them. I work alongside you to make sense of your experiences and understand what may have contributed to them.\n\nMy work complements rather than replaces conventional medical care.",
+    "bookingNote": "Please book your online appointment with me here. Appointments take place by Google Meet video. Times are listed on the 24 hour clock (e.g. 13:00 is 1pm). If you are not in GMT/BST, set your time zone first to see appointment times in your time zone. Payment is on booking, and secures your appointment.\n\nIf you don't see a time that suits you or I am fully booked, please email me at hello@homeopathywithnatasa.co.uk. I usually have availability if you need to see me urgently.",
+    "expectTitle": "What to expect",
+    "expectItems": [
+      "Plenty of time to talk about everything that is troubling you.",
+      "A confidential space and a warm, non-judgemental listener.",
+      "A clear treatment plan, sometimes including additional holistic recommendations.",
+      "An explanation of the homeopathic approach and what to expect from your course of treatment.",
+      "Personalised remedies with clear instructions."
     ],
-    "hoursTitle": "Clinic hours",
-    "hoursRows": [
-      {
-        "label": "Tuesday",
-        "value": "9am to 5pm"
-      },
-      {
-        "label": "Thursday",
-        "value": "1pm to 6pm"
-      },
-      {
-        "label": "Friday",
-        "value": "9am to 5pm"
-      },
-      {
-        "label": "Monday, Wednesday, Saturday, Sunday",
-        "value": "Not available"
-      }
-    ],
-    "cancellationTitle": "Cancellation policy",
-    "cancellationBody": "Please give at least 24 hours' notice if you need to cancel or reschedule, or 48 hours if you have not seen me before. Late cancellations and missed appointments are charged in full. If something urgent happens, tell me. I would rather know.",
-    "nextTitle": "What happens after you book",
-    "nextSteps": [
-      {
-        "heading": "You choose a time",
-        "body": "Booking opens in a new tab and you pick a slot that suits you."
-      },
-      {
-        "heading": "I send a short form",
-        "body": "A few questions by email, so that we can use our time together well."
-      },
-      {
-        "heading": "We meet",
-        "body": "By video, or in Telegraph Hill by arrangement, unhurried."
-      },
-      {
-        "heading": "Your remedy is posted",
-        "body": "With written instructions, after I have studied your case."
-      }
-    ],
-    "quotesTitle": "In their words",
-    "quotes": [
-      {
-        "text": "I am so grateful for Natasa's thoroughness and attention to the details of my medical profile. Thank you Natasa for your expertise and care. I keep recommending you.",
-        "author": "Patient, London"
-      }
-    ],
-    "closingTitle": "Ready when you are",
-    "closingBody": "If you have a question first, write to me. I read every email myself."
+    "availabilityTitle": "My availability",
+    "availabilityBody": "Consultations take place online via Google Meet, and I can accommodate clients across different time zones. If you have any questions about this, please feel free to get in touch."
   },
   "contact": {
     "title": "Contact",
-    "body": "If you would like to ask something before you book, send me a note. I read every message myself and I reply as soon as I can.",
+    "body": "If you would like to ask something before you book, send me a note. I read every message and usually reply within 2 working days.",
     "name": "Your name",
     "email": "Your email address",
     "message": "Your message",
@@ -285,12 +184,14 @@
     "sending": "Sending",
     "success": "Thank you. Your message has been sent and I will reply as soon as I can.",
     "error": "Your message did not go through. Please write to me directly at the address below and it will reach me.",
-    "fallbackLead": "Or write to me directly at",
-    "note": "What you send here goes to me and is recorded in my secure client management system so that I can reply. It is not published anywhere."
+    "fallbackLead": "Or, write to me directly at",
+    "note": "Your details are stored securely and only used to reply to your message.",
+    "seoTitle": "Contact",
+    "readyTitle": "Ready to book?"
   },
   "newsletter": {
-    "title": "Occasional notes",
-    "body": "A few times a year, I send bite-size notes on how I work, what I'm reading, and things I'm learning.",
+    "title": "Receive occasional notes",
+    "body": "A few times a year, I send bitesize notes on natural health, homeopathy and what's inspiring me lately. Fancy joining me?",
     "placeholder": "Your email address",
     "button": "Sign up",
     "note": "PLACEHOLDER: not connected yet. Nothing is sent or stored.",
@@ -431,56 +332,46 @@
     "seoDescription": "One-to-one and small group supervision for homeopathy students and qualified practitioners with Nataša Perić.",
     "title": "Supervision",
     "standfirst": "Since 2009 I have taught at the Centre for Homeopathic Education and supervised many undergraduate and postgraduate students. I love this side of my work as it allows me to share my knowledge and experience with student homeopaths. I deeply care about the professional and personal growth of my students, and I am grateful to be part of their journey; it is something I am truly proud of.",
-    "forTitle": "Who this is for",
-    "forItems": [
-      "Students in clinical training who want to talk a case through properly",
-      "Newly qualified practitioners setting up their first practice",
-      "Practitioners returning after a break",
-      "Anyone working on a research proposition or written case work"
-    ],
-    "oneToOneTitle": "One-to-one supervision",
-    "oneToOneBody": "A session for your cases and your questions. We look at what you gathered, what you may have missed, and how you reached your decision. The aim is not to hand you an answer. It is to make your own reasoning clearer and more repeatable.",
-    "groupTitle": "Small group supervision",
-    "groupBody": "Small groups, so that everyone speaks. One or two cases per session, presented by members of the group, discussed openly. Practitioners often learn as much from a case that is not theirs.",
-    "backgroundTitle": "Why me",
-    "backgroundBody": "I teach and supervise at the Centre for Homeopathic Education in London, where I lead the Research Proposition module. I have been in practice since 2009 and I came to homeopathy from research science, so I am comfortable with methodology, with evidence, and with saying plainly when something is not known.",
-    "pricingTitle": "Fees",
-    "pricingNote": "Sessions are usually an hour and a half, sometimes two. One-to-one sessions are charged by the hour, and a shorter follow-up is charged accordingly.",
-    "priceRows": [
-      {
-        "label": "One-to-one supervision, per hour",
-        "value": "£50"
-      },
-      {
-        "label": "Small group supervision, 90 minutes, per person",
-        "value": "£40"
-      }
-    ],
     "quotes": [
       {
-        "text": "Natasa became my supervisor while I was completing my BSc Homeopathy training, but even now as a qualified homeopath I have regular supervision with her to ensure the highest standard of my work. Natasa is not only a fantastic homeopath but a dedicated and enthusiastic educator committed to the success of all students. She has an impressive degree of knowledge of homeopathy and is willing to go the extra mile to support her supervisees.",
-        "author": "Qualified homeopath"
-      },
-      {
-        "text": "Natasa always gives careful consideration to my ideas and manages to strike the balance between challenging me and encouraging me. Our supervisions are interactive and collaborative, which not only improves my clinical skills but facilitates both my personal and professional growth.",
+        "text": "Natasa always gives careful consideration to my ideas and manages to strike a balance between challenging me and encouraging me. Our supervision sessions are interactive and collaborative, which not only improves my clinical skills, but has had a real impact on my growth, both as a person and as a homeopath.",
         "author": "Supervisee"
       },
       {
-        "text": "I greatly appreciate Natasa's genuine attitude and personality in dealing with some of my ups and downs as a homeopath. Her professionalism and dedication are inspiring. Natasa is a wonderful supervisor in all elements and I can't recommend her highly enough.",
-        "author": "Qualified homeopath"
+        "text": "Natasa became my supervisor while I was completing my BSc homeopathy training, but even now, as a qualified homeopath, I have regular supervision with her. She has an impressive knowledge of homeopathy, patient management and anatomy and physiology, and she is always willing to go the extra mile to support me.",
+        "author": "Supervisee"
+      },
+      {
+        "text": "I greatly appreciate Natasa's genuine warmth in dealing with some of my ups and downs as a homeopath. Her professionalism and dedication are always inspiring.",
+        "author": "Supervisee"
       }
     ],
-    "closingTitle": "Get in touch",
-    "closingBody": "Please contact me to discuss your supervision needs and to find out how we can work together.",
-    "recognitionTitle": "You may recognise some of this",
-    "recognitionItems": [
-      "You are sitting with a case and you are not sure whether your reasoning holds, and there is nobody to check it against.",
-      "You need supervision hours to qualify, and you would like them to be genuinely useful rather than a box to tick.",
-      "You have finished your training and suddenly you are on your own, with real people in front of you.",
-      "You know the theory, and still you freeze when a live case looks like nothing in the books.",
-      "You are writing up a case or a research proposition and you do not know whether it is good enough."
-    ],
-    "introBody": "I offer one-to-one supervision for homeopathic students and graduates. I also offer group supervision and tutorials where you get to learn from each other's clinical cases in a supportive learning environment. These sessions are available online.",
-    "quotesTitle": "What students say"
+    "introBody": "I offer one-to-one supervision for homeopathic students, graduates and practising homeopaths.\n\nI also offer small group supervision, where you can bring clinical cases for discussion and learn from each other in a supportive environment. Sessions are held online.",
+    "quotesTitle": "What supervisees say",
+    "workingTitle": "Working together",
+    "workingBody": "Supervision is an opportunity to bring your cases, questions and challenges and have the space to think them through.\n\nMy aim is to create a supportive space where you can reflect on your practice, develop your critical and clinical thinking and build confidence in your work.",
+    "contactTitle": "Get in touch",
+    "contactBody": "Please contact me to discuss your supervision needs and explore how we can work together."
+  },
+  "booking": {
+    "selectTitle": "Select appointment",
+    "book": "Book",
+    "back": "Back to all appointments",
+    "close": "Close",
+    "smallPrintPre": "By booking, you agree to my ",
+    "termsLink": "Terms and Conditions",
+    "beforeTitle": "Before your first appointment",
+    "beforeBody": "Please complete the New Patient Questionnaire before we meet, and take a moment to read my Terms and Conditions.",
+    "questionnaireLink": "New Patient Questionnaire",
+    "loading": "Loading the booking calendar"
+  },
+  "services": {
+    "first-adult": "Full case-taking for adults, up to 90 minutes.",
+    "follow-up-adult": "Review of your progress, usually every four to six weeks.",
+    "children-first": "First consultation for children under 16, with a parent or guardian.",
+    "children-follow-up": "Follow-up for children under 16.",
+    "acute": "Short appointment for acute conditions such as colds, coughs, sore throats or minor injuries.",
+    "supervision-1-1": "One-to-one supervision for students, graduates and practising homeopaths.",
+    "supervision-group": "Bring clinical cases for discussion and learn from each other, online."
   }
 }

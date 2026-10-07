@@ -1,9 +1,6 @@
 /**
- * Central site configuration.
- *
- * TODO: replace the placeholder values below when the real accounts exist.
- * Everything else in the site reads from this file, so one edit here updates
- * every booking button and every email link.
+ * Central site configuration. Every booking card, button and email link reads
+ * from this file, so one edit here updates the whole site.
  */
 
 export type Lang = "en" | "hr";
@@ -13,27 +10,45 @@ export const LANGUAGES: { code: Lang; flag: string; label: string }[] = [
   { code: "hr", flag: "🇭🇷", label: "Hrvatski" },
 ];
 
-/** TODO: PLACEHOLDER - swap for the real Cal.com links when they exist. */
-export const BOOKING_URL: Record<Lang, string> = {
-  en: "https://cal.com/PLACEHOLDER-natasa/first-consultation",
-  hr: "https://cal.com/PLACEHOLDER-natasa/prvi-pregled",
-};
-
-/** TODO: PLACEHOLDER - swap for the real supervision booking links. */
-export const SUPERVISION_BOOKING_URL: Record<Lang, string> = {
-  en: "https://cal.com/PLACEHOLDER-natasa/supervision",
-  hr: "https://cal.com/PLACEHOLDER-natasa/supervizija",
-};
-
-/** TODO: PLACEHOLDER - this mailbox is not live yet. */
+/** The only email address shown anywhere on the site. */
 export const CONTACT_EMAIL = "hello@homeopathywithnatasa.co.uk";
 
-/*
- * The contact form posts to a server function (src/lib/contact.functions.ts),
- * which records the enquiry in Airtable. The Airtable token is held in the
- * AIRTABLE_TOKEN secret and never reaches the browser.
- */
+export const CAL_USERNAME = "natasa-peric-inhjfo";
 
+/** Site primary colour (green-700) used to brand the Cal.com embed. */
+export const BRAND_HEX = "#2f6a4e";
+
+export type ServiceGroup = "consultation" | "supervision";
+
+export type Service = {
+  id: string;
+  group: ServiceGroup;
+  name: string;
+  duration: string;
+  price: string;
+  slug: string;
+  /** Key in the i18n files under services.<id> for the one-line description. */
+  descriptionKey?: string;
+};
+
+/** Single source of truth for every bookable service. */
+export const SERVICES: Service[] = [
+  { id: "first-adult", group: "consultation", name: "First Adult Consultation", duration: "90 min", price: "£120", slug: "first-consultation" },
+  { id: "follow-up-adult", group: "consultation", name: "Follow-up Consultation (Adult)", duration: "45 min", price: "£80", slug: "follow-up-consultation-adult" },
+  { id: "children-first", group: "consultation", name: "Children First Consultation (under 16)", duration: "60 min", price: "£75", slug: "children-first-consultation-under-16" },
+  { id: "children-follow-up", group: "consultation", name: "Children Follow-up Consultation (under 16)", duration: "30 min", price: "£55", slug: "children-follow-up-consultation-under-16" },
+  { id: "acute", group: "consultation", name: "Acute Homeopathic Appointment", duration: "30 min", price: "£25", slug: "acute-homeopathic-appointment" },
+  { id: "supervision-1-1", group: "supervision", name: "Supervision (1:1)", duration: "90 min", price: "£50", slug: "supervision-1-1" },
+  { id: "supervision-group", group: "supervision", name: "Supervision (Small Group, up to 3 people)", duration: "90 min", price: "£40 per person", slug: "supervision-small-group" },
+];
+
+export function calLink(slug: string): string {
+  return `${CAL_USERNAME}/${slug}`;
+}
+
+export function calUrl(slug: string): string {
+  return `https://cal.com/${calLink(slug)}`;
+}
 
 const MAIL_SUBJECT: Record<Lang, string> = {
   en: "Enquiry from the website",
@@ -42,14 +57,6 @@ const MAIL_SUBJECT: Record<Lang, string> = {
 
 export function mailtoLink(lang: Lang): string {
   return `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(MAIL_SUBJECT[lang])}`;
-}
-
-export function bookingLink(lang: Lang): string {
-  return BOOKING_URL[lang];
-}
-
-export function supervisionLink(lang: Lang): string {
-  return SUPERVISION_BOOKING_URL[lang];
 }
 
 export const CTHA_URL = "https://www.complementary.assoc.org.uk/";

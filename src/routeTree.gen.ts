@@ -13,8 +13,10 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as CodeOfEthicsRouteImport } from './routes/code-of-ethics'
 import { Route as ConsultationsRouteImport } from './routes/consultations'
+import { Route as ContactRouteImport } from './routes/contact'
 import { Route as HomeopathyRouteImport } from './routes/homeopathy'
 import { Route as MentoringRouteImport } from './routes/mentoring'
+import { Route as NewPatientQuestionnaireRouteImport } from './routes/new-patient-questionnaire'
 import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as SupervisionRouteImport } from './routes/supervision'
 import { Route as TermsRouteImport } from './routes/terms'
@@ -39,6 +41,11 @@ const ConsultationsRoute = ConsultationsRouteImport.update({
   path: '/consultations',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const HomeopathyRoute = HomeopathyRouteImport.update({
   id: '/homeopathy',
   path: '/homeopathy',
@@ -47,6 +54,11 @@ const HomeopathyRoute = HomeopathyRouteImport.update({
 const MentoringRoute = MentoringRouteImport.update({
   id: '/mentoring',
   path: '/mentoring',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NewPatientQuestionnaireRoute = NewPatientQuestionnaireRouteImport.update({
+  id: '/new-patient-questionnaire',
+  path: '/new-patient-questionnaire',
   getParentRoute: () => rootRouteImport,
 } as any)
 const PrivacyRoute = PrivacyRouteImport.update({
@@ -70,8 +82,10 @@ export interface FileRoutesByFullPath {
   '/about': typeof AboutRoute
   '/code-of-ethics': typeof CodeOfEthicsRoute
   '/consultations': typeof ConsultationsRoute
+  '/contact': typeof ContactRoute
   '/homeopathy': typeof HomeopathyRoute
   '/mentoring': typeof MentoringRoute
+  '/new-patient-questionnaire': typeof NewPatientQuestionnaireRoute
   '/privacy': typeof PrivacyRoute
   '/supervision': typeof SupervisionRoute
   '/terms': typeof TermsRoute
@@ -81,8 +95,10 @@ export interface FileRoutesByTo {
   '/about': typeof AboutRoute
   '/code-of-ethics': typeof CodeOfEthicsRoute
   '/consultations': typeof ConsultationsRoute
+  '/contact': typeof ContactRoute
   '/homeopathy': typeof HomeopathyRoute
   '/mentoring': typeof MentoringRoute
+  '/new-patient-questionnaire': typeof NewPatientQuestionnaireRoute
   '/privacy': typeof PrivacyRoute
   '/supervision': typeof SupervisionRoute
   '/terms': typeof TermsRoute
@@ -93,8 +109,10 @@ export interface FileRoutesById {
   '/about': typeof AboutRoute
   '/code-of-ethics': typeof CodeOfEthicsRoute
   '/consultations': typeof ConsultationsRoute
+  '/contact': typeof ContactRoute
   '/homeopathy': typeof HomeopathyRoute
   '/mentoring': typeof MentoringRoute
+  '/new-patient-questionnaire': typeof NewPatientQuestionnaireRoute
   '/privacy': typeof PrivacyRoute
   '/supervision': typeof SupervisionRoute
   '/terms': typeof TermsRoute
@@ -106,8 +124,10 @@ export interface FileRouteTypes {
     | '/about'
     | '/code-of-ethics'
     | '/consultations'
+    | '/contact'
     | '/homeopathy'
     | '/mentoring'
+    | '/new-patient-questionnaire'
     | '/privacy'
     | '/supervision'
     | '/terms'
@@ -117,8 +137,10 @@ export interface FileRouteTypes {
     | '/about'
     | '/code-of-ethics'
     | '/consultations'
+    | '/contact'
     | '/homeopathy'
     | '/mentoring'
+    | '/new-patient-questionnaire'
     | '/privacy'
     | '/supervision'
     | '/terms'
@@ -128,8 +150,10 @@ export interface FileRouteTypes {
     | '/about'
     | '/code-of-ethics'
     | '/consultations'
+    | '/contact'
     | '/homeopathy'
     | '/mentoring'
+    | '/new-patient-questionnaire'
     | '/privacy'
     | '/supervision'
     | '/terms'
@@ -140,8 +164,10 @@ export interface RootRouteChildren {
   AboutRoute: typeof AboutRoute
   CodeOfEthicsRoute: typeof CodeOfEthicsRoute
   ConsultationsRoute: typeof ConsultationsRoute
+  ContactRoute: typeof ContactRoute
   HomeopathyRoute: typeof HomeopathyRoute
   MentoringRoute: typeof MentoringRoute
+  NewPatientQuestionnaireRoute: typeof NewPatientQuestionnaireRoute
   PrivacyRoute: typeof PrivacyRoute
   SupervisionRoute: typeof SupervisionRoute
   TermsRoute: typeof TermsRoute
@@ -177,6 +203,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ConsultationsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/homeopathy': {
       id: '/homeopathy'
       path: '/homeopathy'
@@ -189,6 +222,13 @@ declare module '@tanstack/react-router' {
       path: '/mentoring'
       fullPath: '/mentoring'
       preLoaderRoute: typeof MentoringRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/new-patient-questionnaire': {
+      id: '/new-patient-questionnaire'
+      path: '/new-patient-questionnaire'
+      fullPath: '/new-patient-questionnaire'
+      preLoaderRoute: typeof NewPatientQuestionnaireRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/privacy': {
@@ -220,8 +260,10 @@ const rootRouteChildren: RootRouteChildren = {
   AboutRoute: AboutRoute,
   CodeOfEthicsRoute: CodeOfEthicsRoute,
   ConsultationsRoute: ConsultationsRoute,
+  ContactRoute: ContactRoute,
   HomeopathyRoute: HomeopathyRoute,
   MentoringRoute: MentoringRoute,
+  NewPatientQuestionnaireRoute: NewPatientQuestionnaireRoute,
   PrivacyRoute: PrivacyRoute,
   SupervisionRoute: SupervisionRoute,
   TermsRoute: TermsRoute,
