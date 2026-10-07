@@ -2,7 +2,6 @@ import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { useI18n } from "@/i18n/LanguageProvider";
-import { bookingLink } from "@/config/site";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { Wordmark } from "./Logo";
 import { cn } from "@/lib/utils";
@@ -13,10 +12,11 @@ export const NAV_ITEMS = [
   { to: "/homeopathy", key: "nav.homeopathy" },
   { to: "/consultations", key: "nav.consultations" },
   { to: "/supervision", key: "nav.supervision" },
+  { to: "/contact", key: "nav.contact" },
 ] as const;
 
 export function Navbar() {
-  const { t, lang } = useI18n();
+  const { t } = useI18n();
   const [open, setOpen] = useState(false);
 
   return (
@@ -42,14 +42,12 @@ export function Navbar() {
 
         <div className="flex items-center gap-2">
           <LanguageSwitcher />
-          <a
-            href={bookingLink(lang)}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/consultations"
             className="hidden rounded-full bg-primary px-4 py-2 text-sm text-primary-foreground transition-colors hover:bg-green-800 md:inline-flex"
           >
             {t("cta.bookShort")}
-          </a>
+          </Link>
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
@@ -81,15 +79,13 @@ export function Navbar() {
               {t(item.key)}
             </Link>
           ))}
-          <a
-            href={bookingLink(lang)}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/consultations"
             onClick={() => setOpen(false)}
             className="mt-2 rounded-full bg-primary px-4 py-3 text-center text-primary-foreground"
           >
             {t("cta.book")}
-          </a>
+          </Link>
         </nav>
       </div>
     </header>
