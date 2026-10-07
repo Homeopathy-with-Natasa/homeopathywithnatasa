@@ -6,11 +6,9 @@ import {
   BookButton,
   CtaBand,
   NewsletterBlock,
-  PlainList,
   PortraitSlot,
   Prose,
   QuoteRow,
-  RecognitionList,
   Section,
   SectionTitle,
   type QuoteItem,
@@ -26,13 +24,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Nataša Perić, PhD, homeopath in private practice in London since 2009. Consultations in person in Telegraph Hill and online.",
+          "Nataša Perić, PhD, homeopath in private practice in London since 2009. Thoughtful, individualised consultations online by video.",
       },
       { property: "og:title", content: "Homeopathy with Natasa | Homeopath in London" },
       {
         property: "og:description",
         content:
-          "A homeopath in London who treats the body as one integrated system. In person in Telegraph Hill and online.",
+          "Good care begins with listening. A homeopath who sees the body as one living, intelligent system.",
       },
       { property: "og:type", content: "website" },
       { property: "og:image", content: SITE_URL + ogImage.url },
@@ -64,7 +62,6 @@ function Home() {
                 {t("cta.readMore")}
               </Link>
             </div>
-            <p className="mt-6 text-sm text-muted-foreground">{t("home.heroNote")}</p>
           </FadeIn>
 
           <FadeIn delay={120} className="mx-auto w-full max-w-[300px]">
@@ -77,24 +74,6 @@ function Home() {
 
       <Section>
         <FadeIn>
-          <SectionTitle>{t("home.scientistTitle")}</SectionTitle>
-          <Prose className="mt-6">
-            {t("home.scientistBody")
-              .split("\n\n")
-              .map((paragraph, index) => <p key={index}>{paragraph}</p>)}
-          </Prose>
-          <Link
-            to="/about"
-            className="mt-8 inline-flex items-center justify-center rounded-full border border-green-300 px-6 py-3 text-[0.98rem] text-green-800 transition-colors hover:bg-green-50"
-          >
-            {t("home.scientistLink")}
-          </Link>
-        </FadeIn>
-      </Section>
-
-      <CurveDivider variant="soft" from="background" fill="muted" />
-      <Section tone="muted">
-        <FadeIn>
           <SectionTitle>{t("home.introTitle")}</SectionTitle>
           <Prose className="mt-6">
             {t("home.introBody")
@@ -103,57 +82,54 @@ function Home() {
           </Prose>
         </FadeIn>
       </Section>
-      <CurveDivider variant="soft" from="muted" fill="background" />
-      <Section>
-        <FadeIn>
-          <SectionTitle>{t("home.processTitle")}</SectionTitle>
-          <Prose className="mt-6">
-            {t("home.processBody")
-              .split("\n\n")
-              .map((paragraph, index) => <p key={index}>{paragraph}</p>)}
-          </Prose>
-        </FadeIn>
-      </Section>
 
       <CurveDivider variant="soft" from="background" fill="muted" />
       <Section tone="muted">
         <FadeIn>
-          <SectionTitle>{t("home.whatTitle")}</SectionTitle>
+          <SectionTitle>{t("home.scientistTitle")}</SectionTitle>
           <Prose className="mt-6">
-            {t("home.whatBody")
+            {t("home.scientistBody")
               .split("\n\n")
               .map((paragraph, index) => <p key={index}>{paragraph}</p>)}
-            <p>
-              <Link
-                to="/homeopathy"
-                className="text-green-700 underline underline-offset-4 hover:text-green-600"
-              >
-                {t("cta.readMore")}
-              </Link>
-            </p>
           </Prose>
+          <Link to="/about" className="mt-8 inline-flex items-center justify-center rounded-full border border-green-300 px-6 py-3 text-[0.98rem] text-green-800 transition-colors hover:bg-green-50">
+            {t("cta.learnMore")}
+          </Link>
         </FadeIn>
       </Section>
       <CurveDivider variant="soft" from="muted" fill="background" />
 
       <Section>
         <FadeIn>
-          <SectionTitle>{t("home.arrivalTitle")}</SectionTitle>
+          <SectionTitle>{t("home.holisticTitle")}</SectionTitle>
           <Prose className="mt-6">
-            <p>{t("home.arrivalIntro")}</p>
+            {t("home.holisticBody")
+              .split("\n\n")
+              .map((paragraph, index) => <p key={index}>{paragraph}</p>)}
           </Prose>
-          <PlainList items={tAny<string[]>("home.arrivalItems")} />
+          <Link to="/consultations" className="mt-8 inline-flex items-center justify-center rounded-full border border-green-300 px-6 py-3 text-[0.98rem] text-green-800 transition-colors hover:bg-green-50">
+            {t("cta.findOut")}
+          </Link>
         </FadeIn>
       </Section>
 
       <CurveDivider variant="deep" from="background" fill="muted" />
       <Section tone="muted">
-        <FadeIn>
-          <SectionTitle>{t("home.recognitionTitle")}</SectionTitle>
-        </FadeIn>
-        <RecognitionList items={tAny<string[]>("home.recognitionItems")} />
-        <FadeIn>
-          <p className="mt-10 text-green-900/90">{t("home.recognitionClosing")}</p>
+        <FadeIn className="text-center">
+          <p className="font-display mx-auto max-w-2xl text-2xl leading-snug text-green-800 md:text-4xl">
+            {t("home.quoteLine")}
+          </p>
+          <div className="mt-9 flex flex-wrap justify-center gap-3">
+            <Link
+              to="/consultations"
+              className="inline-flex items-center justify-center rounded-full bg-primary px-6 py-3 text-[0.98rem] text-primary-foreground transition-colors hover:bg-green-800"
+            >
+              {t("cta.viewServices")}
+            </Link>
+            <Link to="/homeopathy" className="inline-flex items-center justify-center rounded-full border border-green-300 px-6 py-3 text-[0.98rem] text-green-800 transition-colors hover:bg-green-50">
+              {t("cta.homeopathy")}
+            </Link>
+          </div>
         </FadeIn>
       </Section>
       <CurveDivider variant="deep" from="muted" fill="background" />
