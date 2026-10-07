@@ -20,6 +20,7 @@ import { Route as NewPatientQuestionnaireRouteImport } from './routes/new-patien
 import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as SupervisionRouteImport } from './routes/supervision'
 import { Route as TermsRouteImport } from './routes/terms'
+import { Route as ApiPublicAirtableTestCleanupRouteImport } from './routes/api/public/airtable-test-cleanup'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -76,6 +77,12 @@ const TermsRoute = TermsRouteImport.update({
   path: '/terms',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiPublicAirtableTestCleanupRoute =
+  ApiPublicAirtableTestCleanupRouteImport.update({
+    id: '/api/public/airtable-test-cleanup',
+    path: '/api/public/airtable-test-cleanup',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -89,6 +96,7 @@ export interface FileRoutesByFullPath {
   '/privacy': typeof PrivacyRoute
   '/supervision': typeof SupervisionRoute
   '/terms': typeof TermsRoute
+  '/api/public/airtable-test-cleanup': typeof ApiPublicAirtableTestCleanupRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -102,6 +110,7 @@ export interface FileRoutesByTo {
   '/privacy': typeof PrivacyRoute
   '/supervision': typeof SupervisionRoute
   '/terms': typeof TermsRoute
+  '/api/public/airtable-test-cleanup': typeof ApiPublicAirtableTestCleanupRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -116,6 +125,7 @@ export interface FileRoutesById {
   '/privacy': typeof PrivacyRoute
   '/supervision': typeof SupervisionRoute
   '/terms': typeof TermsRoute
+  '/api/public/airtable-test-cleanup': typeof ApiPublicAirtableTestCleanupRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -131,6 +141,7 @@ export interface FileRouteTypes {
     | '/privacy'
     | '/supervision'
     | '/terms'
+    | '/api/public/airtable-test-cleanup'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -144,6 +155,7 @@ export interface FileRouteTypes {
     | '/privacy'
     | '/supervision'
     | '/terms'
+    | '/api/public/airtable-test-cleanup'
   id:
     | '__root__'
     | '/'
@@ -157,6 +169,7 @@ export interface FileRouteTypes {
     | '/privacy'
     | '/supervision'
     | '/terms'
+    | '/api/public/airtable-test-cleanup'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -171,6 +184,7 @@ export interface RootRouteChildren {
   PrivacyRoute: typeof PrivacyRoute
   SupervisionRoute: typeof SupervisionRoute
   TermsRoute: typeof TermsRoute
+  ApiPublicAirtableTestCleanupRoute: typeof ApiPublicAirtableTestCleanupRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -252,6 +266,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TermsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/public/airtable-test-cleanup': {
+      id: '/api/public/airtable-test-cleanup'
+      path: '/api/public/airtable-test-cleanup'
+      fullPath: '/api/public/airtable-test-cleanup'
+      preLoaderRoute: typeof ApiPublicAirtableTestCleanupRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -267,6 +288,7 @@ const rootRouteChildren: RootRouteChildren = {
   PrivacyRoute: PrivacyRoute,
   SupervisionRoute: SupervisionRoute,
   TermsRoute: TermsRoute,
+  ApiPublicAirtableTestCleanupRoute: ApiPublicAirtableTestCleanupRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
