@@ -66,6 +66,5 @@ export const PRACTICE_LOCATION = "Telegraph Hill, London";
 
 /**
  * Stable public base URL, used to build absolute social share image URLs.
- * TODO: swap for the custom domain when there is one.
  */
-export const SITE_URL = "https://project--ddac966f-0a24-45d2-837b-a56a69cc5372.lovable.app";
+export const SITE_URL = "https://homeopathywithnatasa.co.uk";

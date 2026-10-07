@@ -363,7 +363,11 @@
     "beforeTitle": "Prije prvog termina",
     "beforeBody": "Molim Vas da prije našeg susreta ispunite Upitnik za nove pacijente i pročitate moje Uvjete poslovanja.",
     "questionnaireLink": "Upitnik za nove pacijente",
-    "loading": "Učitava se kalendar rezervacija"
+    "loading": "Učitava se kalendar rezervacija",
+    "successTitle": "Hvala Vam, Vaš je termin rezerviran.",
+    "successFirstBody": "Uskoro ćete primiti e-poruku s potvrdom. Prije našeg susreta ispunite Upitnik za nove pacijente najmanje 24 sata prije termina. Pomaže mi da se pripremim i najbolje iskoristim naše zajedničko vrijeme.",
+    "successBody": "Uskoro ćete primiti e-poruku s potvrdom.",
+    "completeQuestionnaire": "Ispunite upitnik"
   },
   "services": {
     "first-adult": "Cjelovito uzimanje anamneze za odrasle, do 90 minuta.",
