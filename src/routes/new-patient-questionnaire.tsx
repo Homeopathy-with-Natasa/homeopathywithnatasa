@@ -15,6 +15,9 @@ import {
 import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/new-patient-questionnaire")({
+  validateSearch: (search: Record<string, unknown>) => ({
+    type: search["type"] === "child" ? ("child" as const) : undefined,
+  }),
   head: () => ({
     meta: [
       { title: "New Patient Questionnaire | Homeopathy with Nataša" },
@@ -108,7 +111,8 @@ function I({ k, label, type = "text", required }: { k: keyof Details; label: str
 
 function Questionnaire() {
   const send = useServerFn(submitIntake);
-  const [path, setPath] = useState<Path | null>(null);
+  const search = Route.useSearch();
+  const [path, setPath] = useState<Path | null>(search.type === "child" ? "child" : null);
   const [step, setStep] = useState(0);
   const [d, setD] = useState<Details>(emptyDetails);
   const [text, setText] = useState<Partial<Record<TextKey, string>>>({});

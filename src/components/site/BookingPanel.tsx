@@ -9,17 +9,29 @@ import { FadeIn } from "./FadeIn";
 const CalEmbed = lazy(async () => {
   const mod = await import("@calcom/embed-react");
   const Cal = mod.default;
-  function Embed({ link }: { link: string }) {
+  function Embed({ link, onBookingSuccessful }: { link: string; onBookingSuccessful: () => void }) {
     useEffect(() => {
+      let active = true;
+      const callback = () => onBookingSuccessful();
+      let api: Awaited<ReturnType<typeof mod.getCalApi>> | null = null;
+
       void mod.getCalApi().then((cal) => {
+        if (!active) return;
+        api = cal;
         cal("ui", {
           theme: "light",
           cssVarsPerTheme: { light: { "cal-brand": BRAND_HEX }, dark: { "cal-brand": BRAND_HEX } },
           hideEventTypeDetails: false,
           layout: "month_view",
         });
+        cal("on", { action: "bookingSuccessful", callback });
       });
-    }, []);
+
+      return () => {
+        active = false;
+        api?.("off", { action: "bookingSuccessful", callback });
+      };
+    }, [onBookingSuccessful]);
     return (
       <Cal
         calLink={link}
@@ -87,6 +99,19 @@ export function BookingPanel({
   const { t } = useI18n();
   const services = SERVICES.filter((s) => s.group === group);
   const [selected, setSelected] = useState<Service | null>(null);
+  const [booked, setBooked] = useState(false);
+  const isFirstConsultation = selected?.slug === "first-consultation" || selected?.slug === "children-first-consultation-under-16";
+  const isChildConsultation = selected?.slug === "children-first-consultation-under-16";
+
+  const selectService = (service: Service) => {
+    setBooked(false);
+    setSelected(service);
+  };
+
+  const closeBooking = () => {
+    setBooked(false);
+    setSelected(null);
+  };
 
   return (
     <div className="grid items-start gap-12 lg:grid-cols-[minmax(0,3fr)_minmax(0,2fr)] lg:gap-14">
@@ -101,22 +126,40 @@ export function BookingPanel({
         <div className="mt-8 space-y-4">
           {selected ? (
             <>
-              <ServiceCard service={selected} onClose={() => setSelected(null)} />
-              <div className="overflow-hidden rounded-2xl bg-card ring-1 ring-green-100">
-                <Suspense
-                  fallback={
-                    <p className="px-6 py-10 text-center text-muted-foreground">
-                      {t("booking.loading")}
-                    </p>
-                  }
-                >
-                  <CalEmbed key={selected.slug} link={calLink(selected.slug)} />
-                </Suspense>
-              </div>
+              <ServiceCard service={selected} onClose={closeBooking} />
+              {booked ? (
+                <div role="status" className="rounded-2xl bg-green-100 px-6 py-8 text-green-900 md:px-8 md:py-10">
+                  <h3 className="text-2xl md:text-3xl">{t("booking.successTitle")}</h3>
+                  <p className="mt-4 text-green-900/90">
+                    {isFirstConsultation ? t("booking.successFirstBody") : t("booking.successBody")}
+                  </p>
+                  {isFirstConsultation ? (
+                    <Link
+                      to="/new-patient-questionnaire"
+                      search={{ type: isChildConsultation ? "child" : undefined }}
+                      className="mt-6 inline-flex rounded-full bg-primary px-6 py-3 text-primary-foreground transition-colors hover:bg-green-800"
+                    >
+                      {t("booking.completeQuestionnaire")}
+                    </Link>
+                  ) : null}
+                </div>
+              ) : (
+                <div className="overflow-hidden rounded-2xl bg-card ring-1 ring-green-100">
+                  <Suspense
+                    fallback={
+                      <p className="px-6 py-10 text-center text-muted-foreground">
+                        {t("booking.loading")}
+                      </p>
+                    }
+                  >
+                    <CalEmbed key={selected.slug} link={calLink(selected.slug)} onBookingSuccessful={() => setBooked(true)} />
+                  </Suspense>
+                </div>
+              )}
             </>
           ) : (
             services.map((s) => (
-              <ServiceCard key={s.id} service={s} onBook={() => setSelected(s)} />
+              <ServiceCard key={s.id} service={s} onBook={() => selectService(s)} />
             ))
           )}
         </div>
@@ -145,6 +188,7 @@ export function BeforeFirstAppointment() {
         <li>
           <Link
             to="/new-patient-questionnaire"
+             search={{ type: undefined }}
             className="text-green-800 underline underline-offset-4 hover:text-green-600"
           >
             {t("booking.questionnaireLink")}

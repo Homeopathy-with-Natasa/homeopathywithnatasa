@@ -363,7 +363,11 @@
     "beforeTitle": "Before your first appointment",
     "beforeBody": "Please complete the New Patient Questionnaire before we meet, and take a moment to read my Terms and Conditions.",
     "questionnaireLink": "New Patient Questionnaire",
-    "loading": "Loading the booking calendar"
+    "loading": "Loading the booking calendar",
+    "successTitle": "Thank you, your appointment is booked.",
+    "successFirstBody": "You will receive a confirmation email shortly. Before we meet, please complete your New Patient Questionnaire at least 24 hours before your appointment. It helps me prepare and makes the most of our time together.",
+    "successBody": "You will receive a confirmation email shortly.",
+    "completeQuestionnaire": "Complete the questionnaire"
   },
   "services": {
     "first-adult": "Full case-taking for adults, up to 90 minutes.",

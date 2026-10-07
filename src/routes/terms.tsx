@@ -218,7 +218,7 @@ const SECTIONS: { title: string; body: ReactNode }[] = [
         </p>
         <p>
           Services I use to run my practice: Cal.com (booking), Stripe (payments), Google Workspace
-          (email and video), Airtable (secure client records) and Netlify (website hosting), each
+          (email and video), Airtable (secure client records) and Lovable (website hosting), each
           with its own privacy policy.
         </p>
         <p>
